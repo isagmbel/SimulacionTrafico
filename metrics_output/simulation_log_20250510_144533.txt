@@ -1,0 +1,110 @@
+2025-05-10 14:45:33,198 - INFO - TrafficMetrics initialized.
+2025-05-10 14:45:33,663 - INFO - Traffic light tl_int0_S_db24 changed to red
+2025-05-10 14:45:33,698 - INFO - Traffic light tl_int1_N_18dd changed to red
+2025-05-10 14:45:33,698 - INFO - Traffic light tl_int2_S_e42c changed to red
+2025-05-10 14:45:33,698 - INFO - Traffic light tl_int3_S_648f changed to red
+2025-05-10 14:45:33,698 - INFO - Traffic light tl_int3_N_595c changed to red
+2025-05-10 14:45:33,733 - INFO - Traffic light tl_int0_N_fa78 changed to red
+2025-05-10 14:45:33,733 - INFO - Traffic light tl_int1_S_adf4 changed to red
+2025-05-10 14:45:33,734 - INFO - Traffic light tl_int2_N_ac4b changed to red
+2025-05-10 14:45:35,019 - INFO - Vehicle veh_157b64 spawned.
+2025-05-10 14:45:35,019 - ERROR - Error during vehicle creation: no running event loop
+2025-05-10 14:45:35,360 - INFO - Traffic light tl_int0_E_44a1 changed to yellow
+2025-05-10 14:45:35,502 - INFO - Traffic light tl_int2_W_ddb2 changed to yellow
+2025-05-10 14:45:35,537 - INFO - Traffic light tl_int2_E_c17c changed to yellow
+2025-05-10 14:45:35,662 - INFO - Traffic light tl_int0_W_01d0 changed to yellow
+2025-05-10 14:45:35,751 - INFO - Traffic light tl_int0_E_44a1 changed to red
+2025-05-10 14:45:35,751 - INFO - Traffic light tl_int0_S_db24 changed to green
+2025-05-10 14:45:35,752 - INFO - Traffic light tl_int3_E_e38a changed to yellow
+2025-05-10 14:45:35,840 - INFO - Traffic light tl_int1_N_18dd changed to green
+2025-05-10 14:45:35,911 - INFO - Traffic light tl_int2_W_ddb2 changed to red
+2025-05-10 14:45:35,946 - INFO - Traffic light tl_int2_E_c17c changed to red
+2025-05-10 14:45:35,981 - INFO - Traffic light tl_int1_E_b0fb changed to yellow
+2025-05-10 14:45:36,052 - INFO - Traffic light tl_int2_S_e42c changed to green
+2025-05-10 14:45:36,052 - INFO - Traffic light tl_int3_W_fe1c changed to yellow
+2025-05-10 14:45:36,052 - INFO - Traffic light tl_int3_S_648f changed to green
+2025-05-10 14:45:36,072 - INFO - Traffic light tl_int1_W_9133 changed to yellow
+2025-05-10 14:45:36,107 - INFO - Traffic light tl_int0_W_01d0 changed to red
+2025-05-10 14:45:36,107 - INFO - Traffic light tl_int3_N_595c changed to green
+2025-05-10 14:45:36,178 - INFO - Traffic light tl_int0_N_fa78 changed to green
+2025-05-10 14:45:36,213 - INFO - Traffic light tl_int3_E_e38a changed to red
+2025-05-10 14:45:36,249 - INFO - Traffic light tl_int2_N_ac4b changed to green
+2025-05-10 14:45:36,460 - INFO - Traffic light tl_int1_S_adf4 changed to green
+2025-05-10 14:45:36,531 - INFO - Traffic light tl_int1_E_b0fb changed to red
+2025-05-10 14:45:36,533 - INFO - Vehicle veh_b714da spawned.
+2025-05-10 14:45:36,533 - ERROR - Error during vehicle creation: no running event loop
+2025-05-10 14:45:38,343 - INFO - Traffic light tl_int3_W_fe1c changed to red
+2025-05-10 14:45:38,378 - INFO - Traffic light tl_int1_W_9133 changed to red
+2025-05-10 14:45:39,436 - INFO - Traffic light tl_int0_E_44a1 changed to green
+2025-05-10 14:45:39,507 - INFO - Traffic light tl_int0_S_db24 changed to yellow
+2025-05-10 14:45:39,718 - INFO - Traffic light tl_int2_W_ddb2 changed to green
+2025-05-10 14:45:39,753 - INFO - Traffic light tl_int1_N_18dd changed to yellow
+2025-05-10 14:45:39,788 - INFO - Traffic light tl_int2_E_c17c changed to green
+2025-05-10 14:45:39,823 - INFO - Vehicle veh_9c9f8b spawned.
+2025-05-10 14:45:39,824 - ERROR - Error during vehicle creation: no running event loop
+2025-05-10 14:45:39,963 - INFO - Traffic light tl_int0_S_db24 changed to red
+2025-05-10 14:45:40,105 - INFO - Traffic light tl_int0_W_01d0 changed to green
+2025-05-10 14:45:40,105 - INFO - Traffic light tl_int3_S_648f changed to yellow
+2025-05-10 14:45:40,140 - INFO - Traffic light tl_int2_S_e42c changed to yellow
+2025-05-10 14:45:40,246 - INFO - Traffic light tl_int1_N_18dd changed to red
+2025-05-10 14:45:40,246 - INFO - Traffic light tl_int3_N_595c changed to yellow
+2025-05-10 14:45:40,317 - INFO - Traffic light tl_int3_E_e38a changed to green
+2025-05-10 14:45:40,422 - INFO - Traffic light tl_int0_N_fa78 changed to yellow
+2025-05-10 14:45:40,527 - INFO - Traffic light tl_int2_N_ac4b changed to yellow
+2025-05-10 14:45:40,633 - INFO - Traffic light tl_int3_S_648f changed to red
+2025-05-10 14:45:40,668 - INFO - Traffic light tl_int2_S_e42c changed to red
+2025-05-10 14:45:40,773 - INFO - Traffic light tl_int3_N_595c changed to red
+2025-05-10 14:45:40,879 - INFO - Traffic light tl_int1_E_b0fb changed to green
+2025-05-10 14:45:40,915 - INFO - Traffic light tl_int1_S_adf4 changed to yellow
+2025-05-10 14:45:40,985 - INFO - Traffic light tl_int0_N_fa78 changed to red
+2025-05-10 14:45:41,055 - INFO - Traffic light tl_int3_W_fe1c changed to green
+2025-05-10 14:45:41,090 - INFO - Traffic light tl_int2_N_ac4b changed to red
+2025-05-10 14:45:41,125 - INFO - Traffic light tl_int1_W_9133 changed to green
+2025-05-10 14:45:41,372 - INFO - Traffic light tl_int0_E_44a1 changed to yellow
+2025-05-10 14:45:41,408 - INFO - Vehicle veh_22816c spawned.
+2025-05-10 14:45:41,409 - ERROR - Error during vehicle creation: no running event loop
+2025-05-10 14:45:41,497 - INFO - Traffic light tl_int1_S_adf4 changed to red
+2025-05-10 14:45:41,762 - INFO - Traffic light tl_int0_E_44a1 changed to red
+2025-05-10 14:45:41,762 - INFO - Traffic light tl_int2_W_ddb2 changed to yellow
+2025-05-10 14:45:41,868 - INFO - Traffic light tl_int2_E_c17c changed to yellow
+2025-05-10 14:45:42,078 - INFO - Traffic light tl_int0_S_db24 changed to green
+2025-05-10 14:45:42,218 - INFO - Traffic light tl_int2_W_ddb2 changed to red
+2025-05-10 14:45:42,324 - INFO - Traffic light tl_int0_W_01d0 changed to yellow
+2025-05-10 14:45:42,324 - INFO - Traffic light tl_int2_E_c17c changed to red
+2025-05-10 14:45:42,430 - INFO - Traffic light tl_int1_N_18dd changed to green
+2025-05-10 14:45:42,641 - INFO - Traffic light tl_int3_E_e38a changed to yellow
+2025-05-10 14:45:42,817 - INFO - Traffic light tl_int0_W_01d0 changed to red
+2025-05-10 14:45:42,943 - INFO - Vehicle veh_504729 spawned.
+2025-05-10 14:45:42,944 - ERROR - Error during vehicle creation: no running event loop
+2025-05-10 14:45:42,998 - INFO - Traffic light tl_int3_S_648f changed to green
+2025-05-10 14:45:43,033 - INFO - Traffic light tl_int2_S_e42c changed to green
+2025-05-10 14:45:43,087 - INFO - Traffic light tl_int3_E_e38a changed to red
+2025-05-10 14:45:43,192 - INFO - Traffic light tl_int3_N_595c changed to green
+2025-05-10 14:45:43,403 - INFO - Traffic light tl_int1_E_b0fb changed to yellow
+2025-05-10 14:45:43,438 - INFO - Traffic light tl_int0_N_fa78 changed to green
+2025-05-10 14:45:43,614 - INFO - Traffic light tl_int2_N_ac4b changed to green
+2025-05-10 14:45:43,650 - INFO - Traffic light tl_int3_W_fe1c changed to yellow
+2025-05-10 14:45:43,720 - INFO - Traffic light tl_int0_E_44a1 changed to green
+2025-05-10 14:45:43,755 - INFO - Traffic light tl_int1_W_9133 changed to yellow
+2025-05-10 14:45:43,952 - INFO - Traffic light tl_int1_E_b0fb changed to red
+2025-05-10 14:45:44,093 - INFO - Traffic light tl_int0_S_db24 changed to yellow
+2025-05-10 14:45:44,234 - INFO - Traffic light tl_int1_S_adf4 changed to green
+2025-05-10 14:45:44,234 - INFO - Traffic light tl_int3_W_fe1c changed to red
+2025-05-10 14:45:44,270 - INFO - Traffic light tl_int2_W_ddb2 changed to green
+2025-05-10 14:45:44,341 - INFO - Traffic light tl_int1_W_9133 changed to red
+2025-05-10 14:45:44,412 - INFO - Traffic light tl_int2_E_c17c changed to green
+2025-05-10 14:45:44,468 - INFO - Vehicle veh_336467 spawned.
+2025-05-10 14:45:44,468 - ERROR - Error during vehicle creation: no running event loop
+2025-05-10 14:45:44,537 - INFO - Traffic light tl_int0_S_db24 changed to red
+2025-05-10 14:45:44,574 - INFO - Traffic light tl_int1_N_18dd changed to yellow
+2025-05-10 14:45:44,985 - INFO - Traffic light tl_int0_W_01d0 changed to green
+2025-05-10 14:45:45,021 - INFO - Traffic light tl_int1_N_18dd changed to red
+2025-05-10 14:45:45,236 - INFO - Traffic light tl_int3_S_648f changed to yellow
+2025-05-10 14:45:45,290 - INFO - Traffic light tl_int2_S_e42c changed to yellow
+2025-05-10 14:45:45,361 - INFO - Traffic light tl_int3_E_e38a changed to green
+2025-05-10 14:45:45,503 - INFO - Traffic light tl_int3_N_595c changed to yellow
+2025-05-10 14:45:45,537 - INFO - Traffic light tl_int0_E_44a1 changed to yellow
+2025-05-10 14:45:45,869 - INFO - Simulation loop gracefully ended.
+2025-05-10 14:45:45,873 - INFO - Metrics saved to metrics_output\sim_metrics_gui_shutdown_final_20250510_144545.json
+2025-05-10 14:45:45,932 - INFO - Metrics saved to metrics_output\sim_metrics_final_20250510_144545.json
+2025-05-10 14:45:45,932 - INFO - TrafficMetrics closed. Final metrics saved.

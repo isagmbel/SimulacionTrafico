@@ -1,0 +1,7 @@
+pygame==2.5.2
+typing==3.7.4.3
+numpy==1.26.2
+aio_pika
+pika
+matplotlib
+prometheus_client
