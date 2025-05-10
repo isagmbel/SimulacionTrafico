@@ -1,0 +1,36 @@
+{
+    "city_name": "MetrovilleDistributed",
+    "rabbitmq_exchange": "metroville_migrations",
+    "zones": [
+        {
+            "id": "zone_A",
+            "name": "Downtown",
+            "bounds": {"x": 0, "y": 0, "width": 400, "height": 300},
+            "max_vehicles_local": 25,
+            "adjacencies": ["zone_B", "zone_C"]
+        },
+        {
+            "id": "zone_B",
+            "name": "Suburbia East",
+            "bounds": {"x": 400, "y": 0, "width": 400, "height": 300},
+            "max_vehicles_local": 15,
+            "adjacencies": ["zone_A", "zone_D"]
+        },
+        {
+            "id": "zone_C",
+            "name": "Suburbia South",
+            "bounds": {"x": 0, "y": 300, "width": 400, "height": 300},
+            "max_vehicles_local": 15,
+            "adjacencies": ["zone_A", "zone_D"]
+        },
+        {
+            "id": "zone_D",
+            "name": "Industrial Park",
+            "bounds": {"x": 400, "y": 300, "width": 400, "height": 300},
+            "max_vehicles_local": 20,
+            "adjacencies": ["zone_B", "zone_C"]
+        }
+    ],
+    "global_map_width": 800,
+    "global_map_height": 600
+}

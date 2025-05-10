@@ -1,0 +1,809 @@
+2025-05-10 20:33:19,651 - INFO - TrafficMetrics initialized.
+2025-05-10 20:33:20,167 - INFO - Traffic light zone_D_tl0_S changed to red
+2025-05-10 20:33:20,167 - INFO - Traffic light zone_B_tl1_S changed to red
+2025-05-10 20:33:20,167 - INFO - Traffic light zone_A_tl0_S changed to red
+2025-05-10 20:33:20,167 - INFO - Traffic light zone_A_tl1_S changed to red
+2025-05-10 20:33:20,204 - INFO - Traffic light zone_C_tl0_N changed to red
+2025-05-10 20:33:20,205 - INFO - Traffic light zone_C_tl1_S changed to red
+2025-05-10 20:33:20,205 - INFO - Traffic light zone_C_tl1_N changed to red
+2025-05-10 20:33:20,205 - INFO - Traffic light zone_A_tl1_N changed to red
+2025-05-10 20:33:20,205 - INFO - Traffic light zone_D_tl1_S changed to red
+2025-05-10 20:33:20,205 - INFO - Traffic light zone_D_tl1_N changed to red
+2025-05-10 20:33:20,206 - INFO - Traffic light zone_B_tl0_S changed to red
+2025-05-10 20:33:20,206 - INFO - Traffic light zone_B_tl0_N changed to red
+2025-05-10 20:33:20,206 - INFO - Traffic light zone_B_tl1_N changed to red
+2025-05-10 20:33:20,246 - INFO - Traffic light zone_A_tl0_N changed to red
+2025-05-10 20:33:20,246 - INFO - Traffic light zone_C_tl0_S changed to red
+2025-05-10 20:33:20,246 - INFO - Traffic light zone_D_tl0_N changed to red
+2025-05-10 20:33:21,577 - INFO - Vehicle veh_zone_D_9eb5 spawned.
+2025-05-10 20:33:21,688 - INFO - Vehicle veh_zone_B_4045 spawned.
+2025-05-10 20:33:22,349 - INFO - Traffic light zone_C_tl1_E changed to yellow
+2025-05-10 20:33:22,349 - INFO - Traffic light zone_D_tl0_W changed to yellow
+2025-05-10 20:33:22,387 - INFO - Traffic light zone_B_tl1_W changed to yellow
+2025-05-10 20:33:22,423 - INFO - Traffic light zone_C_tl1_W changed to yellow
+2025-05-10 20:33:22,424 - INFO - Vehicle veh_zone_C_f355 spawned.
+2025-05-10 20:33:22,464 - INFO - Traffic light zone_D_tl1_W changed to yellow
+2025-05-10 20:33:22,506 - INFO - Traffic light zone_C_tl0_W changed to yellow
+2025-05-10 20:33:22,506 - INFO - Traffic light zone_A_tl1_W changed to yellow
+2025-05-10 20:33:22,618 - INFO - Traffic light zone_A_tl0_S changed to green
+2025-05-10 20:33:22,618 - INFO - Traffic light zone_A_tl1_E changed to yellow
+2025-05-10 20:33:22,679 - INFO - Traffic light zone_A_tl1_S changed to green
+2025-05-10 20:33:22,716 - INFO - Traffic light zone_B_tl0_E changed to yellow
+2025-05-10 20:33:22,752 - INFO - Traffic light zone_D_tl0_S changed to green
+2025-05-10 20:33:22,792 - INFO - Traffic light zone_C_tl0_E changed to yellow
+2025-05-10 20:33:22,833 - INFO - Traffic light zone_C_tl1_N changed to green
+2025-05-10 20:33:22,833 - INFO - Traffic light zone_A_tl0_W changed to yellow
+2025-05-10 20:33:22,833 - INFO - Traffic light zone_B_tl0_W changed to yellow
+2025-05-10 20:33:22,833 - INFO - Traffic light zone_B_tl1_E changed to yellow
+2025-05-10 20:33:22,870 - INFO - Traffic light zone_A_tl0_E changed to yellow
+2025-05-10 20:33:22,907 - INFO - Traffic light zone_C_tl1_E changed to red
+2025-05-10 20:33:22,907 - INFO - Traffic light zone_D_tl0_W changed to red
+2025-05-10 20:33:22,907 - INFO - Traffic light zone_D_tl1_E changed to yellow
+2025-05-10 20:33:22,907 - INFO - Traffic light zone_B_tl1_S changed to green
+2025-05-10 20:33:22,946 - INFO - Traffic light zone_B_tl0_N changed to green
+2025-05-10 20:33:22,946 - INFO - Traffic light zone_B_tl1_W changed to red
+2025-05-10 20:33:22,946 - INFO - Traffic light zone_B_tl1_N changed to green
+2025-05-10 20:33:22,985 - INFO - Traffic light zone_C_tl1_W changed to red
+2025-05-10 20:33:22,985 - INFO - Traffic light zone_D_tl0_E changed to yellow
+2025-05-10 20:33:23,024 - INFO - Traffic light zone_D_tl1_W changed to red
+2025-05-10 20:33:23,097 - INFO - Traffic light zone_C_tl0_W changed to red
+2025-05-10 20:33:23,098 - INFO - Traffic light zone_C_tl0_N changed to green
+2025-05-10 20:33:23,098 - INFO - Traffic light zone_C_tl1_S changed to green
+2025-05-10 20:33:23,098 - INFO - Traffic light zone_A_tl1_W changed to red
+2025-05-10 20:33:23,099 - INFO - Vehicle veh_zone_A_fcd0 spawned.
+2025-05-10 20:33:23,135 - INFO - Traffic light zone_B_tl0_S changed to green
+2025-05-10 20:33:23,172 - INFO - Traffic light zone_D_tl1_N changed to green
+2025-05-10 20:33:23,208 - INFO - Traffic light zone_A_tl1_E changed to red
+2025-05-10 20:33:23,209 - INFO - Traffic light zone_A_tl1_N changed to green
+2025-05-10 20:33:23,321 - INFO - Traffic light zone_D_tl1_S changed to green
+2025-05-10 20:33:23,321 - INFO - Traffic light zone_C_tl0_S changed to green
+2025-05-10 20:33:23,322 - INFO - Vehicle veh_zone_D_7203 spawned.
+2025-05-10 20:33:23,363 - INFO - Traffic light zone_B_tl0_E changed to red
+2025-05-10 20:33:23,436 - INFO - Traffic light zone_C_tl0_E changed to red
+2025-05-10 20:33:23,472 - INFO - Traffic light zone_D_tl0_N changed to green
+2025-05-10 20:33:23,472 - INFO - Traffic light zone_A_tl0_N changed to green
+2025-05-10 20:33:23,510 - INFO - Traffic light zone_A_tl0_W changed to red
+2025-05-10 20:33:23,510 - INFO - Traffic light zone_B_tl0_W changed to red
+2025-05-10 20:33:23,510 - INFO - Traffic light zone_B_tl1_E changed to red
+2025-05-10 20:33:23,547 - INFO - Traffic light zone_A_tl0_E changed to red
+2025-05-10 20:33:23,548 - INFO - Vehicle veh_zone_B_d2c6 spawned.
+2025-05-10 20:33:23,587 - INFO - Traffic light zone_D_tl1_E changed to red
+2025-05-10 20:33:23,702 - INFO - Traffic light zone_D_tl0_E changed to red
+2025-05-10 20:33:25,017 - INFO - Vehicle veh_zone_C_7e79 spawned.
+2025-05-10 20:33:25,057 - INFO - Vehicle veh_zone_D_b862 spawned.
+2025-05-10 20:33:25,099 - INFO - Traffic light zone_A_tl0_S changed to yellow
+2025-05-10 20:33:25,209 - INFO - Traffic light zone_A_tl1_S changed to yellow
+2025-05-10 20:33:25,360 - INFO - Traffic light zone_D_tl0_S changed to yellow
+2025-05-10 20:33:25,382 - INFO - Vehicle veh_zone_B_ec87 spawned.
+2025-05-10 20:33:25,495 - INFO - Traffic light zone_D_tl0_W changed to green
+2025-05-10 20:33:25,495 - INFO - Traffic light zone_C_tl1_E changed to green
+2025-05-10 20:33:25,496 - INFO - Traffic light zone_C_tl1_N changed to yellow
+2025-05-10 20:33:25,537 - INFO - Traffic light zone_B_tl1_W changed to green
+2025-05-10 20:33:25,647 - INFO - Traffic light zone_B_tl1_S changed to yellow
+2025-05-10 20:33:25,647 - INFO - Traffic light zone_C_tl1_W changed to green
+2025-05-10 20:33:25,647 - INFO - Traffic light zone_A_tl0_S changed to red
+2025-05-10 20:33:25,683 - INFO - Traffic light zone_D_tl1_W changed to green
+2025-05-10 20:33:25,720 - INFO - Traffic light zone_B_tl0_N changed to yellow
+2025-05-10 20:33:25,721 - INFO - Traffic light zone_B_tl1_N changed to yellow
+2025-05-10 20:33:25,761 - INFO - Traffic light zone_C_tl0_W changed to green
+2025-05-10 20:33:25,761 - INFO - Traffic light zone_A_tl1_W changed to green
+2025-05-10 20:33:25,761 - INFO - Traffic light zone_A_tl1_S changed to red
+2025-05-10 20:33:25,915 - INFO - Traffic light zone_D_tl0_S changed to red
+2025-05-10 20:33:26,030 - INFO - Traffic light zone_C_tl0_N changed to yellow
+2025-05-10 20:33:26,030 - INFO - Traffic light zone_C_tl1_S changed to yellow
+2025-05-10 20:33:26,067 - INFO - Traffic light zone_B_tl0_S changed to yellow
+2025-05-10 20:33:26,068 - INFO - Traffic light zone_A_tl1_E changed to green
+2025-05-10 20:33:26,104 - INFO - Traffic light zone_C_tl1_N changed to red
+2025-05-10 20:33:26,140 - INFO - Traffic light zone_D_tl1_N changed to yellow
+2025-05-10 20:33:26,213 - INFO - Traffic light zone_A_tl1_N changed to yellow
+2025-05-10 20:33:26,250 - INFO - Traffic light zone_B_tl1_S changed to red
+2025-05-10 20:33:26,323 - INFO - Traffic light zone_B_tl0_E changed to green
+2025-05-10 20:33:26,323 - INFO - Traffic light zone_B_tl0_N changed to red
+2025-05-10 20:33:26,324 - INFO - Traffic light zone_B_tl1_N changed to red
+2025-05-10 20:33:26,361 - INFO - Vehicle veh_zone_A_c5f8 spawned.
+2025-05-10 20:33:26,441 - INFO - Traffic light zone_D_tl1_S changed to yellow
+2025-05-10 20:33:26,441 - INFO - Traffic light zone_C_tl0_E changed to green
+2025-05-10 20:33:26,442 - INFO - Traffic light zone_C_tl0_S changed to yellow
+2025-05-10 20:33:26,515 - INFO - Traffic light zone_B_tl0_W changed to green
+2025-05-10 20:33:26,552 - INFO - Traffic light zone_B_tl1_E changed to green
+2025-05-10 20:33:26,552 - INFO - Vehicle veh_zone_A_fcd0 despawned.
+2025-05-10 20:33:26,590 - INFO - Traffic light zone_A_tl0_W changed to green
+2025-05-10 20:33:26,626 - INFO - Traffic light zone_A_tl0_E changed to green
+2025-05-10 20:33:26,666 - INFO - Traffic light zone_C_tl0_N changed to red
+2025-05-10 20:33:26,666 - INFO - Traffic light zone_C_tl1_S changed to red
+2025-05-10 20:33:26,707 - INFO - Traffic light zone_B_tl0_S changed to red
+2025-05-10 20:33:26,707 - INFO - Traffic light zone_D_tl1_E changed to green
+2025-05-10 20:33:26,708 - INFO - Traffic light zone_A_tl0_N changed to yellow
+2025-05-10 20:33:26,744 - INFO - Traffic light zone_D_tl0_N changed to yellow
+2025-05-10 20:33:26,781 - INFO - Traffic light zone_D_tl1_N changed to red
+2025-05-10 20:33:26,819 - INFO - Vehicle veh_zone_D_cbd5 spawned.
+2025-05-10 20:33:26,819 - INFO - Vehicle veh_zone_D_7203 despawned.
+2025-05-10 20:33:26,893 - INFO - Traffic light zone_A_tl1_N changed to red
+2025-05-10 20:33:26,933 - INFO - Traffic light zone_D_tl0_E changed to green
+2025-05-10 20:33:27,120 - INFO - Traffic light zone_C_tl0_S changed to red
+2025-05-10 20:33:27,120 - INFO - Traffic light zone_D_tl1_S changed to red
+2025-05-10 20:33:27,267 - INFO - Vehicle veh_zone_B_bcaf spawned.
+2025-05-10 20:33:27,421 - INFO - Traffic light zone_A_tl0_N changed to red
+2025-05-10 20:33:27,458 - INFO - Traffic light zone_D_tl0_N changed to red
+2025-05-10 20:33:27,641 - INFO - Vehicle veh_zone_C_0cb7 spawned.
+2025-05-10 20:33:28,051 - INFO - Traffic light zone_D_tl0_W changed to yellow
+2025-05-10 20:33:28,051 - INFO - Traffic light zone_C_tl1_E changed to yellow
+2025-05-10 20:33:28,124 - INFO - Traffic light zone_B_tl1_W changed to yellow
+2025-05-10 20:33:28,198 - INFO - Traffic light zone_A_tl0_S changed to green
+2025-05-10 20:33:28,271 - INFO - Traffic light zone_C_tl1_W changed to yellow
+2025-05-10 20:33:28,346 - INFO - Traffic light zone_D_tl1_W changed to yellow
+2025-05-10 20:33:28,386 - INFO - Traffic light zone_A_tl1_S changed to green
+2025-05-10 20:33:28,463 - INFO - Traffic light zone_C_tl0_W changed to yellow
+2025-05-10 20:33:28,463 - INFO - Traffic light zone_A_tl1_W changed to yellow
+2025-05-10 20:33:28,463 - INFO - Vehicle veh_zone_B_4045 despawned.
+2025-05-10 20:33:28,580 - INFO - Vehicle veh_zone_D_1fa7 spawned.
+2025-05-10 20:33:28,618 - INFO - Traffic light zone_C_tl1_E changed to red
+2025-05-10 20:33:28,619 - INFO - Traffic light zone_D_tl0_W changed to red
+2025-05-10 20:33:28,619 - INFO - Traffic light zone_D_tl0_S changed to green
+2025-05-10 20:33:28,693 - INFO - Traffic light zone_B_tl1_W changed to red
+2025-05-10 20:33:28,839 - INFO - Traffic light zone_C_tl1_W changed to red
+2025-05-10 20:33:28,839 - INFO - Traffic light zone_C_tl1_N changed to green
+2025-05-10 20:33:28,875 - INFO - Traffic light zone_A_tl1_E changed to yellow
+2025-05-10 20:33:28,912 - INFO - Traffic light zone_D_tl1_W changed to red
+2025-05-10 20:33:28,913 - INFO - Vehicle veh_zone_B_d2c6 despawned.
+2025-05-10 20:33:28,913 - INFO - Vehicle veh_zone_D_9eb5 despawned.
+2025-05-10 20:33:29,067 - INFO - Traffic light zone_C_tl0_W changed to red
+2025-05-10 20:33:29,067 - INFO - Traffic light zone_A_tl1_W changed to red
+2025-05-10 20:33:29,103 - INFO - Traffic light zone_B_tl1_S changed to green
+2025-05-10 20:33:29,140 - INFO - Vehicle veh_zone_B_37b4 spawned.
+2025-05-10 20:33:29,177 - INFO - Traffic light zone_B_tl0_N changed to green
+2025-05-10 20:33:29,177 - INFO - Traffic light zone_B_tl1_N changed to green
+2025-05-10 20:33:29,250 - INFO - Traffic light zone_B_tl0_E changed to yellow
+2025-05-10 20:33:29,432 - INFO - Traffic light zone_C_tl0_E changed to yellow
+2025-05-10 20:33:29,470 - INFO - Traffic light zone_A_tl1_E changed to red
+2025-05-10 20:33:29,551 - INFO - Traffic light zone_B_tl0_W changed to yellow
+2025-05-10 20:33:29,587 - INFO - Traffic light zone_B_tl1_E changed to yellow
+2025-05-10 20:33:29,624 - INFO - Traffic light zone_A_tl0_W changed to yellow
+2025-05-10 20:33:29,660 - INFO - Traffic light zone_C_tl0_N changed to green
+2025-05-10 20:33:29,661 - INFO - Traffic light zone_C_tl1_S changed to green
+2025-05-10 20:33:29,661 - INFO - Vehicle veh_zone_A_893e spawned.
+2025-05-10 20:33:29,698 - INFO - Traffic light zone_A_tl0_E changed to yellow
+2025-05-10 20:33:29,735 - INFO - Traffic light zone_B_tl0_S changed to green
+2025-05-10 20:33:29,808 - INFO - Traffic light zone_D_tl1_E changed to yellow
+2025-05-10 20:33:29,846 - INFO - Traffic light zone_D_tl1_N changed to green
+2025-05-10 20:33:29,886 - INFO - Traffic light zone_B_tl0_E changed to red
+2025-05-10 20:33:30,001 - INFO - Traffic light zone_A_tl1_N changed to green
+2025-05-10 20:33:30,082 - INFO - Traffic light zone_C_tl0_E changed to red
+2025-05-10 20:33:30,119 - INFO - Traffic light zone_D_tl0_E changed to yellow
+2025-05-10 20:33:30,228 - INFO - Traffic light zone_B_tl0_W changed to red
+2025-05-10 20:33:30,265 - INFO - Traffic light zone_B_tl1_E changed to red
+2025-05-10 20:33:30,266 - INFO - Vehicle veh_zone_C_847a spawned.
+2025-05-10 20:33:30,307 - INFO - Traffic light zone_C_tl0_S changed to green
+2025-05-10 20:33:30,307 - INFO - Traffic light zone_A_tl0_W changed to red
+2025-05-10 20:33:30,349 - INFO - Traffic light zone_D_tl1_S changed to green
+2025-05-10 20:33:30,350 - INFO - Vehicle veh_zone_D_8938 spawned.
+2025-05-10 20:33:30,387 - INFO - Traffic light zone_A_tl0_E changed to red
+2025-05-10 20:33:30,503 - INFO - Traffic light zone_D_tl1_E changed to red
+2025-05-10 20:33:30,722 - INFO - Traffic light zone_A_tl0_S changed to yellow
+2025-05-10 20:33:30,759 - INFO - Traffic light zone_A_tl0_N changed to green
+2025-05-10 20:33:30,795 - INFO - Traffic light zone_D_tl0_N changed to green
+2025-05-10 20:33:30,832 - INFO - Traffic light zone_D_tl0_E changed to red
+2025-05-10 20:33:30,943 - INFO - Traffic light zone_A_tl1_S changed to yellow
+2025-05-10 20:33:31,018 - INFO - Vehicle veh_zone_B_b6c9 spawned.
+2025-05-10 20:33:31,245 - INFO - Traffic light zone_D_tl0_W changed to green
+2025-05-10 20:33:31,246 - INFO - Traffic light zone_D_tl0_S changed to yellow
+2025-05-10 20:33:31,246 - INFO - Traffic light zone_C_tl1_E changed to green
+2025-05-10 20:33:31,283 - INFO - Traffic light zone_A_tl0_S changed to red
+2025-05-10 20:33:31,322 - INFO - Traffic light zone_B_tl1_W changed to green
+2025-05-10 20:33:31,510 - INFO - Traffic light zone_A_tl1_S changed to red
+2025-05-10 20:33:31,547 - INFO - Traffic light zone_C_tl1_W changed to green
+2025-05-10 20:33:31,547 - INFO - Traffic light zone_C_tl1_N changed to yellow
+2025-05-10 20:33:31,620 - INFO - Traffic light zone_D_tl1_W changed to green
+2025-05-10 20:33:31,765 - INFO - Traffic light zone_C_tl0_W changed to green
+2025-05-10 20:33:31,765 - INFO - Traffic light zone_A_tl1_W changed to green
+2025-05-10 20:33:31,802 - INFO - Traffic light zone_D_tl0_S changed to red
+2025-05-10 20:33:31,875 - INFO - Traffic light zone_B_tl1_S changed to yellow
+2025-05-10 20:33:31,985 - INFO - Traffic light zone_B_tl0_N changed to yellow
+2025-05-10 20:33:31,985 - INFO - Traffic light zone_B_tl1_N changed to yellow
+2025-05-10 20:33:32,083 - INFO - Vehicle veh_zone_D_8964 spawned.
+2025-05-10 20:33:32,121 - INFO - Traffic light zone_C_tl1_N changed to red
+2025-05-10 20:33:32,347 - INFO - Traffic light zone_A_tl1_E changed to green
+2025-05-10 20:33:32,456 - INFO - Traffic light zone_B_tl1_S changed to red
+2025-05-10 20:33:32,566 - INFO - Traffic light zone_B_tl0_N changed to red
+2025-05-10 20:33:32,567 - INFO - Traffic light zone_B_tl1_N changed to red
+2025-05-10 20:33:32,602 - INFO - Traffic light zone_C_tl0_N changed to yellow
+2025-05-10 20:33:32,603 - INFO - Traffic light zone_C_tl1_S changed to yellow
+2025-05-10 20:33:32,676 - INFO - Traffic light zone_B_tl0_S changed to yellow
+2025-05-10 20:33:32,822 - INFO - Traffic light zone_D_tl1_N changed to yellow
+2025-05-10 20:33:32,859 - INFO - Traffic light zone_B_tl0_E changed to green
+2025-05-10 20:33:32,860 - INFO - Vehicle veh_zone_B_9123 spawned.
+2025-05-10 20:33:32,861 - INFO - Vehicle veh_zone_C_45ff spawned.
+2025-05-10 20:33:32,861 - INFO - Vehicle veh_zone_B_37b4 despawned.
+2025-05-10 20:33:32,941 - INFO - Vehicle veh_zone_A_1ff5 spawned.
+2025-05-10 20:33:33,015 - INFO - Traffic light zone_A_tl1_N changed to yellow
+2025-05-10 20:33:33,088 - INFO - Traffic light zone_C_tl0_E changed to green
+2025-05-10 20:33:33,243 - INFO - Traffic light zone_C_tl0_N changed to red
+2025-05-10 20:33:33,243 - INFO - Traffic light zone_C_tl1_S changed to red
+2025-05-10 20:33:33,244 - INFO - Traffic light zone_B_tl0_W changed to green
+2025-05-10 20:33:33,317 - INFO - Traffic light zone_B_tl0_S changed to red
+2025-05-10 20:33:33,317 - INFO - Traffic light zone_B_tl1_E changed to green
+2025-05-10 20:33:33,391 - INFO - Traffic light zone_A_tl0_W changed to green
+2025-05-10 20:33:33,428 - INFO - Traffic light zone_C_tl0_S changed to yellow
+2025-05-10 20:33:33,428 - INFO - Vehicle veh_zone_A_c5f8 despawned.
+2025-05-10 20:33:33,464 - INFO - Traffic light zone_D_tl1_S changed to yellow
+2025-05-10 20:33:33,464 - INFO - Traffic light zone_D_tl1_N changed to red
+2025-05-10 20:33:33,465 - INFO - Traffic light zone_A_tl0_E changed to green
+2025-05-10 20:33:33,618 - INFO - Traffic light zone_D_tl1_E changed to green
+2025-05-10 20:33:33,692 - INFO - Traffic light zone_A_tl1_N changed to red
+2025-05-10 20:33:33,766 - INFO - Traffic light zone_D_tl0_W changed to yellow
+2025-05-10 20:33:33,766 - INFO - Traffic light zone_C_tl1_E changed to yellow
+2025-05-10 20:33:33,802 - INFO - Traffic light zone_A_tl0_S changed to green
+2025-05-10 20:33:33,839 - INFO - Vehicle veh_zone_D_fcda spawned.
+2025-05-10 20:33:33,877 - INFO - Traffic light zone_B_tl1_W changed to yellow
+2025-05-10 20:33:33,993 - INFO - Traffic light zone_A_tl0_N changed to yellow
+2025-05-10 20:33:34,067 - INFO - Traffic light zone_D_tl0_E changed to green
+2025-05-10 20:33:34,067 - INFO - Traffic light zone_D_tl0_N changed to yellow
+2025-05-10 20:33:34,103 - INFO - Traffic light zone_A_tl1_S changed to green
+2025-05-10 20:33:34,104 - INFO - Traffic light zone_C_tl0_S changed to red
+2025-05-10 20:33:34,141 - INFO - Traffic light zone_C_tl1_W changed to yellow
+2025-05-10 20:33:34,141 - INFO - Traffic light zone_D_tl1_S changed to red
+2025-05-10 20:33:34,251 - INFO - Traffic light zone_D_tl1_W changed to yellow
+2025-05-10 20:33:34,332 - INFO - Traffic light zone_D_tl0_W changed to red
+2025-05-10 20:33:34,332 - INFO - Traffic light zone_C_tl1_E changed to red
+2025-05-10 20:33:34,442 - INFO - Traffic light zone_C_tl0_W changed to yellow
+2025-05-10 20:33:34,442 - INFO - Traffic light zone_B_tl1_W changed to red
+2025-05-10 20:33:34,442 - INFO - Traffic light zone_A_tl1_W changed to yellow
+2025-05-10 20:33:34,478 - INFO - Traffic light zone_D_tl0_S changed to green
+2025-05-10 20:33:34,697 - INFO - Traffic light zone_A_tl0_N changed to red
+2025-05-10 20:33:34,697 - INFO - Traffic light zone_C_tl1_W changed to red
+2025-05-10 20:33:34,735 - INFO - Vehicle veh_zone_B_d158 spawned.
+2025-05-10 20:33:34,771 - INFO - Traffic light zone_D_tl0_N changed to red
+2025-05-10 20:33:34,808 - INFO - Traffic light zone_D_tl1_W changed to red
+2025-05-10 20:33:34,844 - INFO - Traffic light zone_C_tl1_N changed to green
+2025-05-10 20:33:35,031 - INFO - Traffic light zone_C_tl0_W changed to red
+2025-05-10 20:33:35,031 - INFO - Traffic light zone_A_tl1_W changed to red
+2025-05-10 20:33:35,126 - INFO - Traffic light zone_A_tl1_E changed to yellow
+2025-05-10 20:33:35,280 - INFO - Traffic light zone_B_tl1_S changed to green
+2025-05-10 20:33:35,389 - INFO - Traffic light zone_B_tl0_N changed to green
+2025-05-10 20:33:35,389 - INFO - Traffic light zone_B_tl1_N changed to green
+2025-05-10 20:33:35,462 - INFO - Vehicle veh_zone_C_a222 spawned.
+2025-05-10 20:33:35,573 - INFO - Vehicle veh_zone_D_1314 spawned.
+2025-05-10 20:33:35,720 - INFO - Traffic light zone_A_tl1_E changed to red
+2025-05-10 20:33:35,759 - INFO - Traffic light zone_B_tl0_E changed to yellow
+2025-05-10 20:33:36,055 - INFO - Traffic light zone_C_tl0_E changed to yellow
+2025-05-10 20:33:36,201 - INFO - Traffic light zone_C_tl0_N changed to green
+2025-05-10 20:33:36,201 - INFO - Traffic light zone_C_tl1_S changed to green
+2025-05-10 20:33:36,202 - INFO - Vehicle veh_zone_A_306f spawned.
+2025-05-10 20:33:36,239 - INFO - Traffic light zone_B_tl0_W changed to yellow
+2025-05-10 20:33:36,275 - INFO - Traffic light zone_A_tl0_S changed to yellow
+2025-05-10 20:33:36,312 - INFO - Traffic light zone_B_tl0_S changed to green
+2025-05-10 20:33:36,312 - INFO - Traffic light zone_B_tl1_E changed to yellow
+2025-05-10 20:33:36,387 - INFO - Traffic light zone_B_tl0_E changed to red
+2025-05-10 20:33:36,388 - INFO - Traffic light zone_A_tl0_W changed to yellow
+2025-05-10 20:33:36,489 - INFO - Traffic light zone_A_tl0_E changed to yellow
+2025-05-10 20:33:36,489 - INFO - Traffic light zone_D_tl1_N changed to green
+2025-05-10 20:33:36,551 - INFO - Vehicle veh_zone_B_096a spawned.
+2025-05-10 20:33:36,591 - INFO - Traffic light zone_A_tl1_S changed to yellow
+2025-05-10 20:33:36,653 - INFO - Traffic light zone_D_tl1_E changed to yellow
+2025-05-10 20:33:36,653 - INFO - Traffic light zone_C_tl0_E changed to red
+2025-05-10 20:33:36,715 - INFO - Traffic light zone_A_tl1_N changed to green
+2025-05-10 20:33:36,778 - INFO - Traffic light zone_A_tl0_S changed to red
+2025-05-10 20:33:36,841 - INFO - Traffic light zone_C_tl1_E changed to green
+2025-05-10 20:33:36,841 - INFO - Traffic light zone_D_tl0_W changed to green
+2025-05-10 20:33:36,842 - INFO - Traffic light zone_B_tl0_W changed to red
+2025-05-10 20:33:36,899 - INFO - Traffic light zone_B_tl1_E changed to red
+2025-05-10 20:33:36,936 - INFO - Traffic light zone_B_tl1_W changed to green
+2025-05-10 20:33:36,972 - INFO - Traffic light zone_A_tl0_W changed to red
+2025-05-10 20:33:36,972 - INFO - Traffic light zone_D_tl0_S changed to yellow
+2025-05-10 20:33:37,083 - INFO - Traffic light zone_A_tl0_E changed to red
+2025-05-10 20:33:37,083 - INFO - Traffic light zone_A_tl1_S changed to red
+2025-05-10 20:33:37,120 - INFO - Traffic light zone_D_tl0_E changed to yellow
+2025-05-10 20:33:37,156 - INFO - Traffic light zone_C_tl0_S changed to green
+2025-05-10 20:33:37,230 - INFO - Traffic light zone_D_tl1_S changed to green
+2025-05-10 20:33:37,231 - INFO - Vehicle veh_zone_D_1a5c spawned.
+2025-05-10 20:33:37,268 - INFO - Traffic light zone_C_tl1_W changed to green
+2025-05-10 20:33:37,268 - INFO - Traffic light zone_D_tl1_E changed to red
+2025-05-10 20:33:37,387 - INFO - Traffic light zone_D_tl1_W changed to green
+2025-05-10 20:33:37,424 - INFO - Traffic light zone_C_tl1_N changed to yellow
+2025-05-10 20:33:37,541 - INFO - Traffic light zone_D_tl0_S changed to red
+2025-05-10 20:33:37,615 - INFO - Traffic light zone_C_tl0_W changed to green
+2025-05-10 20:33:37,615 - INFO - Traffic light zone_A_tl1_W changed to green
+2025-05-10 20:33:37,843 - INFO - Traffic light zone_D_tl0_E changed to red
+2025-05-10 20:33:37,917 - INFO - Traffic light zone_A_tl0_N changed to green
+2025-05-10 20:33:37,954 - INFO - Traffic light zone_B_tl1_S changed to yellow
+2025-05-10 20:33:37,993 - INFO - Traffic light zone_D_tl0_N changed to green
+2025-05-10 20:33:37,994 - INFO - Vehicle veh_zone_C_31d4 spawned.
+2025-05-10 20:33:38,036 - INFO - Traffic light zone_C_tl1_N changed to red
+2025-05-10 20:33:38,109 - INFO - Traffic light zone_B_tl0_N changed to yellow
+2025-05-10 20:33:38,109 - INFO - Traffic light zone_B_tl1_N changed to yellow
+2025-05-10 20:33:38,355 - INFO - Vehicle veh_zone_B_632c spawned.
+2025-05-10 20:33:38,510 - INFO - Traffic light zone_A_tl1_E changed to green
+2025-05-10 20:33:38,546 - INFO - Traffic light zone_B_tl1_S changed to red
+2025-05-10 20:33:38,693 - INFO - Traffic light zone_B_tl0_N changed to red
+2025-05-10 20:33:38,694 - INFO - Traffic light zone_B_tl1_N changed to red
+2025-05-10 20:33:38,995 - INFO - Vehicle veh_zone_D_b7eb spawned.
+2025-05-10 20:33:39,068 - INFO - Traffic light zone_C_tl0_N changed to yellow
+2025-05-10 20:33:39,068 - INFO - Traffic light zone_C_tl1_S changed to yellow
+2025-05-10 20:33:39,178 - INFO - Traffic light zone_B_tl0_S changed to yellow
+2025-05-10 20:33:39,291 - INFO - Traffic light zone_B_tl0_E changed to green
+2025-05-10 20:33:39,291 - INFO - Traffic light zone_A_tl0_S changed to green
+2025-05-10 20:33:39,369 - INFO - Traffic light zone_C_tl1_E changed to yellow
+2025-05-10 20:33:39,369 - INFO - Traffic light zone_D_tl0_W changed to yellow
+2025-05-10 20:33:39,406 - INFO - Traffic light zone_D_tl1_N changed to yellow
+2025-05-10 20:33:39,407 - INFO - Vehicle veh_zone_A_0e47 spawned.
+2025-05-10 20:33:39,515 - INFO - Traffic light zone_B_tl1_W changed to yellow
+2025-05-10 20:33:39,625 - INFO - Traffic light zone_C_tl0_E changed to green
+2025-05-10 20:33:39,707 - INFO - Traffic light zone_C_tl0_N changed to red
+2025-05-10 20:33:39,707 - INFO - Traffic light zone_C_tl1_S changed to red
+2025-05-10 20:33:39,707 - INFO - Traffic light zone_A_tl1_S changed to green
+2025-05-10 20:33:39,707 - INFO - Traffic light zone_A_tl1_N changed to yellow
+2025-05-10 20:33:39,817 - INFO - Traffic light zone_B_tl0_S changed to red
+2025-05-10 20:33:39,853 - INFO - Traffic light zone_B_tl0_W changed to green
+2025-05-10 20:33:39,891 - INFO - Traffic light zone_C_tl1_W changed to yellow
+2025-05-10 20:33:39,927 - INFO - Traffic light zone_D_tl0_W changed to red
+2025-05-10 20:33:39,928 - INFO - Traffic light zone_C_tl1_E changed to red
+2025-05-10 20:33:39,966 - INFO - Traffic light zone_B_tl1_E changed to green
+2025-05-10 20:33:40,042 - INFO - Traffic light zone_D_tl1_W changed to yellow
+2025-05-10 20:33:40,042 - INFO - Traffic light zone_D_tl1_N changed to red
+2025-05-10 20:33:40,083 - INFO - Traffic light zone_A_tl0_W changed to green
+2025-05-10 20:33:40,083 - INFO - Traffic light zone_B_tl1_W changed to red
+2025-05-10 20:33:40,193 - INFO - Traffic light zone_A_tl0_E changed to green
+2025-05-10 20:33:40,230 - INFO - Traffic light zone_D_tl0_S changed to green
+2025-05-10 20:33:40,231 - INFO - Vehicle veh_zone_B_4111 spawned.
+2025-05-10 20:33:40,307 - INFO - Traffic light zone_C_tl0_W changed to yellow
+2025-05-10 20:33:40,307 - INFO - Traffic light zone_C_tl0_S changed to yellow
+2025-05-10 20:33:40,308 - INFO - Traffic light zone_A_tl1_W changed to yellow
+2025-05-10 20:33:40,386 - INFO - Traffic light zone_D_tl1_S changed to yellow
+2025-05-10 20:33:40,387 - INFO - Traffic light zone_A_tl1_N changed to red
+2025-05-10 20:33:40,423 - INFO - Traffic light zone_D_tl1_E changed to green
+2025-05-10 20:33:40,462 - INFO - Traffic light zone_C_tl1_W changed to red
+2025-05-10 20:33:40,614 - INFO - Traffic light zone_D_tl1_W changed to red
+2025-05-10 20:33:40,615 - INFO - Vehicle veh_zone_C_580d spawned.
+2025-05-10 20:33:40,688 - INFO - Vehicle veh_zone_A_1ff5 despawned.
+2025-05-10 20:33:40,770 - INFO - Traffic light zone_C_tl1_N changed to green
+2025-05-10 20:33:40,771 - INFO - Vehicle veh_zone_D_7c41 spawned.
+2025-05-10 20:33:40,927 - INFO - Traffic light zone_C_tl0_W changed to red
+2025-05-10 20:33:40,927 - INFO - Traffic light zone_A_tl1_W changed to red
+2025-05-10 20:33:41,000 - INFO - Traffic light zone_C_tl0_S changed to red
+2025-05-10 20:33:41,073 - INFO - Traffic light zone_D_tl1_S changed to red
+2025-05-10 20:33:41,109 - INFO - Traffic light zone_D_tl0_E changed to green
+2025-05-10 20:33:41,183 - INFO - Traffic light zone_A_tl0_N changed to yellow
+2025-05-10 20:33:41,301 - INFO - Traffic light zone_D_tl0_N changed to yellow
+2025-05-10 20:33:41,338 - INFO - Traffic light zone_A_tl1_E changed to yellow
+2025-05-10 20:33:41,412 - INFO - Traffic light zone_B_tl1_S changed to green
+2025-05-10 20:33:41,558 - INFO - Traffic light zone_B_tl0_N changed to green
+2025-05-10 20:33:41,558 - INFO - Traffic light zone_B_tl1_N changed to green
+2025-05-10 20:33:41,832 - INFO - Traffic light zone_A_tl0_S changed to yellow
+2025-05-10 20:33:41,906 - INFO - Traffic light zone_A_tl0_N changed to red
+2025-05-10 20:33:41,943 - INFO - Traffic light zone_A_tl1_E changed to red
+2025-05-10 20:33:42,017 - INFO - Traffic light zone_D_tl0_N changed to red
+2025-05-10 20:33:42,136 - INFO - Vehicle veh_zone_B_ec32 spawned.
+2025-05-10 20:33:42,246 - INFO - Traffic light zone_B_tl0_E changed to yellow
+2025-05-10 20:33:42,283 - INFO - Traffic light zone_A_tl1_S changed to yellow
+2025-05-10 20:33:42,400 - INFO - Traffic light zone_A_tl0_S changed to red
+2025-05-10 20:33:42,437 - INFO - Vehicle veh_zone_A_306f despawned.
+2025-05-10 20:33:42,473 - INFO - Vehicle veh_zone_D_fcda despawned.
+2025-05-10 20:33:42,546 - INFO - Traffic light zone_C_tl1_E changed to green
+2025-05-10 20:33:42,547 - INFO - Vehicle veh_zone_D_1603 spawned.
+2025-05-10 20:33:42,587 - INFO - Traffic light zone_D_tl0_W changed to green
+2025-05-10 20:33:42,630 - INFO - Traffic light zone_C_tl0_E changed to yellow
+2025-05-10 20:33:42,703 - INFO - Traffic light zone_C_tl0_N changed to green
+2025-05-10 20:33:42,703 - INFO - Traffic light zone_C_tl1_S changed to green
+2025-05-10 20:33:42,740 - INFO - Traffic light zone_B_tl1_W changed to green
+2025-05-10 20:33:42,741 - INFO - Vehicle veh_zone_A_b302 spawned.
+2025-05-10 20:33:42,814 - INFO - Vehicle veh_zone_D_8964 despawned.
+2025-05-10 20:33:42,854 - INFO - Traffic light zone_A_tl1_S changed to red
+2025-05-10 20:33:42,879 - INFO - Traffic light zone_D_tl0_S changed to yellow
+2025-05-10 20:33:42,879 - INFO - Traffic light zone_B_tl0_E changed to red
+2025-05-10 20:33:42,879 - INFO - Traffic light zone_B_tl0_S changed to green
+2025-05-10 20:33:42,919 - INFO - Traffic light zone_B_tl0_W changed to yellow
+2025-05-10 20:33:43,006 - INFO - Traffic light zone_B_tl1_E changed to yellow
+2025-05-10 20:33:43,116 - INFO - Traffic light zone_A_tl0_W changed to yellow
+2025-05-10 20:33:43,116 - INFO - Traffic light zone_D_tl1_N changed to green
+2025-05-10 20:33:43,116 - INFO - Traffic light zone_C_tl1_W changed to green
+2025-05-10 20:33:43,153 - INFO - Vehicle veh_zone_D_1314 despawned.
+2025-05-10 20:33:43,191 - INFO - Vehicle veh_zone_C_3ee3 spawned.
+2025-05-10 20:33:43,231 - INFO - Traffic light zone_C_tl0_E changed to red
+2025-05-10 20:33:43,232 - INFO - Vehicle veh_zone_D_1a5c despawned.
+2025-05-10 20:33:43,255 - INFO - Traffic light zone_A_tl0_E changed to yellow
+2025-05-10 20:33:43,295 - INFO - Traffic light zone_D_tl1_W changed to green
+2025-05-10 20:33:43,380 - INFO - Traffic light zone_D_tl0_S changed to red
+2025-05-10 20:33:43,380 - INFO - Traffic light zone_C_tl1_N changed to yellow
+2025-05-10 20:33:43,453 - INFO - Traffic light zone_A_tl1_N changed to green
+2025-05-10 20:33:43,489 - INFO - Traffic light zone_D_tl1_E changed to yellow
+2025-05-10 20:33:43,526 - INFO - Traffic light zone_B_tl0_W changed to red
+2025-05-10 20:33:43,527 - INFO - Traffic light zone_C_tl0_W changed to green
+2025-05-10 20:33:43,563 - INFO - Traffic light zone_A_tl1_W changed to green
+2025-05-10 20:33:43,637 - INFO - Traffic light zone_B_tl1_E changed to red
+2025-05-10 20:33:43,753 - INFO - Traffic light zone_A_tl0_W changed to red
+2025-05-10 20:33:43,899 - INFO - Traffic light zone_A_tl0_E changed to red
+2025-05-10 20:33:43,936 - INFO - Vehicle veh_zone_B_c5be spawned.
+2025-05-10 20:33:43,972 - INFO - Traffic light zone_C_tl1_N changed to red
+2025-05-10 20:33:44,083 - INFO - Traffic light zone_C_tl0_S changed to green
+2025-05-10 20:33:44,119 - INFO - Traffic light zone_B_tl1_S changed to yellow
+2025-05-10 20:33:44,156 - INFO - Traffic light zone_D_tl1_E changed to red
+2025-05-10 20:33:44,230 - INFO - Traffic light zone_D_tl0_E changed to yellow
+2025-05-10 20:33:44,230 - INFO - Traffic light zone_D_tl1_S changed to green
+2025-05-10 20:33:44,231 - INFO - Vehicle veh_zone_D_d1ea spawned.
+2025-05-10 20:33:44,308 - INFO - Traffic light zone_B_tl0_N changed to yellow
+2025-05-10 20:33:44,308 - INFO - Traffic light zone_B_tl1_N changed to yellow
+2025-05-10 20:33:44,723 - INFO - Traffic light zone_A_tl1_E changed to green
+2025-05-10 20:33:44,723 - INFO - Traffic light zone_B_tl1_S changed to red
+2025-05-10 20:33:44,833 - INFO - Traffic light zone_A_tl0_S changed to green
+2025-05-10 20:33:44,906 - INFO - Traffic light zone_B_tl0_N changed to red
+2025-05-10 20:33:44,907 - INFO - Traffic light zone_B_tl1_N changed to red
+2025-05-10 20:33:44,907 - INFO - Traffic light zone_D_tl0_E changed to red
+2025-05-10 20:33:45,023 - INFO - Traffic light zone_D_tl0_W changed to yellow
+2025-05-10 20:33:45,025 - INFO - Traffic light zone_C_tl1_E changed to yellow
+2025-05-10 20:33:45,135 - INFO - Traffic light zone_A_tl0_N changed to green
+2025-05-10 20:33:45,246 - INFO - Traffic light zone_B_tl1_W changed to yellow
+2025-05-10 20:33:45,246 - INFO - Traffic light zone_D_tl0_N changed to green
+2025-05-10 20:33:45,363 - INFO - Traffic light zone_A_tl1_S changed to green
+2025-05-10 20:33:45,583 - INFO - Traffic light zone_C_tl0_N changed to yellow
+2025-05-10 20:33:45,583 - INFO - Traffic light zone_C_tl1_E changed to red
+2025-05-10 20:33:45,583 - INFO - Traffic light zone_C_tl1_S changed to yellow
+2025-05-10 20:33:45,583 - INFO - Traffic light zone_D_tl0_W changed to red
+2025-05-10 20:33:45,694 - INFO - Traffic light zone_C_tl1_W changed to yellow
+2025-05-10 20:33:45,767 - INFO - Traffic light zone_B_tl0_S changed to yellow
+2025-05-10 20:33:45,768 - INFO - Vehicle veh_zone_C_bd0f spawned.
+2025-05-10 20:33:45,807 - INFO - Traffic light zone_B_tl0_E changed to green
+2025-05-10 20:33:45,807 - INFO - Traffic light zone_B_tl1_W changed to red
+2025-05-10 20:33:45,808 - INFO - Vehicle veh_zone_B_cd16 spawned.
+2025-05-10 20:33:45,872 - INFO - Traffic light zone_D_tl1_W changed to yellow
+2025-05-10 20:33:45,896 - INFO - Vehicle veh_zone_A_edc2 spawned.
+2025-05-10 20:33:45,936 - INFO - Vehicle veh_zone_D_c17f spawned.
+2025-05-10 20:33:45,993 - INFO - Traffic light zone_D_tl0_S changed to green
+2025-05-10 20:33:45,993 - INFO - Traffic light zone_D_tl1_N changed to yellow
+2025-05-10 20:33:46,141 - INFO - Vehicle veh_zone_C_580d despawned.
+2025-05-10 20:33:46,181 - INFO - Traffic light zone_A_tl1_W changed to yellow
+2025-05-10 20:33:46,181 - INFO - Traffic light zone_C_tl0_E changed to green
+2025-05-10 20:33:46,181 - INFO - Traffic light zone_C_tl0_W changed to yellow
+2025-05-10 20:33:46,181 - INFO - Traffic light zone_C_tl0_N changed to red
+2025-05-10 20:33:46,181 - INFO - Traffic light zone_C_tl1_S changed to red
+2025-05-10 20:33:46,222 - INFO - Traffic light zone_C_tl1_W changed to red
+2025-05-10 20:33:46,370 - INFO - Traffic light zone_B_tl0_S changed to red
+2025-05-10 20:33:46,407 - INFO - Traffic light zone_A_tl1_N changed to yellow
+2025-05-10 20:33:46,408 - INFO - Traffic light zone_D_tl1_W changed to red
+2025-05-10 20:33:46,525 - INFO - Traffic light zone_B_tl0_W changed to green
+2025-05-10 20:33:46,636 - INFO - Traffic light zone_D_tl1_N changed to red
+2025-05-10 20:33:46,673 - INFO - Traffic light zone_B_tl1_E changed to green
+2025-05-10 20:33:46,673 - INFO - Traffic light zone_C_tl1_N changed to green
+2025-05-10 20:33:46,791 - INFO - Traffic light zone_A_tl0_W changed to green
+2025-05-10 20:33:46,791 - INFO - Traffic light zone_A_tl1_W changed to red
+2025-05-10 20:33:46,791 - INFO - Traffic light zone_C_tl0_W changed to red
+2025-05-10 20:33:46,937 - INFO - Traffic light zone_A_tl0_E changed to green
+2025-05-10 20:33:47,088 - INFO - Traffic light zone_A_tl1_N changed to red
+2025-05-10 20:33:47,202 - INFO - Traffic light zone_C_tl0_S changed to yellow
+2025-05-10 20:33:47,240 - INFO - Traffic light zone_D_tl1_E changed to green
+2025-05-10 20:33:47,313 - INFO - Traffic light zone_A_tl0_S changed to yellow
+2025-05-10 20:33:47,314 - INFO - Traffic light zone_D_tl1_S changed to yellow
+2025-05-10 20:33:47,506 - INFO - Traffic light zone_A_tl1_E changed to yellow
+2025-05-10 20:33:47,506 - INFO - Vehicle veh_zone_C_3ee3 despawned.
+2025-05-10 20:33:47,542 - INFO - Traffic light zone_B_tl1_S changed to green
+2025-05-10 20:33:47,661 - INFO - Vehicle veh_zone_B_326f spawned.
+2025-05-10 20:33:47,699 - INFO - Vehicle veh_zone_D_2886 spawned.
+2025-05-10 20:33:47,736 - INFO - Traffic light zone_B_tl0_N changed to green
+2025-05-10 20:33:47,736 - INFO - Traffic light zone_B_tl1_N changed to green
+2025-05-10 20:33:47,889 - INFO - Traffic light zone_A_tl0_S changed to red
+2025-05-10 20:33:47,890 - INFO - Traffic light zone_A_tl1_S changed to yellow
+2025-05-10 20:33:47,890 - INFO - Traffic light zone_C_tl0_S changed to red
+2025-05-10 20:33:47,964 - INFO - Vehicle veh_zone_B_d158 despawned.
+2025-05-10 20:33:48,001 - INFO - Traffic light zone_D_tl1_S changed to red
+2025-05-10 20:33:48,126 - INFO - Traffic light zone_A_tl1_E changed to red
+2025-05-10 20:33:48,166 - INFO - Traffic light zone_D_tl0_E changed to green
+2025-05-10 20:33:48,207 - INFO - Traffic light zone_D_tl0_W changed to green
+2025-05-10 20:33:48,207 - INFO - Traffic light zone_C_tl1_E changed to green
+2025-05-10 20:33:48,390 - INFO - Traffic light zone_B_tl1_W changed to green
+2025-05-10 20:33:48,390 - INFO - Traffic light zone_A_tl0_N changed to yellow
+2025-05-10 20:33:48,391 - INFO - Vehicle veh_zone_C_131e spawned.
+2025-05-10 20:33:48,464 - INFO - Traffic light zone_A_tl1_S changed to red
+2025-05-10 20:33:48,541 - INFO - Traffic light zone_D_tl0_N changed to yellow
+2025-05-10 20:33:48,655 - INFO - Traffic light zone_D_tl0_S changed to yellow
+2025-05-10 20:33:48,691 - INFO - Traffic light zone_B_tl0_E changed to yellow
+2025-05-10 20:33:48,948 - INFO - Traffic light zone_C_tl1_W changed to green
+2025-05-10 20:33:49,102 - INFO - Traffic light zone_A_tl0_N changed to red
+2025-05-10 20:33:49,139 - INFO - Traffic light zone_D_tl1_W changed to green
+2025-05-10 20:33:49,214 - INFO - Traffic light zone_C_tl0_E changed to yellow
+2025-05-10 20:33:49,214 - INFO - Traffic light zone_C_tl0_N changed to green
+2025-05-10 20:33:49,214 - INFO - Traffic light zone_C_tl1_S changed to green
+2025-05-10 20:33:49,214 - INFO - Traffic light zone_D_tl0_S changed to red
+2025-05-10 20:33:49,215 - INFO - Vehicle veh_zone_A_5d1d spawned.
+2025-05-10 20:33:49,252 - INFO - Traffic light zone_D_tl0_N changed to red
+2025-05-10 20:33:49,332 - INFO - Traffic light zone_B_tl0_E changed to red
+2025-05-10 20:33:49,405 - INFO - Traffic light zone_B_tl0_S changed to green
+2025-05-10 20:33:49,406 - INFO - Traffic light zone_C_tl1_N changed to yellow
+2025-05-10 20:33:49,480 - INFO - Vehicle veh_zone_D_af64 spawned.
+2025-05-10 20:33:49,516 - INFO - Traffic light zone_A_tl1_W changed to green
+2025-05-10 20:33:49,517 - INFO - Traffic light zone_C_tl0_W changed to green
+2025-05-10 20:33:49,517 - INFO - Vehicle veh_zone_B_6078 spawned.
+2025-05-10 20:33:49,557 - INFO - Traffic light zone_B_tl0_W changed to yellow
+2025-05-10 20:33:49,708 - INFO - Traffic light zone_B_tl1_E changed to yellow
+2025-05-10 20:33:49,745 - INFO - Traffic light zone_D_tl1_N changed to green
+2025-05-10 20:33:49,855 - INFO - Traffic light zone_A_tl0_W changed to yellow
+2025-05-10 20:33:49,855 - INFO - Traffic light zone_C_tl0_E changed to red
+2025-05-10 20:33:50,010 - INFO - Traffic light zone_C_tl1_N changed to red
+2025-05-10 20:33:50,047 - INFO - Traffic light zone_A_tl0_E changed to yellow
+2025-05-10 20:33:50,230 - INFO - Traffic light zone_A_tl1_N changed to green
+2025-05-10 20:33:50,231 - INFO - Traffic light zone_B_tl0_W changed to red
+2025-05-10 20:33:50,307 - INFO - Traffic light zone_B_tl1_S changed to yellow
+2025-05-10 20:33:50,385 - INFO - Traffic light zone_D_tl1_E changed to yellow
+2025-05-10 20:33:50,386 - INFO - Traffic light zone_B_tl1_E changed to red
+2025-05-10 20:33:50,459 - INFO - Traffic light zone_A_tl0_S changed to green
+2025-05-10 20:33:50,532 - INFO - Traffic light zone_A_tl0_W changed to red
+2025-05-10 20:33:50,532 - INFO - Traffic light zone_B_tl0_N changed to yellow
+2025-05-10 20:33:50,532 - INFO - Traffic light zone_B_tl1_N changed to yellow
+2025-05-10 20:33:50,571 - INFO - Vehicle veh_zone_B_c5be despawned.
+2025-05-10 20:33:50,724 - INFO - Traffic light zone_A_tl0_E changed to red
+2025-05-10 20:33:50,724 - INFO - Vehicle veh_zone_D_1603 despawned.
+2025-05-10 20:33:50,761 - INFO - Traffic light zone_D_tl0_W changed to yellow
+2025-05-10 20:33:50,762 - INFO - Traffic light zone_C_tl1_E changed to yellow
+2025-05-10 20:33:50,916 - INFO - Traffic light zone_B_tl1_S changed to red
+2025-05-10 20:33:50,988 - INFO - Traffic light zone_B_tl1_W changed to yellow
+2025-05-10 20:33:51,026 - INFO - Traffic light zone_A_tl1_E changed to green
+2025-05-10 20:33:51,027 - INFO - Vehicle veh_zone_C_8a83 spawned.
+2025-05-10 20:33:51,064 - INFO - Traffic light zone_D_tl1_E changed to red
+2025-05-10 20:33:51,105 - INFO - Traffic light zone_C_tl0_S changed to green
+2025-05-10 20:33:51,105 - INFO - Traffic light zone_A_tl1_S changed to green
+2025-05-10 20:33:51,129 - INFO - Traffic light zone_B_tl0_N changed to red
+2025-05-10 20:33:51,129 - INFO - Traffic light zone_B_tl1_N changed to red
+2025-05-10 20:33:51,193 - INFO - Vehicle veh_zone_D_b7eb despawned.
+2025-05-10 20:33:51,232 - INFO - Traffic light zone_D_tl1_S changed to green
+2025-05-10 20:33:51,233 - INFO - Vehicle veh_zone_D_1005 spawned.
+2025-05-10 20:33:51,291 - INFO - Traffic light zone_C_tl1_E changed to red
+2025-05-10 20:33:51,291 - INFO - Traffic light zone_D_tl0_W changed to red
+2025-05-10 20:33:51,328 - INFO - Traffic light zone_D_tl0_E changed to yellow
+2025-05-10 20:33:51,367 - INFO - Vehicle veh_zone_B_57cc spawned.
+2025-05-10 20:33:51,521 - INFO - Traffic light zone_B_tl1_W changed to red
+2025-05-10 20:33:51,558 - INFO - Traffic light zone_C_tl1_W changed to yellow
+2025-05-10 20:33:51,791 - INFO - Traffic light zone_D_tl1_W changed to yellow
+2025-05-10 20:33:51,905 - INFO - Traffic light zone_D_tl0_S changed to green
+2025-05-10 20:33:52,052 - INFO - Traffic light zone_D_tl0_E changed to red
+2025-05-10 20:33:52,126 - INFO - Traffic light zone_C_tl1_W changed to red
+2025-05-10 20:33:52,166 - INFO - Traffic light zone_C_tl0_N changed to yellow
+2025-05-10 20:33:52,166 - INFO - Traffic light zone_C_tl1_S changed to yellow
+2025-05-10 20:33:52,207 - INFO - Traffic light zone_A_tl1_W changed to yellow
+2025-05-10 20:33:52,207 - INFO - Traffic light zone_C_tl0_W changed to yellow
+2025-05-10 20:33:52,317 - INFO - Traffic light zone_B_tl0_E changed to green
+2025-05-10 20:33:52,354 - INFO - Traffic light zone_B_tl0_S changed to yellow
+2025-05-10 20:33:52,354 - INFO - Traffic light zone_D_tl1_W changed to red
+2025-05-10 20:33:52,431 - INFO - Traffic light zone_A_tl0_N changed to green
+2025-05-10 20:33:52,510 - INFO - Vehicle veh_zone_A_23b2 spawned.
+2025-05-10 20:33:52,583 - INFO - Traffic light zone_D_tl0_N changed to green
+2025-05-10 20:33:52,729 - INFO - Traffic light zone_D_tl1_N changed to yellow
+2025-05-10 20:33:52,729 - INFO - Traffic light zone_C_tl1_N changed to green
+2025-05-10 20:33:52,806 - INFO - Traffic light zone_A_tl1_W changed to red
+2025-05-10 20:33:52,806 - INFO - Traffic light zone_C_tl0_W changed to red
+2025-05-10 20:33:52,806 - INFO - Traffic light zone_C_tl0_N changed to red
+2025-05-10 20:33:52,807 - INFO - Traffic light zone_C_tl1_S changed to red
+2025-05-10 20:33:52,886 - INFO - Traffic light zone_C_tl0_E changed to green
+2025-05-10 20:33:52,963 - INFO - Traffic light zone_A_tl0_S changed to yellow
+2025-05-10 20:33:53,004 - INFO - Traffic light zone_B_tl0_S changed to red
+2025-05-10 20:33:53,005 - INFO - Vehicle veh_zone_D_0774 spawned.
+2025-05-10 20:33:53,268 - INFO - Traffic light zone_B_tl0_W changed to green
+2025-05-10 20:33:53,268 - INFO - Traffic light zone_A_tl1_N changed to yellow
+2025-05-10 20:33:53,270 - INFO - Vehicle veh_zone_B_af94 spawned.
+2025-05-10 20:33:53,343 - INFO - Traffic light zone_D_tl1_N changed to red
+2025-05-10 20:33:53,454 - INFO - Traffic light zone_B_tl1_E changed to green
+2025-05-10 20:33:53,537 - INFO - Traffic light zone_A_tl0_S changed to red
+2025-05-10 20:33:53,610 - INFO - Vehicle veh_zone_C_8ccb spawned.
+2025-05-10 20:33:53,649 - INFO - Traffic light zone_A_tl0_W changed to green
+2025-05-10 20:33:53,649 - INFO - Traffic light zone_A_tl1_S changed to yellow
+2025-05-10 20:33:53,764 - INFO - Traffic light zone_B_tl1_S changed to green
+2025-05-10 20:33:53,849 - INFO - Traffic light zone_A_tl0_E changed to green
+2025-05-10 20:33:53,849 - INFO - Traffic light zone_A_tl1_E changed to yellow
+2025-05-10 20:33:53,922 - INFO - Traffic light zone_C_tl1_E changed to green
+2025-05-10 20:33:53,922 - INFO - Traffic light zone_D_tl0_W changed to green
+2025-05-10 20:33:53,944 - INFO - Traffic light zone_A_tl1_N changed to red
+2025-05-10 20:33:54,005 - INFO - Traffic light zone_B_tl0_N changed to green
+2025-05-10 20:33:54,005 - INFO - Traffic light zone_B_tl1_N changed to green
+2025-05-10 20:33:54,197 - INFO - Traffic light zone_B_tl1_W changed to green
+2025-05-10 20:33:54,198 - INFO - Traffic light zone_A_tl1_S changed to red
+2025-05-10 20:33:54,198 - INFO - Traffic light zone_D_tl1_E changed to green
+2025-05-10 20:33:54,235 - INFO - Traffic light zone_C_tl0_S changed to yellow
+2025-05-10 20:33:54,389 - INFO - Traffic light zone_D_tl1_S changed to yellow
+2025-05-10 20:33:54,427 - INFO - Traffic light zone_A_tl1_E changed to red
+2025-05-10 20:33:54,537 - INFO - Traffic light zone_D_tl0_S changed to yellow
+2025-05-10 20:33:54,767 - INFO - Vehicle veh_zone_D_206e spawned.
+2025-05-10 20:33:54,848 - INFO - Traffic light zone_C_tl1_W changed to green
+2025-05-10 20:33:54,921 - INFO - Traffic light zone_C_tl0_S changed to red
+2025-05-10 20:33:55,067 - INFO - Traffic light zone_D_tl1_W changed to green
+2025-05-10 20:33:55,068 - INFO - Traffic light zone_D_tl1_S changed to red
+2025-05-10 20:33:55,106 - INFO - Traffic light zone_D_tl0_S changed to red
+2025-05-10 20:33:55,183 - INFO - Vehicle veh_zone_B_3403 spawned.
+2025-05-10 20:33:55,271 - INFO - Traffic light zone_B_tl0_E changed to yellow
+2025-05-10 20:33:55,311 - INFO - Traffic light zone_D_tl0_E changed to green
+2025-05-10 20:33:55,406 - INFO - Traffic light zone_C_tl1_N changed to yellow
+2025-05-10 20:33:55,478 - INFO - Traffic light zone_C_tl0_W changed to green
+2025-05-10 20:33:55,479 - INFO - Traffic light zone_A_tl1_W changed to green
+2025-05-10 20:33:55,479 - INFO - Vehicle veh_zone_B_632c despawned.
+2025-05-10 20:33:55,662 - INFO - Traffic light zone_A_tl0_N changed to yellow
+2025-05-10 20:33:55,775 - INFO - Traffic light zone_C_tl0_N changed to green
+2025-05-10 20:33:55,775 - INFO - Traffic light zone_C_tl1_S changed to green
+2025-05-10 20:33:55,776 - INFO - Vehicle veh_zone_A_eed2 spawned.
+2025-05-10 20:33:55,854 - INFO - Traffic light zone_D_tl0_N changed to yellow
+2025-05-10 20:33:55,855 - INFO - Traffic light zone_C_tl0_E changed to yellow
+2025-05-10 20:33:55,891 - INFO - Traffic light zone_B_tl0_E changed to red
+2025-05-10 20:33:56,009 - INFO - Traffic light zone_C_tl1_N changed to red
+2025-05-10 20:33:56,046 - INFO - Traffic light zone_A_tl0_S changed to green
+2025-05-10 20:33:56,046 - INFO - Traffic light zone_B_tl0_S changed to green
+2025-05-10 20:33:56,193 - INFO - Vehicle veh_zone_B_326f despawned.
+2025-05-10 20:33:56,230 - INFO - Vehicle veh_zone_C_ccd0 spawned.
+2025-05-10 20:33:56,307 - INFO - Traffic light zone_B_tl0_W changed to yellow
+2025-05-10 20:33:56,386 - INFO - Traffic light zone_A_tl0_N changed to red
+2025-05-10 20:33:56,422 - INFO - Traffic light zone_D_tl1_N changed to green
+2025-05-10 20:33:56,463 - INFO - Traffic light zone_D_tl0_W changed to yellow
+2025-05-10 20:33:56,463 - INFO - Traffic light zone_C_tl1_E changed to yellow
+2025-05-10 20:33:56,503 - INFO - Traffic light zone_C_tl0_E changed to red
+2025-05-10 20:33:56,504 - INFO - Traffic light zone_B_tl1_E changed to yellow
+2025-05-10 20:33:56,505 - INFO - Vehicle veh_zone_D_bbe7 spawned.
+2025-05-10 20:33:56,541 - INFO - Traffic light zone_B_tl1_S changed to yellow
+2025-05-10 20:33:56,578 - INFO - Traffic light zone_D_tl0_N changed to red
+2025-05-10 20:33:56,652 - INFO - Traffic light zone_A_tl0_W changed to yellow
+2025-05-10 20:33:56,754 - INFO - Traffic light zone_B_tl1_W changed to yellow
+2025-05-10 20:33:56,793 - INFO - Traffic light zone_A_tl1_S changed to green
+2025-05-10 20:33:56,793 - INFO - Traffic light zone_B_tl0_N changed to yellow
+2025-05-10 20:33:56,793 - INFO - Traffic light zone_B_tl1_N changed to yellow
+2025-05-10 20:33:56,858 - INFO - Traffic light zone_A_tl0_E changed to yellow
+2025-05-10 20:33:56,953 - INFO - Traffic light zone_B_tl0_W changed to red
+2025-05-10 20:33:56,990 - INFO - Traffic light zone_A_tl1_N changed to green
+2025-05-10 20:33:56,990 - INFO - Traffic light zone_C_tl1_E changed to red
+2025-05-10 20:33:56,990 - INFO - Traffic light zone_D_tl0_W changed to red
+2025-05-10 20:33:56,991 - INFO - Vehicle veh_zone_B_1043 spawned.
+2025-05-10 20:33:57,028 - INFO - Vehicle veh_zone_D_d1ea despawned.
+2025-05-10 20:33:57,104 - INFO - Traffic light zone_B_tl1_S changed to red
+2025-05-10 20:33:57,129 - INFO - Traffic light zone_B_tl1_E changed to red
+2025-05-10 20:33:57,232 - INFO - Traffic light zone_D_tl1_E changed to yellow
+2025-05-10 20:33:57,232 - INFO - Traffic light zone_A_tl1_E changed to green
+2025-05-10 20:33:57,253 - INFO - Traffic light zone_B_tl1_W changed to red
+2025-05-10 20:33:57,253 - INFO - Traffic light zone_A_tl0_W changed to red
+2025-05-10 20:33:57,328 - INFO - Traffic light zone_B_tl0_N changed to red
+2025-05-10 20:33:57,328 - INFO - Traffic light zone_B_tl1_N changed to red
+2025-05-10 20:33:57,365 - INFO - Traffic light zone_C_tl1_W changed to yellow
+2025-05-10 20:33:57,478 - INFO - Traffic light zone_A_tl0_E changed to red
+2025-05-10 20:33:57,630 - INFO - Traffic light zone_D_tl1_W changed to yellow
+2025-05-10 20:33:57,703 - INFO - Traffic light zone_D_tl0_S changed to green
+2025-05-10 20:33:57,885 - INFO - Traffic light zone_D_tl1_E changed to red
+2025-05-10 20:33:57,922 - INFO - Traffic light zone_C_tl1_W changed to red
+2025-05-10 20:33:57,959 - INFO - Vehicle veh_zone_D_1005 despawned.
+2025-05-10 20:33:57,996 - INFO - Traffic light zone_C_tl0_S changed to green
+2025-05-10 20:33:58,110 - INFO - Traffic light zone_C_tl0_W changed to yellow
+2025-05-10 20:33:58,110 - INFO - Traffic light zone_A_tl1_W changed to yellow
+2025-05-10 20:33:58,185 - INFO - Traffic light zone_D_tl1_W changed to red
+2025-05-10 20:33:58,185 - INFO - Traffic light zone_D_tl1_S changed to green
+2025-05-10 20:33:58,186 - INFO - Vehicle veh_zone_D_8c12 spawned.
+2025-05-10 20:33:58,186 - INFO - Vehicle veh_zone_C_8a83 despawned.
+2025-05-10 20:33:58,406 - INFO - Traffic light zone_D_tl0_E changed to yellow
+2025-05-10 20:33:58,479 - INFO - Traffic light zone_A_tl0_S changed to yellow
+2025-05-10 20:33:58,666 - INFO - Traffic light zone_C_tl0_N changed to yellow
+2025-05-10 20:33:58,666 - INFO - Traffic light zone_C_tl1_S changed to yellow
+2025-05-10 20:33:58,666 - INFO - Traffic light zone_C_tl1_N changed to green
+2025-05-10 20:33:58,707 - INFO - Traffic light zone_C_tl0_W changed to red
+2025-05-10 20:33:58,707 - INFO - Traffic light zone_A_tl1_W changed to red
+2025-05-10 20:33:58,781 - INFO - Vehicle veh_zone_C_bcca spawned.
+2025-05-10 20:33:58,818 - INFO - Traffic light zone_B_tl0_E changed to green
+2025-05-10 20:33:58,819 - INFO - Vehicle veh_zone_B_5d26 spawned.
+2025-05-10 20:33:58,932 - INFO - Traffic light zone_B_tl0_S changed to yellow
+2025-05-10 20:33:59,011 - INFO - Vehicle veh_zone_A_3151 spawned.
+2025-05-10 20:33:59,048 - INFO - Traffic light zone_A_tl0_S changed to red
+2025-05-10 20:33:59,130 - INFO - Traffic light zone_D_tl0_E changed to red
+2025-05-10 20:33:59,276 - INFO - Traffic light zone_A_tl1_S changed to yellow
+2025-05-10 20:33:59,313 - INFO - Traffic light zone_C_tl0_N changed to red
+2025-05-10 20:33:59,313 - INFO - Traffic light zone_C_tl1_S changed to red
+2025-05-10 20:33:59,353 - INFO - Traffic light zone_D_tl1_N changed to yellow
+2025-05-10 20:33:59,468 - INFO - Traffic light zone_C_tl0_E changed to green
+2025-05-10 20:33:59,578 - INFO - Traffic light zone_D_tl0_W changed to green
+2025-05-10 20:33:59,578 - INFO - Traffic light zone_C_tl1_E changed to green
+2025-05-10 20:33:59,579 - INFO - Traffic light zone_B_tl0_S changed to red
+2025-05-10 20:33:59,656 - INFO - Traffic light zone_A_tl0_N changed to green
+2025-05-10 20:33:59,832 - INFO - Traffic light zone_A_tl1_S changed to red
+2025-05-10 20:33:59,832 - INFO - Traffic light zone_D_tl0_N changed to green
+2025-05-10 20:33:59,869 - INFO - Traffic light zone_B_tl1_W changed to green
+2025-05-10 20:33:59,907 - INFO - Traffic light zone_B_tl1_S changed to green
+2025-05-10 20:33:59,946 - INFO - Traffic light zone_B_tl0_W changed to green
+2025-05-10 20:33:59,947 - INFO - Vehicle veh_zone_D_18d6 spawned.
+2025-05-10 20:33:59,989 - INFO - Traffic light zone_A_tl1_N changed to yellow
+2025-05-10 20:33:59,989 - INFO - Traffic light zone_D_tl1_N changed to red
+2025-05-10 20:34:00,026 - INFO - Traffic light zone_A_tl1_E changed to yellow
+2025-05-10 20:34:00,173 - INFO - Traffic light zone_B_tl0_N changed to green
+2025-05-10 20:34:00,173 - INFO - Traffic light zone_B_tl1_E changed to green
+2025-05-10 20:34:00,173 - INFO - Traffic light zone_B_tl1_N changed to green
+2025-05-10 20:34:00,329 - INFO - Traffic light zone_D_tl0_S changed to yellow
+2025-05-10 20:34:00,369 - INFO - Traffic light zone_A_tl0_W changed to green
+2025-05-10 20:34:00,369 - INFO - Vehicle veh_zone_D_0774 despawned.
+2025-05-10 20:34:00,582 - INFO - Traffic light zone_A_tl0_E changed to green
+2025-05-10 20:34:00,620 - INFO - Traffic light zone_A_tl1_E changed to red
+2025-05-10 20:34:00,620 - INFO - Traffic light zone_C_tl1_W changed to green
+2025-05-10 20:34:00,657 - INFO - Traffic light zone_A_tl1_N changed to red
+2025-05-10 20:34:00,697 - INFO - Vehicle veh_zone_B_6203 spawned.
+2025-05-10 20:34:00,886 - INFO - Traffic light zone_D_tl0_S changed to red
+2025-05-10 20:34:00,886 - INFO - Traffic light zone_D_tl1_W changed to green
+2025-05-10 20:34:01,032 - INFO - Traffic light zone_D_tl1_E changed to green
+2025-05-10 20:34:01,131 - INFO - Traffic light zone_C_tl0_S changed to yellow
+2025-05-10 20:34:01,310 - INFO - Traffic light zone_D_tl1_S changed to yellow
+2025-05-10 20:34:01,334 - INFO - Traffic light zone_C_tl1_N changed to yellow
+2025-05-10 20:34:01,374 - INFO - Traffic light zone_C_tl0_W changed to green
+2025-05-10 20:34:01,374 - INFO - Traffic light zone_A_tl1_W changed to green
+2025-05-10 20:34:01,375 - INFO - Vehicle veh_zone_C_4bf1 spawned.
+2025-05-10 20:34:01,541 - INFO - Traffic light zone_A_tl0_S changed to green
+2025-05-10 20:34:01,652 - INFO - Vehicle veh_zone_D_6585 spawned.
+2025-05-10 20:34:01,689 - INFO - Traffic light zone_B_tl0_E changed to yellow
+2025-05-10 20:34:01,770 - INFO - Traffic light zone_C_tl0_S changed to red
+2025-05-10 20:34:01,771 - INFO - Vehicle veh_zone_C_ccd0 despawned.
+2025-05-10 20:34:01,916 - INFO - Traffic light zone_C_tl1_N changed to red
+2025-05-10 20:34:01,952 - INFO - Traffic light zone_D_tl1_S changed to red
+2025-05-10 20:34:02,063 - INFO - Traffic light zone_D_tl0_W changed to yellow
+2025-05-10 20:34:02,063 - INFO - Traffic light zone_C_tl1_E changed to yellow
+2025-05-10 20:34:02,183 - INFO - Vehicle veh_zone_B_af94 despawned.
+2025-05-10 20:34:02,219 - INFO - Vehicle veh_zone_B_3403 despawned.
+2025-05-10 20:34:02,256 - INFO - Traffic light zone_C_tl0_N changed to green
+2025-05-10 20:34:02,256 - INFO - Traffic light zone_C_tl1_S changed to green
+2025-05-10 20:34:02,257 - INFO - Vehicle veh_zone_A_4e7a spawned.
+2025-05-10 20:34:02,330 - INFO - Traffic light zone_D_tl0_E changed to green
+2025-05-10 20:34:02,330 - INFO - Traffic light zone_B_tl0_E changed to red
+2025-05-10 20:34:02,411 - INFO - Traffic light zone_B_tl1_W changed to yellow
+2025-05-10 20:34:02,411 - INFO - Traffic light zone_C_tl0_E changed to yellow
+2025-05-10 20:34:02,411 - INFO - Traffic light zone_A_tl1_S changed to green
+2025-05-10 20:34:02,526 - INFO - Vehicle veh_zone_B_4352 spawned.
+2025-05-10 20:34:02,567 - INFO - Traffic light zone_B_tl0_S changed to green
+2025-05-10 20:34:02,640 - INFO - Traffic light zone_D_tl0_W changed to red
+2025-05-10 20:34:02,641 - INFO - Traffic light zone_C_tl1_E changed to red
+2025-05-10 20:34:02,641 - INFO - Traffic light zone_B_tl1_S changed to yellow
+2025-05-10 20:34:02,859 - INFO - Traffic light zone_A_tl0_N changed to yellow
+2025-05-10 20:34:02,933 - INFO - Traffic light zone_B_tl0_W changed to yellow
+2025-05-10 20:34:02,934 - INFO - Traffic light zone_B_tl0_N changed to yellow
+2025-05-10 20:34:02,934 - INFO - Traffic light zone_B_tl1_N changed to yellow
+2025-05-10 20:34:02,970 - INFO - Traffic light zone_B_tl1_W changed to red
+2025-05-10 20:34:03,010 - INFO - Traffic light zone_D_tl1_N changed to green
+2025-05-10 20:34:03,052 - INFO - Traffic light zone_C_tl0_E changed to red
+2025-05-10 20:34:03,089 - INFO - Traffic light zone_D_tl0_N changed to yellow
+2025-05-10 20:34:03,166 - INFO - Traffic light zone_B_tl1_E changed to yellow
+2025-05-10 20:34:03,207 - INFO - Traffic light zone_C_tl1_W changed to yellow
+2025-05-10 20:34:03,243 - INFO - Traffic light zone_B_tl1_S changed to red
+2025-05-10 20:34:03,353 - INFO - Traffic light zone_A_tl0_W changed to yellow
+2025-05-10 20:34:03,427 - INFO - Vehicle veh_zone_D_9862 spawned.
+2025-05-10 20:34:03,463 - INFO - Traffic light zone_A_tl1_E changed to green
+2025-05-10 20:34:03,501 - INFO - Traffic light zone_D_tl1_W changed to yellow
+2025-05-10 20:34:03,542 - INFO - Traffic light zone_D_tl0_S changed to green
+2025-05-10 20:34:03,542 - INFO - Traffic light zone_B_tl0_N changed to red
+2025-05-10 20:34:03,542 - INFO - Traffic light zone_B_tl1_N changed to red
+2025-05-10 20:34:03,582 - INFO - Traffic light zone_A_tl0_N changed to red
+2025-05-10 20:34:03,618 - INFO - Traffic light zone_B_tl0_W changed to red
+2025-05-10 20:34:03,619 - INFO - Traffic light zone_A_tl0_E changed to yellow
+2025-05-10 20:34:03,729 - INFO - Traffic light zone_A_tl1_N changed to green
+2025-05-10 20:34:03,766 - INFO - Traffic light zone_C_tl1_W changed to red
+2025-05-10 20:34:03,802 - INFO - Traffic light zone_D_tl0_N changed to red
+2025-05-10 20:34:03,840 - INFO - Traffic light zone_B_tl1_E changed to red
+2025-05-10 20:34:03,840 - INFO - Vehicle veh_zone_B_1043 despawned.
+2025-05-10 20:34:03,995 - INFO - Vehicle veh_zone_C_2b4e spawned.
+2025-05-10 20:34:04,032 - INFO - Traffic light zone_A_tl0_W changed to red
+2025-05-10 20:34:04,068 - INFO - Traffic light zone_C_tl0_W changed to yellow
+2025-05-10 20:34:04,068 - INFO - Traffic light zone_A_tl0_S changed to yellow
+2025-05-10 20:34:04,069 - INFO - Traffic light zone_A_tl1_W changed to yellow
+2025-05-10 20:34:04,069 - INFO - Traffic light zone_D_tl1_W changed to red
+2025-05-10 20:34:04,105 - INFO - Traffic light zone_D_tl1_E changed to yellow
+2025-05-10 20:34:04,296 - INFO - Traffic light zone_A_tl0_E changed to red
+2025-05-10 20:34:04,408 - INFO - Vehicle veh_zone_B_53f5 spawned.
+2025-05-10 20:34:04,635 - INFO - Traffic light zone_A_tl0_S changed to red
+2025-05-10 20:34:04,677 - INFO - Traffic light zone_C_tl0_W changed to red
+2025-05-10 20:34:04,677 - INFO - Traffic light zone_C_tl1_N changed to green
+2025-05-10 20:34:04,678 - INFO - Traffic light zone_A_tl1_W changed to red
+2025-05-10 20:34:04,791 - INFO - Traffic light zone_D_tl1_E changed to red
+2025-05-10 20:34:04,978 - INFO - Traffic light zone_C_tl0_S changed to green
+2025-05-10 20:34:04,979 - INFO - Traffic light zone_A_tl1_S changed to yellow
+2025-05-10 20:34:05,207 - INFO - Traffic light zone_D_tl1_S changed to green
+2025-05-10 20:34:05,208 - INFO - Vehicle veh_zone_D_4fbe spawned.
+2025-05-10 20:34:05,244 - INFO - Traffic light zone_C_tl0_N changed to yellow
+2025-05-10 20:34:05,245 - INFO - Traffic light zone_C_tl1_S changed to yellow
+2025-05-10 20:34:05,282 - INFO - Traffic light zone_C_tl1_E changed to green
+2025-05-10 20:34:05,282 - INFO - Traffic light zone_D_tl0_W changed to green
+2025-05-10 20:34:05,363 - INFO - Traffic light zone_B_tl0_E changed to green
+2025-05-10 20:34:05,547 - INFO - Traffic light zone_A_tl1_S changed to red
+2025-05-10 20:34:05,547 - INFO - Traffic light zone_B_tl0_S changed to yellow
+2025-05-10 20:34:05,547 - INFO - Traffic light zone_D_tl0_E changed to yellow
+2025-05-10 20:34:05,585 - INFO - Vehicle veh_zone_A_b118 spawned.
+2025-05-10 20:34:05,622 - INFO - Traffic light zone_B_tl1_W changed to green
+2025-05-10 20:34:05,878 - INFO - Traffic light zone_C_tl0_N changed to red
+2025-05-10 20:34:05,878 - INFO - Traffic light zone_C_tl1_S changed to red
+2025-05-10 20:34:06,003 - INFO - Traffic light zone_D_tl1_N changed to yellow
+2025-05-10 20:34:06,077 - INFO - Traffic light zone_C_tl0_E changed to green
+2025-05-10 20:34:06,078 - INFO - Traffic light zone_B_tl1_S changed to green
+2025-05-10 20:34:06,152 - INFO - Traffic light zone_B_tl0_S changed to red
+2025-05-10 20:34:06,152 - INFO - Traffic light zone_D_tl0_S changed to yellow
+2025-05-10 20:34:06,228 - INFO - Traffic light zone_D_tl0_E changed to red
+2025-05-10 20:34:06,392 - INFO - Metrics saved to metrics_output\sim_metrics_final_20250510_203406.json
+2025-05-10 20:34:06,393 - INFO - TrafficMetrics closed. Final metrics saved.

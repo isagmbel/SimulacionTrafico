@@ -1,0 +1,9 @@
+{
+    "vehicle_spawn_count": 52,
+    "vehicle_despawn_count": 5,
+    "current_vehicle_count": 47,
+    "average_vehicle_speed_px_frame": 0.0,
+    "total_vehicle_wait_time_seconds": 91.91700000004857,
+    "simulation_time_steps": 0,
+    "traffic_light_changes": 209
+}
