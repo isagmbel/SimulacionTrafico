@@ -19,7 +19,7 @@ if TYPE_CHECKING:
     from simulacion_trafico_engine.performance.metrics import TrafficMetrics
 
 class GUI:
-    def __init__(self, width: int = 1280, height: int = 720, fps: int = 30, # Default to larger size
+    def __init__(self, width: int = 1280, height: int = 720, fps: int = 30,
                  rabbit_client: Optional['RabbitMQClient'] = None,
                  metrics_client: Optional['TrafficMetrics'] = None):
         pygame.init()
@@ -27,48 +27,46 @@ class GUI:
         self.height = height
         self.fps = fps
         self.screen = pygame.display.set_mode((self.width, self.height))
-        pygame.display.set_caption("Async Traffic Simulation Engine - Pastel Edition")
+        pygame.display.set_caption("Async Traffic Simulation Engine - Pastel Edition") # Normal Caption
         self.running = True
 
         self.rabbit_client = rabbit_client
         self.metrics_client = metrics_client
         
-        # Calculate simulation area width before initializing map
         self.simulation_area_width = self.width * (1 - Theme.INFO_PANEL_WIDTH_RATIO)
 
-        self.map = Map(self.width, self.height, rabbit_client=self.rabbit_client, metrics_client=self.metrics_client) # Map still gets full width for now
+        self.map = Map(self.width, self.height, rabbit_client=self.rabbit_client, metrics_client=self.metrics_client)
         self.map.initialize_map_elements(TrafficLightClass=TrafficLight)
 
         self.vehicles: List[Vehicle] = []
+        # --- REVERTED TO NORMAL SPAWNING ---
         self.spawn_timer = 0
-        self.spawn_interval = int(1.0 * fps) # Faster spawning
-        self.max_vehicles = 30
+        self.spawn_interval = int(1.0 * fps) # Normal spawn interval (e.g., 1 car per second at 30fps)
+        self.max_vehicles = 30 # Normal max vehicles
+        # --- END REVERTED ---
 
-        self.font = Theme.get_font(Theme.FONT_SIZE_NORMAL) # Use Theme font
+        self.font = Theme.get_font(Theme.FONT_SIZE_NORMAL)
         self.executor = concurrent.futures.ThreadPoolExecutor(max_workers=(os.cpu_count() or 1) + 4)
         self.vehicle_creation_tasks: List[asyncio.Task] = []
         self.actual_fps = float(fps)
 
-        # Initialize InfoPanel
         self.info_panel = InfoPanel(self.width, self.height, self.get_metrics_for_panel)
-        print("[GUI DEBUG] GUI Initialized with InfoPanel.")
+        # print("[GUI DEBUG] GUI Initialized.") # Optional: keep for init confirmation
 
     def get_metrics_for_panel(self) -> dict:
-        """Provides metrics from the metrics_client to the info panel."""
         if self.metrics_client:
             return self.metrics_client.get_metrics()
-        return {} # Return empty dict if no metrics client
+        return {}
 
     def _blocking_vehicle_create_logic(self, spawn_config: Dict[str, Any]) -> Vehicle:
-        # print(f"[GUI DEBUG] _blocking_vehicle_create_logic: Attempting to create vehicle with config: {spawn_config}")
-        # Color is now handled by Vehicle using Theme
+        # print(f"[GUI DEBUG (blocking_logic)] Spawning vehicle with config: {spawn_config}") # Optional
         vehicle_instance = Vehicle(
             x=spawn_config["x"], y=spawn_config["y"],
-            speed=random.uniform(2.0, 4.0), # Slightly faster vehicles
+            speed=random.uniform(2.0, 4.0),
             direction=spawn_config["direction"],
             rabbit_client=self.rabbit_client, metrics_client=self.metrics_client, map_ref=self.map
         )
-        # print(f"[GUI DEBUG] _blocking_vehicle_create_logic: CREATED Vehicle: id={vehicle_instance.id}, rect={vehicle_instance.rect}")
+        # print(f"[GUI DEBUG (blocking_logic)] CREATED Vehicle: id={vehicle_instance.id}, rect={vehicle_instance.rect}") # Optional
         return vehicle_instance
 
     async def _create_vehicle_offloaded(self, spawn_config: Dict[str, Any]) -> Optional[Vehicle]:
@@ -82,26 +80,34 @@ class GUI:
             return None
 
     async def manage_vehicle_spawning(self) -> None:
+        # --- REVERTED TO NORMAL SPAWNING LOGIC ---
         self.spawn_timer += 1
-        if self.spawn_timer >= self.spawn_interval and len(self.vehicles) + len(self.vehicle_creation_tasks) < self.max_vehicles:
+        if self.spawn_timer >= self.spawn_interval and \
+           len(self.vehicles) + len(self.vehicle_creation_tasks) < self.max_vehicles:
             self.spawn_timer = 0
             spawn_points = self.map.get_spawn_points()
             if not spawn_points: return
             spawn_config = random.choice(spawn_points)
+            # print(f"[GUI DEBUG (manage_spawning)] Spawning vehicle with config: {spawn_config}") # Optional
             task = asyncio.create_task(self._create_vehicle_offloaded(spawn_config))
             self.vehicle_creation_tasks.append(task)
+        # --- END REVERTED ---
 
     def handle_events(self) -> None:
         for event in pygame.event.get():
             if event.type == pygame.QUIT: self.running = False
             elif event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_ESCAPE: self.running = False
+                # --- RE-ENABLED MANUAL SPAWN ---
                 elif event.key == pygame.K_SPACE:
-                    spawn_points = self.map.get_spawn_points()
-                    if spawn_points:
-                        spawn_config = random.choice(spawn_points)
-                        task = asyncio.create_task(self._create_vehicle_offloaded(spawn_config))
-                        self.vehicle_creation_tasks.append(task)
+                    if len(self.vehicles) + len(self.vehicle_creation_tasks) < self.max_vehicles + 5: # Allow a few extra via manual spawn
+                        spawn_points = self.map.get_spawn_points()
+                        if spawn_points:
+                            spawn_config = random.choice(spawn_points)
+                            print(f"[GUI DEBUG] Manual spawn initiated with config: {spawn_config}") # Optional
+                            task = asyncio.create_task(self._create_vehicle_offloaded(spawn_config))
+                            self.vehicle_creation_tasks.append(task)
+                # --- END RE-ENABLED ---
 
     async def update_simulation_state(self) -> None:
         if self.metrics_client: self.metrics_client.simulation_step_start()
@@ -111,48 +117,55 @@ class GUI:
             for task in done_tasks:
                 try:
                     vehicle = task.result()
-                    if vehicle: self.vehicles.append(vehicle)
-                        # print(f"[GUI DEBUG] Added vehicle {vehicle.id}. Total: {len(self.vehicles)}")
+                    if vehicle:
+                        self.vehicles.append(vehicle)
+                        # print(f"[GUI DEBUG (update_sim)] ADDED vehicle {vehicle.id}. Total: {len(self.vehicles)}") # Optional
+                        if vehicle.rabbit_client: # Publish spawn state from main async loop
+                            asyncio.create_task(vehicle.publish_state("spawned"))
                 except Exception as e:
-                    print(f"[GUI ERROR] Vehicle creation task failed: {e}")
-                    if self.metrics_client: self.metrics_client.log_event(f"Vehicle creation task failed: {e}", "error")
+                    print(f"[GUI ERROR (update_sim)] Vehicle creation task failed: {e}")
             self.vehicle_creation_tasks = list(pending_tasks)
 
         await self.map.update()
+
+        # --- REMOVED SINGLE CAR DEBUG PRINTS ---
         current_vehicles_list = list(self.vehicles)
         vehicle_update_coroutines = [
-            # Pass simulation_area_width for boundary checks
             v.update_async(self.map.get_traffic_lights(), current_vehicles_list, int(self.simulation_area_width), self.height)
             for v in self.vehicles if not v.is_despawned
         ]
         if vehicle_update_coroutines:
-            await asyncio.gather(*vehicle_update_coroutines, return_exceptions=True) # Errors handled by printing
+            results = await asyncio.gather(*vehicle_update_coroutines, return_exceptions=True)
+            # Optional: Error handling for results if needed
+            for i, res in enumerate(results):
+                if isinstance(res, Exception):
+                    # This part for identifying the vehicle could be improved
+                    # For now, just log that an error occurred during an update
+                    print(f"[GUI ERROR (update_sim)] Error during vehicle update: {res}")
+
 
         self.vehicles = [v for v in self.vehicles if not v.is_despawned]
-        await self.manage_vehicle_spawning()
+        await self.manage_vehicle_spawning() # Normal spawning enabled
         if self.metrics_client: self.metrics_client.simulation_step_end()
 
     def render_graphics(self) -> None:
-        # Fill entire screen with a base color (can be same as map bg or different)
-        self.screen.fill(Theme.COLOR_BACKGROUND) 
+        self.screen.fill(Theme.COLOR_BACKGROUND)
+        self.map.draw(self.screen)
         
-        self.map.draw(self.screen) # Map draws only in its simulation_area_width
-        for vehicle in self.vehicles:
-            vehicle.draw(self.screen)
-
-        # Prepare GUI specific metrics for the panel
+        for vehicle_obj in self.vehicles:
+            vehicle_obj.draw(self.screen)
+        
         gui_metrics_for_panel = {
             "max_vehicles": self.max_vehicles,
             "actual_fps": self.actual_fps,
             "target_fps": self.fps,
             "pending_spawns": len(self.vehicle_creation_tasks)
         }
-        self.info_panel.draw(self.screen, gui_metrics_for_panel) # Draw info panel on top
+        self.info_panel.draw(self.screen, gui_metrics_for_panel)
         
         pygame.display.flip()
 
     async def run(self) -> None:
-        # ... (run loop remains largely the same as your last good version) ...
         current_loop = asyncio.get_running_loop()
         target_frame_duration = 1.0 / self.fps
         try:
@@ -168,6 +181,7 @@ class GUI:
                 actual_duration = current_loop.time() - frame_start_time
                 self.actual_fps = 1.0 / actual_duration if actual_duration > 0 else float('inf')
         finally:
+            # print("[GUI DEBUG] Simulation loop ending.") # Optional
             if self.metrics_client: self.metrics_client.log_event("Simulation loop gracefully ended.")
             for task in self.vehicle_creation_tasks:
                 if not task.done(): task.cancel()
@@ -175,3 +189,4 @@ class GUI:
             self.executor.shutdown(wait=True)
             if self.metrics_client: self.metrics_client.save_metrics_to_file("gui_shutdown_final_")
             pygame.quit()
+            # print("[GUI DEBUG] Pygame quit.") # Optional

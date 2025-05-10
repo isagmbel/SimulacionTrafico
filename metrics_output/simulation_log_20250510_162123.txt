@@ -1,0 +1,351 @@
+2025-05-10 16:21:23,145 - INFO - TrafficMetrics initialized.
+2025-05-10 16:21:23,622 - INFO - Traffic light tl_int2_S changed to red
+2025-05-10 16:21:23,622 - INFO - Traffic light tl_int2_N changed to red
+2025-05-10 16:21:23,658 - INFO - Traffic light tl_int0_S changed to red
+2025-05-10 16:21:23,658 - INFO - Traffic light tl_int0_N changed to red
+2025-05-10 16:21:23,658 - INFO - Traffic light tl_int1_N changed to red
+2025-05-10 16:21:23,658 - INFO - Traffic light tl_int3_S changed to red
+2025-05-10 16:21:23,694 - INFO - Traffic light tl_int1_S changed to red
+2025-05-10 16:21:23,695 - INFO - Traffic light tl_int3_N changed to red
+2025-05-10 16:21:24,435 - INFO - Vehicle veh_e6c5b0 spawned.
+2025-05-10 16:21:25,455 - INFO - Vehicle veh_aab13d spawned.
+2025-05-10 16:21:25,789 - INFO - Traffic light tl_int3_E changed to yellow
+2025-05-10 16:21:25,929 - INFO - Traffic light tl_int0_W changed to yellow
+2025-05-10 16:21:26,035 - INFO - Traffic light tl_int2_N changed to green
+2025-05-10 16:21:26,071 - INFO - Traffic light tl_int2_W changed to yellow
+2025-05-10 16:21:26,071 - INFO - Traffic light tl_int3_W changed to yellow
+2025-05-10 16:21:26,107 - INFO - Traffic light tl_int1_E changed to yellow
+2025-05-10 16:21:26,178 - INFO - Traffic light tl_int0_E changed to yellow
+2025-05-10 16:21:26,214 - INFO - Traffic light tl_int2_E changed to yellow
+2025-05-10 16:21:26,284 - INFO - Traffic light tl_int2_S changed to green
+2025-05-10 16:21:26,320 - INFO - Traffic light tl_int0_S changed to green
+2025-05-10 16:21:26,320 - INFO - Traffic light tl_int3_E changed to red
+2025-05-10 16:21:26,355 - INFO - Traffic light tl_int1_N changed to green
+2025-05-10 16:21:26,391 - INFO - Traffic light tl_int0_N changed to green
+2025-05-10 16:21:26,462 - INFO - Traffic light tl_int1_W changed to yellow
+2025-05-10 16:21:26,498 - INFO - Traffic light tl_int0_W changed to red
+2025-05-10 16:21:26,499 - INFO - Vehicle veh_6085e5 spawned.
+2025-05-10 16:21:26,533 - INFO - Traffic light tl_int3_S changed to green
+2025-05-10 16:21:26,674 - INFO - Traffic light tl_int2_W changed to red
+2025-05-10 16:21:26,675 - INFO - Traffic light tl_int3_W changed to red
+2025-05-10 16:21:26,675 - INFO - Traffic light tl_int3_N changed to green
+2025-05-10 16:21:26,710 - INFO - Traffic light tl_int1_E changed to red
+2025-05-10 16:21:26,816 - INFO - Traffic light tl_int0_E changed to red
+2025-05-10 16:21:26,816 - INFO - Traffic light tl_int1_S changed to green
+2025-05-10 16:21:26,851 - INFO - Traffic light tl_int2_E changed to red
+2025-05-10 16:21:27,119 - INFO - Traffic light tl_int1_W changed to red
+2025-05-10 16:21:27,496 - INFO - Vehicle veh_51d4e1 spawned.
+2025-05-10 16:21:27,531 - INFO - Vehicle veh_51d4e1 despawned.
+2025-05-10 16:21:28,413 - INFO - Traffic light tl_int2_N changed to yellow
+2025-05-10 16:21:28,556 - INFO - Vehicle veh_20b799 spawned.
+2025-05-10 16:21:28,591 - INFO - Vehicle veh_20b799 despawned.
+2025-05-10 16:21:28,752 - INFO - Traffic light tl_int3_E changed to green
+2025-05-10 16:21:28,858 - INFO - Traffic light tl_int2_S changed to yellow
+2025-05-10 16:21:28,929 - INFO - Traffic light tl_int0_S changed to yellow
+2025-05-10 16:21:28,929 - INFO - Traffic light tl_int2_N changed to red
+2025-05-10 16:21:28,965 - INFO - Traffic light tl_int1_N changed to yellow
+2025-05-10 16:21:29,036 - INFO - Traffic light tl_int0_N changed to yellow
+2025-05-10 16:21:29,092 - INFO - Traffic light tl_int0_W changed to green
+2025-05-10 16:21:29,303 - INFO - Traffic light tl_int3_S changed to yellow
+2025-05-10 16:21:29,409 - INFO - Traffic light tl_int2_W changed to green
+2025-05-10 16:21:29,409 - INFO - Traffic light tl_int2_S changed to red
+2025-05-10 16:21:29,410 - INFO - Traffic light tl_int3_W changed to green
+2025-05-10 16:21:29,481 - INFO - Traffic light tl_int1_E changed to green
+2025-05-10 16:21:29,517 - INFO - Traffic light tl_int0_S changed to red
+2025-05-10 16:21:29,552 - INFO - Traffic light tl_int1_N changed to red
+2025-05-10 16:21:29,573 - INFO - Traffic light tl_int3_N changed to yellow
+2025-05-10 16:21:29,574 - INFO - Vehicle veh_181193 spawned.
+2025-05-10 16:21:29,609 - INFO - Traffic light tl_int0_N changed to red
+2025-05-10 16:21:29,644 - INFO - Traffic light tl_int0_E changed to green
+2025-05-10 16:21:29,679 - INFO - Traffic light tl_int2_E changed to green
+2025-05-10 16:21:29,821 - INFO - Traffic light tl_int1_S changed to yellow
+2025-05-10 16:21:29,927 - INFO - Traffic light tl_int3_S changed to red
+2025-05-10 16:21:30,194 - INFO - Traffic light tl_int1_W changed to green
+2025-05-10 16:21:30,230 - INFO - Traffic light tl_int3_N changed to red
+2025-05-10 16:21:30,478 - INFO - Traffic light tl_int1_S changed to red
+2025-05-10 16:21:30,604 - INFO - Vehicle veh_31945a spawned.
+2025-05-10 16:21:31,119 - INFO - Traffic light tl_int3_E changed to yellow
+2025-05-10 16:21:31,297 - INFO - Traffic light tl_int2_N changed to green
+2025-05-10 16:21:31,613 - INFO - Traffic light tl_int0_W changed to yellow
+2025-05-10 16:21:31,615 - INFO - Vehicle veh_4f3bc1 spawned.
+2025-05-10 16:21:31,649 - INFO - Traffic light tl_int3_E changed to red
+2025-05-10 16:21:32,023 - INFO - Traffic light tl_int2_S changed to green
+2025-05-10 16:21:32,059 - INFO - Traffic light tl_int2_W changed to yellow
+2025-05-10 16:21:32,059 - INFO - Traffic light tl_int3_W changed to yellow
+2025-05-10 16:21:32,129 - INFO - Traffic light tl_int0_S changed to green
+2025-05-10 16:21:32,164 - INFO - Traffic light tl_int0_W changed to red
+2025-05-10 16:21:32,164 - INFO - Traffic light tl_int1_E changed to yellow
+2025-05-10 16:21:32,200 - INFO - Traffic light tl_int1_N changed to green
+2025-05-10 16:21:32,290 - INFO - Traffic light tl_int0_N changed to green
+2025-05-10 16:21:32,396 - INFO - Traffic light tl_int0_E changed to yellow
+2025-05-10 16:21:32,451 - INFO - Traffic light tl_int2_E changed to yellow
+2025-05-10 16:21:32,628 - INFO - Traffic light tl_int2_W changed to red
+2025-05-10 16:21:32,628 - INFO - Traffic light tl_int3_W changed to red
+2025-05-10 16:21:32,630 - INFO - Vehicle veh_f42c49 spawned.
+2025-05-10 16:21:32,736 - INFO - Traffic light tl_int1_E changed to red
+2025-05-10 16:21:32,736 - INFO - Traffic light tl_int3_S changed to green
+2025-05-10 16:21:33,019 - INFO - Traffic light tl_int0_E changed to red
+2025-05-10 16:21:33,090 - INFO - Traffic light tl_int2_E changed to red
+2025-05-10 16:21:33,161 - INFO - Traffic light tl_int3_N changed to green
+2025-05-10 16:21:33,217 - INFO - Traffic light tl_int1_W changed to yellow
+2025-05-10 16:21:33,534 - INFO - Traffic light tl_int1_S changed to green
+2025-05-10 16:21:33,674 - INFO - Traffic light tl_int2_N changed to yellow
+2025-05-10 16:21:33,676 - INFO - Vehicle veh_d136f5 spawned.
+2025-05-10 16:21:33,886 - INFO - Traffic light tl_int1_W changed to red
+2025-05-10 16:21:34,098 - INFO - Traffic light tl_int3_E changed to green
+2025-05-10 16:21:34,204 - INFO - Traffic light tl_int2_N changed to red
+2025-05-10 16:21:34,594 - INFO - Traffic light tl_int2_S changed to yellow
+2025-05-10 16:21:34,701 - INFO - Vehicle veh_d226e8 spawned.
+2025-05-10 16:21:34,735 - INFO - Traffic light tl_int0_S changed to yellow
+2025-05-10 16:21:34,736 - INFO - Vehicle veh_d226e8 despawned.
+2025-05-10 16:21:34,771 - INFO - Traffic light tl_int0_W changed to green
+2025-05-10 16:21:34,791 - INFO - Traffic light tl_int1_N changed to yellow
+2025-05-10 16:21:34,934 - INFO - Traffic light tl_int0_N changed to yellow
+2025-05-10 16:21:35,131 - INFO - Traffic light tl_int2_S changed to red
+2025-05-10 16:21:35,308 - INFO - Traffic light tl_int0_S changed to red
+2025-05-10 16:21:35,379 - INFO - Traffic light tl_int1_N changed to red
+2025-05-10 16:21:35,379 - INFO - Traffic light tl_int2_W changed to green
+2025-05-10 16:21:35,379 - INFO - Traffic light tl_int3_W changed to green
+2025-05-10 16:21:35,520 - INFO - Traffic light tl_int0_N changed to red
+2025-05-10 16:21:35,520 - INFO - Traffic light tl_int1_E changed to green
+2025-05-10 16:21:35,520 - INFO - Traffic light tl_int3_S changed to yellow
+2025-05-10 16:21:35,734 - INFO - Vehicle veh_a4cad6 spawned.
+2025-05-10 16:21:35,874 - INFO - Traffic light tl_int0_E changed to green
+2025-05-10 16:21:35,945 - INFO - Traffic light tl_int2_E changed to green
+2025-05-10 16:21:36,072 - INFO - Traffic light tl_int3_N changed to yellow
+2025-05-10 16:21:36,143 - INFO - Traffic light tl_int3_S changed to red
+2025-05-10 16:21:36,285 - INFO - Vehicle veh_e6c5b0 despawned.
+2025-05-10 16:21:36,498 - INFO - Traffic light tl_int3_E changed to yellow
+2025-05-10 16:21:36,569 - INFO - Traffic light tl_int1_S changed to yellow
+2025-05-10 16:21:36,604 - INFO - Traffic light tl_int2_N changed to green
+2025-05-10 16:21:36,745 - INFO - Traffic light tl_int3_N changed to red
+2025-05-10 16:21:36,783 - INFO - Vehicle veh_d3c3a1 spawned.
+2025-05-10 16:21:36,962 - INFO - Traffic light tl_int1_W changed to green
+2025-05-10 16:21:36,998 - INFO - Traffic light tl_int3_E changed to red
+2025-05-10 16:21:37,210 - INFO - Traffic light tl_int1_S changed to red
+2025-05-10 16:21:37,315 - INFO - Traffic light tl_int0_W changed to yellow
+2025-05-10 16:21:37,598 - INFO - Vehicle veh_31945a despawned.
+2025-05-10 16:21:37,809 - INFO - Traffic light tl_int2_S changed to green
+2025-05-10 16:21:37,810 - INFO - Vehicle veh_06fe02 spawned.
+2025-05-10 16:21:37,880 - INFO - Traffic light tl_int0_W changed to red
+2025-05-10 16:21:37,972 - INFO - Traffic light tl_int0_S changed to green
+2025-05-10 16:21:38,078 - INFO - Traffic light tl_int1_N changed to green
+2025-05-10 16:21:38,078 - INFO - Traffic light tl_int2_W changed to yellow
+2025-05-10 16:21:38,079 - INFO - Traffic light tl_int3_W changed to yellow
+2025-05-10 16:21:38,254 - INFO - Traffic light tl_int0_N changed to green
+2025-05-10 16:21:38,254 - INFO - Traffic light tl_int1_E changed to yellow
+2025-05-10 16:21:38,675 - INFO - Traffic light tl_int0_E changed to yellow
+2025-05-10 16:21:38,675 - INFO - Traffic light tl_int2_W changed to red
+2025-05-10 16:21:38,675 - INFO - Traffic light tl_int3_W changed to red
+2025-05-10 16:21:38,782 - INFO - Traffic light tl_int2_E changed to yellow
+2025-05-10 16:21:38,837 - INFO - Traffic light tl_int1_E changed to red
+2025-05-10 16:21:38,839 - INFO - Vehicle veh_d969bc spawned.
+2025-05-10 16:21:38,979 - INFO - Traffic light tl_int2_N changed to yellow
+2025-05-10 16:21:39,014 - INFO - Traffic light tl_int3_S changed to green
+2025-05-10 16:21:39,298 - INFO - Traffic light tl_int0_E changed to red
+2025-05-10 16:21:39,388 - INFO - Traffic light tl_int2_E changed to red
+2025-05-10 16:21:39,459 - INFO - Traffic light tl_int3_E changed to green
+2025-05-10 16:21:39,494 - INFO - Traffic light tl_int2_N changed to red
+2025-05-10 16:21:39,707 - INFO - Traffic light tl_int3_N changed to green
+2025-05-10 16:21:39,870 - INFO - Vehicle veh_da7e63 spawned.
+2025-05-10 16:21:39,905 - INFO - Vehicle veh_da7e63 despawned.
+2025-05-10 16:21:40,046 - INFO - Traffic light tl_int1_W changed to yellow
+2025-05-10 16:21:40,315 - INFO - Traffic light tl_int1_S changed to green
+2025-05-10 16:21:40,387 - INFO - Traffic light tl_int2_S changed to yellow
+2025-05-10 16:21:40,478 - INFO - Traffic light tl_int0_W changed to green
+2025-05-10 16:21:40,584 - INFO - Traffic light tl_int0_S changed to yellow
+2025-05-10 16:21:40,691 - INFO - Traffic light tl_int1_W changed to red
+2025-05-10 16:21:40,691 - INFO - Traffic light tl_int1_N changed to yellow
+2025-05-10 16:21:40,691 - INFO - Vehicle veh_aab13d despawned.
+2025-05-10 16:21:40,889 - INFO - Traffic light tl_int0_N changed to yellow
+2025-05-10 16:21:40,891 - INFO - Vehicle veh_b82a54 spawned.
+2025-05-10 16:21:40,925 - INFO - Traffic light tl_int2_S changed to red
+2025-05-10 16:21:41,123 - INFO - Vehicle veh_6085e5 despawned.
+2025-05-10 16:21:41,159 - INFO - Traffic light tl_int0_S changed to red
+2025-05-10 16:21:41,265 - INFO - Traffic light tl_int1_N changed to red
+2025-05-10 16:21:41,408 - INFO - Traffic light tl_int2_W changed to green
+2025-05-10 16:21:41,408 - INFO - Traffic light tl_int3_W changed to green
+2025-05-10 16:21:41,409 - INFO - Vehicle veh_4f3bc1 despawned.
+2025-05-10 16:21:41,479 - INFO - Traffic light tl_int0_N changed to red
+2025-05-10 16:21:41,622 - INFO - Traffic light tl_int1_E changed to green
+2025-05-10 16:21:41,783 - INFO - Traffic light tl_int3_S changed to yellow
+2025-05-10 16:21:41,854 - INFO - Traffic light tl_int3_E changed to yellow
+2025-05-10 16:21:41,890 - INFO - Traffic light tl_int2_N changed to green
+2025-05-10 16:21:41,926 - INFO - Vehicle veh_bdedc0 spawned.
+2025-05-10 16:21:41,961 - INFO - Vehicle veh_bdedc0 despawned.
+2025-05-10 16:21:42,138 - INFO - Traffic light tl_int0_E changed to green
+2025-05-10 16:21:42,228 - INFO - Traffic light tl_int2_E changed to green
+2025-05-10 16:21:42,353 - INFO - Traffic light tl_int3_E changed to red
+2025-05-10 16:21:42,389 - INFO - Traffic light tl_int3_S changed to red
+2025-05-10 16:21:42,602 - INFO - Traffic light tl_int3_N changed to yellow
+2025-05-10 16:21:42,958 - INFO - Vehicle veh_a17fad spawned.
+2025-05-10 16:21:43,028 - INFO - Traffic light tl_int0_W changed to yellow
+2025-05-10 16:21:43,260 - INFO - Traffic light tl_int3_N changed to red
+2025-05-10 16:21:43,330 - INFO - Traffic light tl_int1_S changed to yellow
+2025-05-10 16:21:43,545 - INFO - Traffic light tl_int0_W changed to red
+2025-05-10 16:21:43,545 - INFO - Traffic light tl_int2_S changed to green
+2025-05-10 16:21:43,757 - INFO - Traffic light tl_int1_W changed to green
+2025-05-10 16:21:43,793 - INFO - Traffic light tl_int0_S changed to green
+2025-05-10 16:21:43,919 - INFO - Traffic light tl_int1_N changed to green
+2025-05-10 16:21:43,954 - INFO - Traffic light tl_int1_S changed to red
+2025-05-10 16:21:43,956 - INFO - Vehicle veh_0e398a spawned.
+2025-05-10 16:21:44,062 - INFO - Traffic light tl_int2_W changed to yellow
+2025-05-10 16:21:44,062 - INFO - Traffic light tl_int3_W changed to yellow
+2025-05-10 16:21:44,169 - INFO - Traffic light tl_int0_N changed to green
+2025-05-10 16:21:44,240 - INFO - Traffic light tl_int2_N changed to yellow
+2025-05-10 16:21:44,294 - INFO - Traffic light tl_int1_E changed to yellow
+2025-05-10 16:21:44,615 - INFO - Traffic light tl_int2_W changed to red
+2025-05-10 16:21:44,615 - INFO - Traffic light tl_int3_W changed to red
+2025-05-10 16:21:44,705 - INFO - Traffic light tl_int2_N changed to red
+2025-05-10 16:21:44,741 - INFO - Traffic light tl_int3_E changed to green
+2025-05-10 16:21:44,847 - INFO - Traffic light tl_int0_E changed to yellow
+2025-05-10 16:21:44,847 - INFO - Traffic light tl_int1_E changed to red
+2025-05-10 16:21:44,955 - INFO - Vehicle veh_18c381 spawned.
+2025-05-10 16:21:44,989 - INFO - Traffic light tl_int2_E changed to yellow
+2025-05-10 16:21:45,186 - INFO - Traffic light tl_int3_S changed to green
+2025-05-10 16:21:45,469 - INFO - Traffic light tl_int0_E changed to red
+2025-05-10 16:21:45,610 - INFO - Traffic light tl_int2_E changed to red
+2025-05-10 16:21:45,645 - INFO - Vehicle veh_d136f5 despawned.
+2025-05-10 16:21:45,986 - INFO - Vehicle veh_4604dc spawned.
+2025-05-10 16:21:46,091 - INFO - Traffic light tl_int2_S changed to yellow
+2025-05-10 16:21:46,127 - INFO - Traffic light tl_int0_W changed to green
+2025-05-10 16:21:46,162 - INFO - Traffic light tl_int3_N changed to green
+2025-05-10 16:21:46,377 - INFO - Traffic light tl_int0_S changed to yellow
+2025-05-10 16:21:46,519 - INFO - Traffic light tl_int1_N changed to yellow
+2025-05-10 16:21:46,661 - INFO - Traffic light tl_int2_S changed to red
+2025-05-10 16:21:46,787 - INFO - Traffic light tl_int0_N changed to yellow
+2025-05-10 16:21:46,787 - INFO - Traffic light tl_int1_W changed to yellow
+2025-05-10 16:21:46,963 - INFO - Traffic light tl_int0_S changed to red
+2025-05-10 16:21:47,034 - INFO - Traffic light tl_int1_S changed to green
+2025-05-10 16:21:47,036 - INFO - Vehicle veh_61a673 spawned.
+2025-05-10 16:21:47,107 - INFO - Traffic light tl_int1_N changed to red
+2025-05-10 16:21:47,143 - INFO - Traffic light tl_int2_N changed to green
+2025-05-10 16:21:47,178 - INFO - Traffic light tl_int3_E changed to yellow
+2025-05-10 16:21:47,214 - INFO - Vehicle veh_f42c49 despawned.
+2025-05-10 16:21:47,391 - INFO - Traffic light tl_int0_N changed to red
+2025-05-10 16:21:47,391 - INFO - Traffic light tl_int2_W changed to green
+2025-05-10 16:21:47,391 - INFO - Traffic light tl_int3_W changed to green
+2025-05-10 16:21:47,448 - INFO - Traffic light tl_int1_W changed to red
+2025-05-10 16:21:47,660 - INFO - Traffic light tl_int1_E changed to green
+2025-05-10 16:21:47,696 - INFO - Traffic light tl_int3_E changed to red
+2025-05-10 16:21:47,893 - INFO - Vehicle veh_181193 despawned.
+2025-05-10 16:21:47,999 - INFO - Traffic light tl_int3_S changed to yellow
+2025-05-10 16:21:48,071 - INFO - Vehicle veh_d10043 spawned.
+2025-05-10 16:21:48,338 - INFO - Traffic light tl_int0_E changed to green
+2025-05-10 16:21:48,479 - INFO - Traffic light tl_int2_E changed to green
+2025-05-10 16:21:48,621 - INFO - Traffic light tl_int3_S changed to red
+2025-05-10 16:21:48,693 - INFO - Traffic light tl_int0_W changed to yellow
+2025-05-10 16:21:49,084 - INFO - Traffic light tl_int3_N changed to yellow
+2025-05-10 16:21:49,085 - INFO - Vehicle veh_b6d61a spawned.
+2025-05-10 16:21:49,104 - INFO - Vehicle veh_b6d61a despawned.
+2025-05-10 16:21:49,210 - INFO - Traffic light tl_int0_W changed to red
+2025-05-10 16:21:49,280 - INFO - Traffic light tl_int2_S changed to green
+2025-05-10 16:21:49,493 - INFO - Traffic light tl_int2_N changed to yellow
+2025-05-10 16:21:49,600 - INFO - Traffic light tl_int0_S changed to green
+2025-05-10 16:21:49,727 - INFO - Traffic light tl_int3_N changed to red
+2025-05-10 16:21:49,763 - INFO - Traffic light tl_int1_N changed to green
+2025-05-10 16:21:49,995 - INFO - Traffic light tl_int2_N changed to red
+2025-05-10 16:21:50,031 - INFO - Traffic light tl_int1_S changed to yellow
+2025-05-10 16:21:50,031 - INFO - Traffic light tl_int2_W changed to yellow
+2025-05-10 16:21:50,032 - INFO - Traffic light tl_int3_W changed to yellow
+2025-05-10 16:21:50,032 - INFO - Vehicle veh_a4cad6 despawned.
+2025-05-10 16:21:50,068 - INFO - Traffic light tl_int0_N changed to green
+2025-05-10 16:21:50,088 - INFO - Traffic light tl_int3_E changed to green
+2025-05-10 16:21:50,090 - INFO - Vehicle veh_a30210 spawned.
+2025-05-10 16:21:50,124 - INFO - Vehicle veh_a30210 despawned.
+2025-05-10 16:21:50,322 - INFO - Traffic light tl_int1_E changed to yellow
+2025-05-10 16:21:50,501 - INFO - Traffic light tl_int1_W changed to green
+2025-05-10 16:21:50,591 - INFO - Traffic light tl_int2_W changed to red
+2025-05-10 16:21:50,591 - INFO - Traffic light tl_int3_W changed to red
+2025-05-10 16:21:50,662 - INFO - Traffic light tl_int1_S changed to red
+2025-05-10 16:21:50,894 - INFO - Traffic light tl_int1_E changed to red
+2025-05-10 16:21:51,071 - INFO - Traffic light tl_int0_E changed to yellow
+2025-05-10 16:21:51,108 - INFO - Vehicle veh_5dabb0 spawned.
+2025-05-10 16:21:51,143 - INFO - Vehicle veh_5dabb0 despawned.
+2025-05-10 16:21:51,249 - INFO - Traffic light tl_int2_E changed to yellow
+2025-05-10 16:21:51,428 - INFO - Traffic light tl_int3_S changed to green
+2025-05-10 16:21:51,710 - INFO - Traffic light tl_int0_E changed to red
+2025-05-10 16:21:51,817 - INFO - Traffic light tl_int0_W changed to green
+2025-05-10 16:21:51,852 - INFO - Traffic light tl_int2_S changed to yellow
+2025-05-10 16:21:51,888 - INFO - Traffic light tl_int2_E changed to red
+2025-05-10 16:21:52,140 - INFO - Vehicle veh_232839 spawned.
+2025-05-10 16:21:52,175 - INFO - Traffic light tl_int0_S changed to yellow
+2025-05-10 16:21:52,337 - INFO - Traffic light tl_int1_N changed to yellow
+2025-05-10 16:21:52,372 - INFO - Traffic light tl_int2_S changed to red
+2025-05-10 16:21:52,372 - INFO - Traffic light tl_int2_N changed to green
+2025-05-10 16:21:52,463 - INFO - Traffic light tl_int3_E changed to yellow
+2025-05-10 16:21:52,642 - INFO - Traffic light tl_int3_N changed to green
+2025-05-10 16:21:52,678 - INFO - Traffic light tl_int0_N changed to yellow
+2025-05-10 16:21:52,713 - INFO - Vehicle veh_d3c3a1 despawned.
+2025-05-10 16:21:52,749 - INFO - Traffic light tl_int0_S changed to red
+2025-05-10 16:21:52,925 - INFO - Traffic light tl_int1_N changed to red
+2025-05-10 16:21:52,996 - INFO - Traffic light tl_int3_E changed to red
+2025-05-10 16:21:52,996 - INFO - Vehicle veh_06fe02 despawned.
+2025-05-10 16:21:53,159 - INFO - Vehicle veh_4f39c1 spawned.
+2025-05-10 16:21:53,264 - INFO - Traffic light tl_int0_N changed to red
+2025-05-10 16:21:53,335 - INFO - Traffic light tl_int2_W changed to green
+2025-05-10 16:21:53,335 - INFO - Traffic light tl_int3_W changed to green
+2025-05-10 16:21:53,548 - INFO - Traffic light tl_int1_W changed to yellow
+2025-05-10 16:21:53,548 - INFO - Vehicle veh_d969bc despawned.
+2025-05-10 16:21:53,689 - INFO - Traffic light tl_int1_E changed to green
+2025-05-10 16:21:53,744 - INFO - Traffic light tl_int1_S changed to green
+2025-05-10 16:21:54,154 - INFO - Traffic light tl_int1_W changed to red
+2025-05-10 16:21:54,154 - INFO - Traffic light tl_int3_S changed to yellow
+2025-05-10 16:21:54,156 - INFO - Vehicle veh_8907d8 spawned.
+2025-05-10 16:21:54,297 - INFO - Traffic light tl_int0_W changed to yellow
+2025-05-10 16:21:54,478 - INFO - Traffic light tl_int0_E changed to green
+2025-05-10 16:21:54,654 - INFO - Traffic light tl_int2_E changed to green
+2025-05-10 16:21:54,690 - INFO - Traffic light tl_int2_N changed to yellow
+2025-05-10 16:21:54,761 - INFO - Traffic light tl_int3_S changed to red
+2025-05-10 16:21:54,833 - INFO - Traffic light tl_int0_W changed to red
+2025-05-10 16:21:54,974 - INFO - Traffic light tl_int2_S changed to green
+2025-05-10 16:21:55,173 - INFO - Vehicle veh_0df1e7 spawned.
+2025-05-10 16:21:55,207 - INFO - Traffic light tl_int2_N changed to red
+2025-05-10 16:21:55,348 - INFO - Traffic light tl_int0_S changed to green
+2025-05-10 16:21:55,369 - INFO - Traffic light tl_int3_E changed to green
+2025-05-10 16:21:55,494 - INFO - Traffic light tl_int3_N changed to yellow
+2025-05-10 16:21:55,530 - INFO - Traffic light tl_int1_N changed to green
+2025-05-10 16:21:55,918 - INFO - Traffic light tl_int0_N changed to green
+2025-05-10 16:21:55,954 - INFO - Traffic light tl_int2_W changed to yellow
+2025-05-10 16:21:55,954 - INFO - Traffic light tl_int3_W changed to yellow
+2025-05-10 16:21:56,164 - INFO - Traffic light tl_int3_N changed to red
+2025-05-10 16:21:56,201 - INFO - Vehicle veh_3e08f3 spawned.
+2025-05-10 16:21:56,343 - INFO - Traffic light tl_int1_E changed to yellow
+2025-05-10 16:21:56,540 - INFO - Traffic light tl_int2_W changed to red
+2025-05-10 16:21:56,540 - INFO - Traffic light tl_int3_W changed to red
+2025-05-10 16:21:56,701 - INFO - Traffic light tl_int1_S changed to yellow
+2025-05-10 16:21:56,914 - INFO - Traffic light tl_int1_E changed to red
+2025-05-10 16:21:57,166 - INFO - Vehicle veh_18c381 despawned.
+2025-05-10 16:21:57,202 - INFO - Traffic light tl_int1_W changed to green
+2025-05-10 16:21:57,203 - INFO - Vehicle veh_b88c19 spawned.
+2025-05-10 16:21:57,238 - INFO - Traffic light tl_int0_E changed to yellow
+2025-05-10 16:21:57,345 - INFO - Traffic light tl_int1_S changed to red
+2025-05-10 16:21:57,417 - INFO - Traffic light tl_int0_W changed to green
+2025-05-10 16:21:57,452 - INFO - Traffic light tl_int2_E changed to yellow
+2025-05-10 16:21:57,523 - INFO - Traffic light tl_int2_S changed to yellow
+2025-05-10 16:21:57,594 - INFO - Traffic light tl_int2_N changed to green
+2025-05-10 16:21:57,594 - INFO - Traffic light tl_int3_S changed to green
+2025-05-10 16:21:57,756 - INFO - Traffic light tl_int3_E changed to yellow
+2025-05-10 16:21:57,863 - INFO - Traffic light tl_int0_E changed to red
+2025-05-10 16:21:57,934 - INFO - Traffic light tl_int0_S changed to yellow
+2025-05-10 16:21:58,061 - INFO - Traffic light tl_int2_E changed to red
+2025-05-10 16:21:58,061 - INFO - Traffic light tl_int2_S changed to red
+2025-05-10 16:21:58,132 - INFO - Traffic light tl_int1_N changed to yellow
+2025-05-10 16:21:58,240 - INFO - Vehicle veh_defa28 spawned.
+2025-05-10 16:21:58,274 - INFO - Traffic light tl_int3_E changed to red
+2025-05-10 16:21:58,507 - INFO - Traffic light tl_int0_S changed to red
+2025-05-10 16:21:58,543 - INFO - Traffic light tl_int0_N changed to yellow
+2025-05-10 16:21:58,649 - INFO - Vehicle veh_b82a54 despawned.
+2025-05-10 16:21:58,720 - INFO - Traffic light tl_int1_N changed to red
+2025-05-10 16:21:59,076 - INFO - Traffic light tl_int3_N changed to green
+2025-05-10 16:21:59,112 - INFO - Traffic light tl_int0_N changed to red
+2025-05-10 16:21:59,254 - INFO - Traffic light tl_int2_W changed to green
+2025-05-10 16:21:59,254 - INFO - Traffic light tl_int3_W changed to green
+2025-05-10 16:21:59,256 - INFO - Vehicle veh_0119f5 spawned.
+2025-05-10 16:21:59,669 - INFO - Traffic light tl_int1_E changed to green
+2025-05-10 16:21:59,920 - INFO - Traffic light tl_int0_W changed to yellow
+2025-05-10 16:21:59,920 - INFO - Traffic light tl_int2_N changed to yellow
+2025-05-10 16:22:00,046 - INFO - Simulation loop gracefully ended.
+2025-05-10 16:22:00,047 - INFO - Metrics saved to metrics_output\sim_metrics_gui_shutdown_final_20250510_162200.json
+2025-05-10 16:22:00,109 - INFO - Metrics saved to metrics_output\sim_metrics_final_20250510_162200.json
+2025-05-10 16:22:00,109 - INFO - TrafficMetrics closed. Final metrics saved.

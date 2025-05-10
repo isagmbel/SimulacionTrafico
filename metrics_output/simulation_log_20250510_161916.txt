@@ -1,0 +1,44 @@
+2025-05-10 16:19:16,730 - INFO - TrafficMetrics initialized.
+2025-05-10 16:19:17,232 - INFO - Traffic light tl_int1_S changed to red
+2025-05-10 16:19:17,232 - INFO - Traffic light tl_int2_N changed to red
+2025-05-10 16:19:17,232 - INFO - Traffic light tl_int3_N changed to red
+2025-05-10 16:19:17,268 - INFO - Traffic light tl_int2_S changed to red
+2025-05-10 16:19:17,303 - INFO - Traffic light tl_int0_S changed to red
+2025-05-10 16:19:17,303 - INFO - Traffic light tl_int0_N changed to red
+2025-05-10 16:19:17,304 - INFO - Traffic light tl_int1_N changed to red
+2025-05-10 16:19:17,304 - INFO - Traffic light tl_int3_S changed to red
+2025-05-10 16:19:19,346 - INFO - Traffic light tl_int2_W changed to yellow
+2025-05-10 16:19:19,451 - INFO - Traffic light tl_int1_E changed to yellow
+2025-05-10 16:19:19,593 - INFO - Traffic light tl_int0_E changed to yellow
+2025-05-10 16:19:19,593 - INFO - Traffic light tl_int1_S changed to green
+2025-05-10 16:19:19,664 - INFO - Traffic light tl_int2_E changed to yellow
+2025-05-10 16:19:19,700 - INFO - Traffic light tl_int1_W changed to yellow
+2025-05-10 16:19:19,700 - INFO - Traffic light tl_int2_N changed to green
+2025-05-10 16:19:19,771 - INFO - Traffic light tl_int0_W changed to yellow
+2025-05-10 16:19:19,771 - INFO - Traffic light tl_int3_N changed to green
+2025-05-10 16:19:19,826 - INFO - Traffic light tl_int3_E changed to yellow
+2025-05-10 16:19:19,826 - INFO - Traffic light tl_int3_W changed to yellow
+2025-05-10 16:19:19,862 - INFO - Traffic light tl_int2_W changed to red
+2025-05-10 16:19:19,968 - INFO - Traffic light tl_int1_E changed to red
+2025-05-10 16:19:20,039 - INFO - Traffic light tl_int2_S changed to green
+2025-05-10 16:19:20,144 - INFO - Traffic light tl_int0_E changed to red
+2025-05-10 16:19:20,180 - INFO - Traffic light tl_int0_S changed to green
+2025-05-10 16:19:20,252 - INFO - Traffic light tl_int2_E changed to red
+2025-05-10 16:19:20,287 - INFO - Traffic light tl_int1_W changed to red
+2025-05-10 16:19:20,307 - INFO - Traffic light tl_int0_N changed to green
+2025-05-10 16:19:20,343 - INFO - Traffic light tl_int0_W changed to red
+2025-05-10 16:19:20,414 - INFO - Traffic light tl_int1_N changed to green
+2025-05-10 16:19:20,414 - INFO - Traffic light tl_int3_S changed to green
+2025-05-10 16:19:20,449 - INFO - Traffic light tl_int3_E changed to red
+2025-05-10 16:19:20,449 - INFO - Traffic light tl_int3_W changed to red
+2025-05-10 16:19:21,900 - INFO - Traffic light tl_int1_S changed to yellow
+2025-05-10 16:19:22,063 - INFO - Traffic light tl_int2_N changed to yellow
+2025-05-10 16:19:22,190 - INFO - Traffic light tl_int3_N changed to yellow
+2025-05-10 16:19:22,262 - INFO - Traffic light tl_int2_W changed to green
+2025-05-10 16:19:22,388 - INFO - Traffic light tl_int1_S changed to red
+2025-05-10 16:19:22,424 - INFO - Traffic light tl_int1_E changed to green
+2025-05-10 16:19:22,565 - INFO - Traffic light tl_int2_N changed to red
+2025-05-10 16:19:22,661 - INFO - Simulation loop gracefully ended.
+2025-05-10 16:19:22,662 - INFO - Metrics saved to metrics_output\sim_metrics_gui_shutdown_final_20250510_161922.json
+2025-05-10 16:19:22,718 - INFO - Metrics saved to metrics_output\sim_metrics_final_20250510_161922.json
+2025-05-10 16:19:22,718 - INFO - TrafficMetrics closed. Final metrics saved.

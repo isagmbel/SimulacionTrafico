@@ -1,7 +1,7 @@
 pygame==2.5.2
-typing==3.7.4.3
-numpy==1.26.2
-aio_pika
-pika
-matplotlib
-prometheus_client
+aio_pika>=9.0.0
+pika>=1.3.0
+prometheus_client>=0.10.0
+# numpy and matplotlib
+# numpy
+# matplotlib

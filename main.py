@@ -6,11 +6,6 @@ import asyncio
 import os
 import sys
 
-# This line might not be needed if main.py is in the project root and
-# Python's current working directory is the project root when you run it.
-# However, it can provide robustness.
-# sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
-
 
 from simulacion_trafico_engine.ui.gui import GUI # MODIFIED
 from simulacion_trafico_engine.distribution.rabbitclient import RabbitMQClient # MODIFIED
