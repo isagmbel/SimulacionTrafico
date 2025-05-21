@@ -1,0 +1,20 @@
+2025-05-22 00:44:30,708 - INFO - TrafficMetrics initialized.
+2025-05-22 00:44:32,537 - INFO - Vehicle veh_zone_roundabout_center_4a7e spawned.
+2025-05-22 00:44:34,240 - INFO - Vehicle veh_zone_roundabout_center_ec4d spawned.
+2025-05-22 00:44:35,907 - INFO - Vehicle veh_zone_roundabout_center_58be spawned.
+2025-05-22 00:44:37,593 - INFO - Vehicle veh_zone_roundabout_center_7292 spawned.
+2025-05-22 00:44:39,264 - INFO - Vehicle veh_zone_roundabout_center_4e48 spawned.
+2025-05-22 00:44:40,929 - INFO - Vehicle veh_zone_roundabout_center_3aad spawned.
+2025-05-22 00:44:42,599 - INFO - Vehicle veh_zone_roundabout_center_4785 spawned.
+2025-05-22 00:44:44,252 - INFO - Vehicle veh_zone_roundabout_center_9cdc spawned.
+2025-05-22 00:44:45,892 - INFO - Vehicle veh_zone_roundabout_center_5c74 spawned.
+2025-05-22 00:44:47,567 - INFO - Vehicle veh_zone_roundabout_center_0b85 spawned.
+2025-05-22 00:44:49,234 - INFO - Vehicle veh_zone_roundabout_center_b20e spawned.
+2025-05-22 00:44:50,892 - INFO - Vehicle veh_zone_roundabout_center_7f6a spawned.
+2025-05-22 00:44:52,587 - INFO - Vehicle veh_zone_roundabout_center_e9ae spawned.
+2025-05-22 00:44:54,260 - INFO - Vehicle veh_zone_roundabout_center_92ab spawned.
+2025-05-22 00:44:55,944 - INFO - Vehicle veh_zone_roundabout_center_7439 spawned.
+2025-05-22 00:44:57,625 - INFO - Vehicle veh_zone_roundabout_center_f35d spawned.
+2025-05-22 00:44:59,329 - INFO - Vehicle veh_zone_roundabout_center_5a77 spawned.
+2025-05-22 00:45:00,316 - INFO - Metrics saved to metrics_output\sim_metrics_final_20250522_004500.json
+2025-05-22 00:45:00,317 - INFO - TrafficMetrics closed. Final metrics saved.
