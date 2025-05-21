@@ -1,0 +1,141 @@
+2025-05-22 01:16:01,721 - INFO - TrafficMetrics initialized.
+2025-05-22 01:16:02,214 - INFO - Traffic light zone_central_intersection_tl0_S changed to red
+2025-05-22 01:16:02,214 - INFO - Traffic light zone_central_intersection_tl0_N changed to red
+2025-05-22 01:16:04,274 - INFO - Traffic light zone_central_intersection_tl0_E changed to yellow
+2025-05-22 01:16:04,274 - INFO - Traffic light zone_central_intersection_tl0_W changed to yellow
+2025-05-22 01:16:04,309 - INFO - Vehicle veh_zone_central_intersection_5582 spawned.
+2025-05-22 01:16:04,551 - INFO - Traffic light zone_central_intersection_tl0_S changed to green
+2025-05-22 01:16:04,551 - INFO - Traffic light zone_central_intersection_tl0_N changed to green
+2025-05-22 01:16:04,759 - INFO - Simulation view started.
+2025-05-22 01:16:04,764 - INFO - Traffic light zone_central_intersection_tl0_E changed to red
+2025-05-22 01:16:04,764 - INFO - Traffic light zone_central_intersection_tl0_W changed to red
+2025-05-22 01:16:06,715 - INFO - Vehicle veh_zone_central_intersection_8b2a spawned.
+2025-05-22 01:16:06,919 - INFO - Traffic light zone_central_intersection_tl0_S changed to yellow
+2025-05-22 01:16:06,919 - INFO - Traffic light zone_central_intersection_tl0_N changed to yellow
+2025-05-22 01:16:07,146 - INFO - Traffic light zone_central_intersection_tl0_E changed to green
+2025-05-22 01:16:07,146 - INFO - Traffic light zone_central_intersection_tl0_W changed to green
+2025-05-22 01:16:07,406 - INFO - Traffic light zone_central_intersection_tl0_S changed to red
+2025-05-22 01:16:07,407 - INFO - Traffic light zone_central_intersection_tl0_N changed to red
+2025-05-22 01:16:09,117 - INFO - Vehicle veh_zone_central_intersection_a7dc spawned.
+2025-05-22 01:16:09,542 - INFO - Traffic light zone_central_intersection_tl0_E changed to yellow
+2025-05-22 01:16:09,542 - INFO - Traffic light zone_central_intersection_tl0_W changed to yellow
+2025-05-22 01:16:09,820 - INFO - Traffic light zone_central_intersection_tl0_S changed to green
+2025-05-22 01:16:09,821 - INFO - Traffic light zone_central_intersection_tl0_N changed to green
+2025-05-22 01:16:10,037 - INFO - Traffic light zone_central_intersection_tl0_E changed to red
+2025-05-22 01:16:10,037 - INFO - Traffic light zone_central_intersection_tl0_W changed to red
+2025-05-22 01:16:11,496 - INFO - Vehicle veh_zone_central_intersection_cb94 spawned.
+2025-05-22 01:16:12,187 - INFO - Traffic light zone_central_intersection_tl0_S changed to yellow
+2025-05-22 01:16:12,187 - INFO - Traffic light zone_central_intersection_tl0_N changed to yellow
+2025-05-22 01:16:12,428 - INFO - Traffic light zone_central_intersection_tl0_E changed to green
+2025-05-22 01:16:12,428 - INFO - Traffic light zone_central_intersection_tl0_W changed to green
+2025-05-22 01:16:12,684 - INFO - Traffic light zone_central_intersection_tl0_S changed to red
+2025-05-22 01:16:12,684 - INFO - Traffic light zone_central_intersection_tl0_N changed to red
+2025-05-22 01:16:13,897 - INFO - Vehicle veh_zone_central_intersection_e910 spawned.
+2025-05-22 01:16:14,759 - INFO - Traffic light zone_central_intersection_tl0_E changed to yellow
+2025-05-22 01:16:14,759 - INFO - Traffic light zone_central_intersection_tl0_W changed to yellow
+2025-05-22 01:16:15,059 - INFO - Traffic light zone_central_intersection_tl0_S changed to green
+2025-05-22 01:16:15,059 - INFO - Traffic light zone_central_intersection_tl0_N changed to green
+2025-05-22 01:16:15,260 - INFO - Traffic light zone_central_intersection_tl0_E changed to red
+2025-05-22 01:16:15,260 - INFO - Traffic light zone_central_intersection_tl0_W changed to red
+2025-05-22 01:16:16,250 - INFO - Vehicle veh_zone_central_intersection_0dd0 spawned.
+2025-05-22 01:16:17,419 - INFO - Traffic light zone_central_intersection_tl0_S changed to yellow
+2025-05-22 01:16:17,419 - INFO - Traffic light zone_central_intersection_tl0_N changed to yellow
+2025-05-22 01:16:17,662 - INFO - Traffic light zone_central_intersection_tl0_E changed to green
+2025-05-22 01:16:17,663 - INFO - Traffic light zone_central_intersection_tl0_W changed to green
+2025-05-22 01:16:17,919 - INFO - Traffic light zone_central_intersection_tl0_S changed to red
+2025-05-22 01:16:17,919 - INFO - Traffic light zone_central_intersection_tl0_N changed to red
+2025-05-22 01:16:18,672 - INFO - Vehicle veh_zone_central_intersection_89e0 spawned.
+2025-05-22 01:16:20,013 - INFO - Traffic light zone_central_intersection_tl0_E changed to yellow
+2025-05-22 01:16:20,014 - INFO - Traffic light zone_central_intersection_tl0_W changed to yellow
+2025-05-22 01:16:20,297 - INFO - Traffic light zone_central_intersection_tl0_S changed to green
+2025-05-22 01:16:20,297 - INFO - Traffic light zone_central_intersection_tl0_N changed to green
+2025-05-22 01:16:20,521 - INFO - Traffic light zone_central_intersection_tl0_E changed to red
+2025-05-22 01:16:20,521 - INFO - Traffic light zone_central_intersection_tl0_W changed to red
+2025-05-22 01:16:21,038 - INFO - Vehicle veh_zone_central_intersection_acb4 spawned.
+2025-05-22 01:16:22,642 - INFO - Traffic light zone_central_intersection_tl0_S changed to yellow
+2025-05-22 01:16:22,642 - INFO - Traffic light zone_central_intersection_tl0_N changed to yellow
+2025-05-22 01:16:22,900 - INFO - Traffic light zone_central_intersection_tl0_E changed to green
+2025-05-22 01:16:22,901 - INFO - Traffic light zone_central_intersection_tl0_W changed to green
+2025-05-22 01:16:23,159 - INFO - Traffic light zone_central_intersection_tl0_S changed to red
+2025-05-22 01:16:23,159 - INFO - Traffic light zone_central_intersection_tl0_N changed to red
+2025-05-22 01:16:23,454 - INFO - Vehicle veh_zone_central_intersection_4778 spawned.
+2025-05-22 01:16:25,266 - INFO - Traffic light zone_central_intersection_tl0_E changed to yellow
+2025-05-22 01:16:25,266 - INFO - Traffic light zone_central_intersection_tl0_W changed to yellow
+2025-05-22 01:16:25,561 - INFO - Traffic light zone_central_intersection_tl0_S changed to green
+2025-05-22 01:16:25,562 - INFO - Traffic light zone_central_intersection_tl0_N changed to green
+2025-05-22 01:16:25,766 - INFO - Traffic light zone_central_intersection_tl0_E changed to red
+2025-05-22 01:16:25,766 - INFO - Traffic light zone_central_intersection_tl0_W changed to red
+2025-05-22 01:16:25,838 - INFO - Vehicle veh_zone_central_intersection_3270 spawned.
+2025-05-22 01:16:27,911 - INFO - Traffic light zone_central_intersection_tl0_S changed to yellow
+2025-05-22 01:16:27,911 - INFO - Traffic light zone_central_intersection_tl0_N changed to yellow
+2025-05-22 01:16:28,170 - INFO - Traffic light zone_central_intersection_tl0_E changed to green
+2025-05-22 01:16:28,170 - INFO - Traffic light zone_central_intersection_tl0_W changed to green
+2025-05-22 01:16:28,248 - INFO - Vehicle veh_zone_central_intersection_afca spawned.
+2025-05-22 01:16:28,434 - INFO - Traffic light zone_central_intersection_tl0_S changed to red
+2025-05-22 01:16:28,434 - INFO - Traffic light zone_central_intersection_tl0_N changed to red
+2025-05-22 01:16:30,524 - INFO - Traffic light zone_central_intersection_tl0_E changed to yellow
+2025-05-22 01:16:30,524 - INFO - Traffic light zone_central_intersection_tl0_W changed to yellow
+2025-05-22 01:16:30,637 - INFO - Vehicle veh_zone_central_intersection_02a0 spawned.
+2025-05-22 01:16:30,820 - INFO - Traffic light zone_central_intersection_tl0_S changed to green
+2025-05-22 01:16:30,820 - INFO - Traffic light zone_central_intersection_tl0_N changed to green
+2025-05-22 01:16:31,040 - INFO - Traffic light zone_central_intersection_tl0_E changed to red
+2025-05-22 01:16:31,041 - INFO - Traffic light zone_central_intersection_tl0_W changed to red
+2025-05-22 01:16:33,038 - INFO - Vehicle veh_zone_central_intersection_9e3a spawned.
+2025-05-22 01:16:33,181 - INFO - Traffic light zone_central_intersection_tl0_S changed to yellow
+2025-05-22 01:16:33,182 - INFO - Traffic light zone_central_intersection_tl0_N changed to yellow
+2025-05-22 01:16:33,443 - INFO - Traffic light zone_central_intersection_tl0_E changed to green
+2025-05-22 01:16:33,443 - INFO - Traffic light zone_central_intersection_tl0_W changed to green
+2025-05-22 01:16:33,689 - INFO - Traffic light zone_central_intersection_tl0_S changed to red
+2025-05-22 01:16:33,689 - INFO - Traffic light zone_central_intersection_tl0_N changed to red
+2025-05-22 01:16:35,431 - INFO - Vehicle veh_zone_central_intersection_6f6b spawned.
+2025-05-22 01:16:35,797 - INFO - Traffic light zone_central_intersection_tl0_E changed to yellow
+2025-05-22 01:16:35,797 - INFO - Traffic light zone_central_intersection_tl0_W changed to yellow
+2025-05-22 01:16:36,092 - INFO - Traffic light zone_central_intersection_tl0_S changed to green
+2025-05-22 01:16:36,092 - INFO - Traffic light zone_central_intersection_tl0_N changed to green
+2025-05-22 01:16:36,296 - INFO - Traffic light zone_central_intersection_tl0_E changed to red
+2025-05-22 01:16:36,297 - INFO - Traffic light zone_central_intersection_tl0_W changed to red
+2025-05-22 01:16:37,840 - INFO - Vehicle veh_zone_central_intersection_c565 spawned.
+2025-05-22 01:16:38,446 - INFO - Traffic light zone_central_intersection_tl0_S changed to yellow
+2025-05-22 01:16:38,447 - INFO - Traffic light zone_central_intersection_tl0_N changed to yellow
+2025-05-22 01:16:38,697 - INFO - Traffic light zone_central_intersection_tl0_E changed to green
+2025-05-22 01:16:38,698 - INFO - Traffic light zone_central_intersection_tl0_W changed to green
+2025-05-22 01:16:38,948 - INFO - Traffic light zone_central_intersection_tl0_S changed to red
+2025-05-22 01:16:38,949 - INFO - Traffic light zone_central_intersection_tl0_N changed to red
+2025-05-22 01:16:40,250 - INFO - Vehicle veh_zone_central_intersection_72bf spawned.
+2025-05-22 01:16:41,075 - INFO - Traffic light zone_central_intersection_tl0_E changed to yellow
+2025-05-22 01:16:41,075 - INFO - Traffic light zone_central_intersection_tl0_W changed to yellow
+2025-05-22 01:16:41,348 - INFO - Traffic light zone_central_intersection_tl0_S changed to green
+2025-05-22 01:16:41,348 - INFO - Traffic light zone_central_intersection_tl0_N changed to green
+2025-05-22 01:16:41,553 - INFO - Traffic light zone_central_intersection_tl0_E changed to red
+2025-05-22 01:16:41,553 - INFO - Traffic light zone_central_intersection_tl0_W changed to red
+2025-05-22 01:16:42,616 - INFO - Vehicle veh_zone_central_intersection_f356 spawned.
+2025-05-22 01:16:43,687 - INFO - Traffic light zone_central_intersection_tl0_S changed to yellow
+2025-05-22 01:16:43,688 - INFO - Traffic light zone_central_intersection_tl0_N changed to yellow
+2025-05-22 01:16:43,937 - INFO - Traffic light zone_central_intersection_tl0_E changed to green
+2025-05-22 01:16:43,938 - INFO - Traffic light zone_central_intersection_tl0_W changed to green
+2025-05-22 01:16:44,197 - INFO - Traffic light zone_central_intersection_tl0_S changed to red
+2025-05-22 01:16:44,197 - INFO - Traffic light zone_central_intersection_tl0_N changed to red
+2025-05-22 01:16:45,018 - INFO - Vehicle veh_zone_central_intersection_db8a spawned.
+2025-05-22 01:16:46,288 - INFO - Traffic light zone_central_intersection_tl0_E changed to yellow
+2025-05-22 01:16:46,288 - INFO - Traffic light zone_central_intersection_tl0_W changed to yellow
+2025-05-22 01:16:46,583 - INFO - Traffic light zone_central_intersection_tl0_S changed to green
+2025-05-22 01:16:46,583 - INFO - Traffic light zone_central_intersection_tl0_N changed to green
+2025-05-22 01:16:46,806 - INFO - Traffic light zone_central_intersection_tl0_E changed to red
+2025-05-22 01:16:46,806 - INFO - Traffic light zone_central_intersection_tl0_W changed to red
+2025-05-22 01:16:47,416 - INFO - Vehicle veh_zone_central_intersection_de55 spawned.
+2025-05-22 01:16:48,984 - INFO - Traffic light zone_central_intersection_tl0_S changed to yellow
+2025-05-22 01:16:48,985 - INFO - Traffic light zone_central_intersection_tl0_N changed to yellow
+2025-05-22 01:16:49,225 - INFO - Traffic light zone_central_intersection_tl0_E changed to green
+2025-05-22 01:16:49,225 - INFO - Traffic light zone_central_intersection_tl0_W changed to green
+2025-05-22 01:16:49,481 - INFO - Traffic light zone_central_intersection_tl0_S changed to red
+2025-05-22 01:16:49,481 - INFO - Traffic light zone_central_intersection_tl0_N changed to red
+2025-05-22 01:16:49,834 - INFO - Vehicle veh_zone_central_intersection_29e2 spawned.
+2025-05-22 01:16:51,602 - INFO - Traffic light zone_central_intersection_tl0_E changed to yellow
+2025-05-22 01:16:51,602 - INFO - Traffic light zone_central_intersection_tl0_W changed to yellow
+2025-05-22 01:16:51,898 - INFO - Traffic light zone_central_intersection_tl0_S changed to green
+2025-05-22 01:16:51,898 - INFO - Traffic light zone_central_intersection_tl0_N changed to green
+2025-05-22 01:16:52,119 - INFO - Traffic light zone_central_intersection_tl0_E changed to red
+2025-05-22 01:16:52,120 - INFO - Traffic light zone_central_intersection_tl0_W changed to red
+2025-05-22 01:16:52,270 - INFO - Vehicle veh_zone_central_intersection_8533 spawned.
+2025-05-22 01:16:52,966 - INFO - Metrics saved to metrics_output\sim_metrics_final_20250522_011652.json
+2025-05-22 01:16:52,966 - INFO - TrafficMetrics closed. Final metrics saved.
