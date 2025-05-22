@@ -1,0 +1,1 @@
+2025-05-22 03:36:59,174 - INFO - TrafficMetrics initialized.

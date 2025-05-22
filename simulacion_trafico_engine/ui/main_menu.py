@@ -1,96 +1,117 @@
 # simulacion_trafico_engine/ui/main_menu.py
 import pygame
-from .theme import Theme, draw_rounded_rect 
+from .theme import Theme
 
 class MainMenu:
     ACTION_NONE = 0
     ACTION_START_SIM = 1
-    ACTION_QUIT = 2
+    ACTION_QUIT = 2 
 
     def __init__(self, screen_width: int, screen_height: int):
         self.screen_width = screen_width
         self.screen_height = screen_height
 
-        self.font_title = Theme.get_font(Theme.FONT_SIZE_LARGE + 12) 
-        self.font_button = Theme.get_font(Theme.FONT_SIZE_NORMAL + 2) 
+        # Cargar imagen de fondo del menú
+        try:
+            raw_bg_image = pygame.image.load(Theme.MAIN_MENU_BG_PATH).convert()
+            self.scaled_background_image = pygame.transform.scale(
+                raw_bg_image, (self.screen_width, self.screen_height)
+            )
+        except pygame.error as e:
+            print(f"Error loading main menu BG image '{Theme.MAIN_MENU_BG_PATH}': {e}")
+            self.scaled_background_image = pygame.Surface((self.screen_width, self.screen_height))
+            self.scaled_background_image.fill((30, 30, 50)) 
 
-        self.button_width = 300 
-        self.button_height = 60
-        self.button_padding = 25
+        # Cargar imagen del texto del menú
+        try:
+            self.text_image_original_unscaled = pygame.image.load(Theme.MAIN_MENU_TEXT_PATH).convert_alpha()
+        except pygame.error as e:
+            print(f"Error loading main menu TEXT image '{Theme.MAIN_MENU_TEXT_PATH}': {e}")
+            fallback_font = pygame.font.SysFont(None, 120) # Usar una fuente más grande para el fallback
+            self.text_image_original_unscaled = fallback_font.render("RUSH HOUR", True, (220,220,220))
+            if not self.text_image_original_unscaled.get_alpha(): # Asegurar que tiene canal alfa
+                 self.text_image_original_unscaled = self.text_image_original_unscaled.convert_alpha()
 
-        self.title_text = "RUSH HOUR"
-        self.start_button_text = "Start Simulation"
-        self.quit_button_text = "Quit"
+        # --- Escalar y Posicionar la imagen del texto (RushHourText.PNG) ---
+        original_text_w, original_text_h = self.text_image_original_unscaled.get_size()
 
-        self.button_start_rect = None
-        self.button_quit_rect = None
+        desired_text_screen_width_ratio = 0.85 
+        target_text_width = int(self.screen_width * desired_text_screen_width_ratio)
+
+        if original_text_w == 0: # Evitar división por cero si la imagen no cargó bien
+            aspect_ratio = 1 
+        else:
+            aspect_ratio = original_text_h / original_text_w
+        target_text_height = int(target_text_width * aspect_ratio)
+
+        self.text_image_at_rest = pygame.transform.smoothscale(
+            self.text_image_original_unscaled, (target_text_width, target_text_height)
+        )
+
+        self.text_image_rect_at_rest = self.text_image_at_rest.get_rect(
+            center=(self.screen_width // 2, self.screen_height // 2) 
+        )
         
-        self._calculate_layout()
-
-    def _calculate_layout(self):
-        """Calculates the positions of menu elements."""
-        # Title
-        title_surf = self.font_title.render(self.title_text, True, Theme.COLOR_TEXT_ON_DARK)
-        self.title_rect = title_surf.get_rect(center=(self.screen_width // 2, self.screen_height // 3)) # Positioned higher
-
-        # Start Button
-        self.button_start_rect = pygame.Rect(
-            (self.screen_width - self.button_width) // 2,
-            self.title_rect.bottom + 70, # More space after title
-            self.button_width,
-            self.button_height
-        )
-
-        # Quit Button
-        self.button_quit_rect = pygame.Rect(
-            (self.screen_width - self.button_width) // 2,
-            self.button_start_rect.bottom + self.button_padding,
-            self.button_width,
-            self.button_height
-        )
+        # Para la animación de hover
+        self.hover_scale_factor_target = 1.08 
+        self.current_hover_scale = 1.0       
+        self.animation_speed = 0.07 # Ajusta para más/menos suavidad (0.05 a 0.2 son buenos rangos)
+        self.is_hovering = False
 
     def handle_event(self, event: pygame.event.Event, mouse_pos: tuple) -> int:
-        """
-        Handles a single Pygame event for the main menu.
-        Returns an action code (ACTION_START_SIM, ACTION_QUIT, or ACTION_NONE).
-        """
+        action = MainMenu.ACTION_NONE
+        
+        if self.text_image_rect_at_rest.collidepoint(mouse_pos):
+            self.is_hovering = True
+        else:
+            self.is_hovering = False
+
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_ESCAPE:
-                return MainMenu.ACTION_QUIT
-            elif event.key == pygame.K_RETURN or event.key == pygame.K_SPACE: # Start with Enter/Space
-                return MainMenu.ACTION_START_SIM
+                action = MainMenu.ACTION_QUIT
+            elif (event.key == pygame.K_RETURN or event.key == pygame.K_SPACE) and self.is_hovering:
+                action = MainMenu.ACTION_START_SIM
                 
         elif event.type == pygame.MOUSEBUTTONDOWN:
-            if event.button == 1: # Left mouse button
-                if self.button_start_rect and self.button_start_rect.collidepoint(mouse_pos):
-                    return MainMenu.ACTION_START_SIM
-                elif self.button_quit_rect and self.button_quit_rect.collidepoint(mouse_pos):
-                    return MainMenu.ACTION_QUIT
-        return MainMenu.ACTION_NONE
+            if event.button == 1: 
+                if self.is_hovering:
+                    action = MainMenu.ACTION_START_SIM
+        return action
+
+    def update_animation(self):
+        target_scale = self.hover_scale_factor_target if self.is_hovering else 1.0
+        
+        self.current_hover_scale += (target_scale - self.current_hover_scale) * self.animation_speed
+        
+        if abs(target_scale - self.current_hover_scale) < 0.001:
+            self.current_hover_scale = target_scale
 
     def draw(self, surface: pygame.Surface):
-        """Draws the main menu onto the given surface."""
-        surface.fill(Theme.COLOR_BACKGROUND)
+        self.update_animation() 
 
-        # Draw Title
-        title_surf = self.font_title.render(self.title_text, True, Theme.COLOR_TEXT_ON_DARK)
-        surface.blit(title_surf, self.title_rect)
+        surface.blit(self.scaled_background_image, (0, 0))
 
-        # Draw Start Button
-        start_text_surf = self.font_button.render(self.start_button_text, True, Theme.COLOR_TEXT_ON_DARK)
-        draw_rounded_rect(surface, Theme.COLOR_ROAD, self.button_start_rect, Theme.BORDER_RADIUS)
-        start_text_rect = start_text_surf.get_rect(center=self.button_start_rect.center)
-        surface.blit(start_text_surf, start_text_rect)
-
-        # Draw Quit Button
-        quit_text_surf = self.font_button.render(self.quit_button_text, True, Theme.COLOR_TEXT_ON_DARK)
-        draw_rounded_rect(surface, Theme.COLOR_ROAD, self.button_quit_rect, Theme.BORDER_RADIUS)
-        quit_text_rect = quit_text_surf.get_rect(center=self.button_quit_rect.center)
-        surface.blit(quit_text_surf, quit_text_rect)
+        if abs(self.current_hover_scale - 1.0) < 0.001: # Si está prácticamente en escala 1.0
+            current_text_image_to_draw = self.text_image_at_rest
+            current_text_rect = self.text_image_rect_at_rest
+        else:
+            scaled_width = int(self.text_image_at_rest.get_width() * self.current_hover_scale)
+            scaled_height = int(self.text_image_at_rest.get_height() * self.current_hover_scale)
+            
+            # Asegurarse de que los tamaños no sean cero, lo que causaría error en smoothscale
+            if scaled_width <= 0 or scaled_height <= 0:
+                current_text_image_to_draw = self.text_image_at_rest
+                current_text_rect = self.text_image_rect_at_rest
+            else:
+                try:
+                    current_text_image_to_draw = pygame.transform.smoothscale(
+                        self.text_image_at_rest, (scaled_width, scaled_height)
+                    )
+                    current_text_rect = current_text_image_to_draw.get_rect(
+                        center=self.text_image_rect_at_rest.center
+                    )
+                except ValueError: 
+                    current_text_image_to_draw = self.text_image_at_rest
+                    current_text_rect = self.text_image_rect_at_rest.copy()
         
-        # Hover effect
-        mouse_pos = pygame.mouse.get_pos()
-        if self.button_start_rect.collidepoint(mouse_pos):
-            pygame.draw.rect(surface, Theme.COLOR_LINE, self.button_start_rect, 3, border_radius=Theme.BORDER_RADIUS) # Thicker hover
-        if self.button_quit_rect.collidepoint(mouse_pos):
-            pygame.draw.rect(surface, Theme.COLOR_LINE, self.button_quit_rect, 3, border_radius=Theme.BORDER_RADIUS)
+        surface.blit(current_text_image_to_draw, current_text_rect.topleft)

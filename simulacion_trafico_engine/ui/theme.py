@@ -1,129 +1,104 @@
 # simulacion_trafico_engine/ui/theme.py
 import pygame
 import random
-from typing import Any, Optional 
+import os 
+from typing import Any, Optional
+
+# --- Directorio base de assets ---
+# __file__ es la ruta a este archivo (theme.py)
+# dirname(__file__) es simulacion_trafico_engine/ui/
+# dirname(dirname(__file__)) es simulacion_trafico_engine/
+# La carpeta 'assets' está dentro de 'simulacion_trafico_engine/'
+ENGINE_ROOT_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ASSETS_PATH = os.path.join(ENGINE_ROOT_PATH, "assets")
+
+# --- Subdirectorios específicos de assets ---
+COCHES_HORIZONTALES_PATH = os.path.join(ASSETS_PATH, "cocheshorizontales")
+COCHES_VERTICALES_PATH = os.path.join(ASSETS_PATH, "cochesverticales")
+MAIN_MENU_ASSETS_PATH = os.path.join(ASSETS_PATH, "mainmenu")
+
+# DEBUG: Imprimir las rutas construidas para verificar
+# print(f"DEBUG THEME: ENGINE_ROOT_PATH = {ENGINE_ROOT_PATH}")
+# print(f"DEBUG THEME: ASSETS_PATH = {ASSETS_PATH}")
+# print(f"DEBUG THEME: MAIN_MENU_ASSETS_PATH = {MAIN_MENU_ASSETS_PATH}")
+# print(f"DEBUG THEME: Test MAIN_MENU_BG_PATH = {os.path.join(MAIN_MENU_ASSETS_PATH, 'RushHourBG.PNG')}")
+# print(f"DEBUG THEME: Does it exist? {os.path.exists(os.path.join(MAIN_MENU_ASSETS_PATH, 'RushHourBG.PNG'))}")
+
 
 class Theme:
-    # Pastel Palette & General UI
+    # --- COLORES ---
     COLOR_BACKGROUND = pygame.Color("#2E3440")
     COLOR_ROAD = pygame.Color("#4C566A")
     COLOR_LINE = pygame.Color("#D8DEE9")
     COLOR_TEXT_ON_DARK = pygame.Color("#ECEFF4")
-    
-    # Expanded Info Panel
-    COLOR_INFO_PANEL_BG = pygame.Color("#434C5E") # Darker than before for better contrast
+    COLOR_INFO_PANEL_BG = pygame.Color("#434C5E") 
     COLOR_INFO_PANEL_BORDER = pygame.Color("#5E81AC")
-    COLOR_TEXT_ON_INFO_PANEL = pygame.Color("#D8DEE9") # Lighter text for dark panel
-
-    # --- NEW: Collapsed Info Panel / Tab ---
-    COLOR_INFO_PANEL_BG_COLLAPSED = pygame.Color("#5E81AC") # A distinct color for the tab
+    COLOR_TEXT_ON_INFO_PANEL = pygame.Color("#D8DEE9") 
+    COLOR_INFO_PANEL_BG_COLLAPSED = pygame.Color("#5E81AC") 
     COLOR_INFO_PANEL_BORDER_COLLAPSED = pygame.Color("#4C566A")
-    # --- END NEW ---
-
-    COLOR_GRASS = pygame.Color("#9AB990") # Slightly desaturated
-
-    BUILDING_COLORS_PALETTE = [
-        pygame.Color("#EBCB8B"), pygame.Color("#BF616A"), pygame.Color("#B48EAD"),
-        pygame.Color("#81A1C1"), pygame.Color("#D08770"), # pygame.Color("#D8DEE9"),
-        pygame.Color("#A3BE8C"), pygame.Color("#b0b0b0"), # Added a gray
-    ]
-    BUILDING_ROOF_DARKEN_FACTOR = 0.7
-
-    VEHICLE_COLORS = [
+    COLOR_GRASS = pygame.Color("#9AB990") 
+    VEHICLE_COLORS = [ 
         pygame.Color("#BF616A"), pygame.Color("#A3BE8C"), pygame.Color("#EBCB8B"),
-        pygame.Color("#B48EAD"), pygame.Color("#81A1C1"), pygame.Color("#D08770")
-    ]
-
-    TL_RED = pygame.Color("#BF616A")
-    TL_YELLOW = pygame.Color("#EBCB8B")
-    TL_GREEN = pygame.Color("#A3BE8C")
-    TL_OFF = pygame.Color("#434C5E") 
+        pygame.Color("#B48EAD"), pygame.Color("#81A1C1"), pygame.Color("#D08770") ]
+    TL_RED = pygame.Color("#BF616A"); TL_YELLOW = pygame.Color("#EBCB8B")
+    TL_GREEN = pygame.Color("#A3BE8C"); TL_OFF = pygame.Color("#434C5E") 
     TL_HOUSING = pygame.Color("#3B4252")
+    BORDER_RADIUS = 8; BORDER_WIDTH = 2
+    BORDER_RADIUS_SMALL = 4; BORDER_WIDTH_SMALL = 1
 
-    BORDER_RADIUS = 8 # Slightly larger default radius
-    BORDER_WIDTH = 2
-    # --- NEW: Smaller radius/border for tabs/small elements ---
-    BORDER_RADIUS_SMALL = 4
-    BORDER_WIDTH_SMALL = 1
-    # --- END NEW ---
-
-    INFO_PANEL_WIDTH_RATIO = 0.25 # No longer used directly by InfoPanel for width
-
-    FONT_NAME = None # Use Pygame's default font
-    FONT_SIZE_NORMAL = 18 # Slightly smaller for more info
+    # --- DEFINICIONES DE FUENTE ---
+    FONT_NAME = None 
+    FONT_SIZE_NORMAL = 18
     FONT_SIZE_LARGE = 22
     FONT_SIZE_SMALL = 14
 
+    # --- RUTAS DE ASSETS (Usando las variables definidas arriba) ---
+    MAIN_MENU_BG_PATH = os.path.join(MAIN_MENU_ASSETS_PATH, "RushHourBG.PNG")
+    MAIN_MENU_TEXT_PATH = os.path.join(MAIN_MENU_ASSETS_PATH, "RushHourText.PNG")
+    
+    VEHICLE_IMAGE_PATHS = [
+        os.path.join(COCHES_HORIZONTALES_PATH, "IMG_6805.PNG"),
+        os.path.join(COCHES_HORIZONTALES_PATH, "IMG_6806.PNG"),
+        os.path.join(COCHES_HORIZONTALES_PATH, "IMG_6807.PNG"),
+        os.path.join(COCHES_HORIZONTALES_PATH, "IMG_6808.PNG"),
+    ]
+    # Si tienes un fondo específico para el mapa de simulación (diferente al menú)
+    # GAME_MAP_BACKGROUND_PATH = os.path.join(ASSETS_PATH, "nombre_de_tu_mapa_de_juego.png")
+    
     @staticmethod
-    def get_vehicle_color() -> pygame.Color:
+    def get_vehicle_color() -> pygame.Color: 
         return random.choice(Theme.VEHICLE_COLORS)
 
     @staticmethod
-    def get_building_colors() -> tuple[pygame.Color, pygame.Color]:
-        body_color = random.choice(Theme.BUILDING_COLORS_PALETTE)
-        possible_roof_colors = [c for c in Theme.BUILDING_COLORS_PALETTE if c != body_color]
-        if random.random() < 0.7 and possible_roof_colors:
-            roof_color = random.choice(possible_roof_colors)
-        else:
-            roof_color = pygame.Color(
-                max(0, int(body_color.r * Theme.BUILDING_ROOF_DARKEN_FACTOR)),
-                max(0, int(body_color.g * Theme.BUILDING_ROOF_DARKEN_FACTOR)),
-                max(0, int(body_color.b * Theme.BUILDING_ROOF_DARKEN_FACTOR))
-            )
-            if roof_color == body_color:
-                 roof_color = pygame.Color(max(0, body_color.r - 30), max(0, body_color.g - 30), max(0, body_color.b - 30))
-            if roof_color == pygame.Color(0,0,0) and body_color != pygame.Color(0,0,0):
-                roof_color = pygame.Color(20,20,20)
-        return body_color, roof_color
+    def get_vehicle_image_path() -> str: 
+        if not Theme.VEHICLE_IMAGE_PATHS:
+            print("CRITICAL: No vehicle image paths defined in Theme.VEHICLE_IMAGE_PATHS.")
+            return Theme.VEHICLE_IMAGE_PATHS[0] if Theme.VEHICLE_IMAGE_PATHS else ""
+        return random.choice(Theme.VEHICLE_IMAGE_PATHS)
 
     @staticmethod
     def get_font(size: int) -> pygame.font.Font:
-        # Fallback to Pygame's default font if a specific one isn't loaded
         try:
             return pygame.font.Font(Theme.FONT_NAME, size)
         except pygame.error:
-            # print(f"Warning: Font '{Theme.FONT_NAME}' not found. Using Pygame default.")
-            return pygame.font.SysFont(None, size)
-
+            return pygame.font.SysFont(None, size) 
 
 def draw_rounded_rect(surface: pygame.Surface, color: pygame.Color, rect: Any, radius: int, border_width: int = 0, border_color: Optional[pygame.Color] = None):
     if not isinstance(rect, pygame.Rect):
-        try:
-            current_rect = pygame.Rect(rect)
-        except TypeError:
-            # print(f"ERROR en draw_rounded_rect: 'rect' debe ser pygame.Rect o tupla/lista compatible, se recibió {type(rect)} valor {rect}")
-            pygame.draw.rect(surface, color, rect) # Fallback to sharp corners if rect is malformed for rounding
-            return 
-    else:
-        current_rect = rect
-        
+        try: current_rect = pygame.Rect(rect)
+        except TypeError: pygame.draw.rect(surface, color, rect); return 
+    else: current_rect = rect
     if radius < 0: radius = 0
-    # Prevent radius from being larger than half the shortest side
-    max_radius_w = current_rect.width // 2 if current_rect.width > 0 else 0
-    max_radius_h = current_rect.height // 2 if current_rect.height > 0 else 0
-    
-    # Handle cases where rect might be too small for the radius
-    if current_rect.width < 1 or current_rect.height < 1 or (current_rect.width < 2*radius and current_rect.height < 2*radius) :
-        pygame.draw.rect(surface, color, current_rect, 0 if border_width == 0 else border_width) # Draw sharp rect if too small for radius
-        if border_width > 0 and border_color:
-             pygame.draw.rect(surface, border_color, current_rect, border_width)
-        return
-        
-    effective_radius = min(radius, max_radius_w, max_radius_h)
-    if effective_radius < 0 : effective_radius = 0
-
-
-    # Draw the main filled rectangle with rounded corners
-    # Pygame's border_radius applies to all corners.
-    pygame.draw.rect(surface, color, current_rect, 0, border_radius=effective_radius)
-
-    if border_width > 0:
-        border_c = border_color
-        if border_color is None: # Default border color if not specified
-            border_c = pygame.Color(
-                max(0, color.r - 40) if color.r > 40 else min(255, color.r + 40),
-                max(0, color.g - 40) if color.g > 40 else min(255, color.g + 40),
-                max(0, color.b - 40) if color.b > 40 else min(255, color.b + 40)
-            )
-        # Draw the border rectangle with rounded corners
-        pygame.draw.rect(surface, border_c, current_rect, border_width, border_radius=effective_radius)
+    max_r_w = current_rect.width // 2 if current_rect.width > 0 else 0
+    max_r_h = current_rect.height // 2 if current_rect.height > 0 else 0
+    if current_rect.width <= 0 or current_rect.height <= 0 : return
+    eff_r = min(radius, max_r_w, max_r_h) if not (current_rect.width < 2 * radius or current_rect.height < 2 * radius) else min(max_r_w, max_r_h)
+    if eff_r < 0: eff_r = 0
+    try:
+        pygame.draw.rect(surface, color, current_rect, 0, border_radius=eff_r)
+        if border_width > 0:
+            bc = border_color or pygame.Color(max(0,color.r-40) if color.r>40 else min(255,color.r+40), max(0,color.g-40) if color.g>40 else min(255,color.g+40), max(0,color.b-40) if color.b>40 else min(255,color.b+40))
+            pygame.draw.rect(surface, bc, current_rect, border_width, border_radius=eff_r)
+    except pygame.error: # Fallback
+        pygame.draw.rect(surface, color, current_rect, 0)
+        if border_width > 0 and (border_color or color): pygame.draw.rect(surface, border_color or color, current_rect, border_width)
