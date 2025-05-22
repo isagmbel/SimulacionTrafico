@@ -1,15 +1,15 @@
 {
-    "city_name": "MetrovilleCentralIntersection",
+    "city_name": "Rush Hour",
     "rabbitmq_exchange": "metroville_migrations",
     "zones": [
         {
-            "id": "zone_central_intersection",
-            "name": "Central Intersection Area",
-            "bounds": {"x": 0, "y": 0, "width": 800, "height": 600},
-            "max_vehicles_local": 40,
+            "id": "zone_central_square",
+            "name": "Central Square Area",
+            "bounds": {"x": 0, "y": 0, "width": 700, "height": 700},
+            "max_vehicles_local": 30,
             "adjacencies": []
         }
     ],
-    "global_map_width": 800,
-    "global_map_height": 600
+    "global_map_width": 700,
+    "global_map_height": 700
 }

@@ -1,0 +1,21 @@
+2025-05-22 02:32:30,025 - INFO - TrafficMetrics initialized.
+2025-05-22 02:32:32,383 - INFO - Vehicle veh_zone_central_square_bb0a spawned.
+2025-05-22 02:32:33,109 - INFO - Simulation view started.
+2025-05-22 02:32:34,331 - INFO - Traffic light zone_central_square_tl0_E changed to yellow
+2025-05-22 02:32:34,331 - INFO - Traffic light zone_central_square_tl0_W changed to yellow
+2025-05-22 02:32:34,367 - INFO - Traffic light zone_central_square_tl0_N changed to green
+2025-05-22 02:32:34,367 - INFO - Traffic light zone_central_square_tl0_S changed to green
+2025-05-22 02:32:34,540 - INFO - Vehicle veh_zone_central_square_24c0 spawned.
+2025-05-22 02:32:35,200 - INFO - Traffic light zone_central_square_tl0_E changed to red
+2025-05-22 02:32:35,200 - INFO - Traffic light zone_central_square_tl0_W changed to red
+2025-05-22 02:32:36,677 - INFO - Vehicle veh_zone_central_square_69e3 spawned.
+2025-05-22 02:32:38,454 - INFO - Traffic light zone_central_square_tl0_N changed to yellow
+2025-05-22 02:32:38,454 - INFO - Traffic light zone_central_square_tl0_S changed to yellow
+2025-05-22 02:32:38,844 - INFO - Vehicle veh_zone_central_square_b951 spawned.
+2025-05-22 02:32:39,357 - INFO - Traffic light zone_central_square_tl0_E changed to green
+2025-05-22 02:32:39,357 - INFO - Traffic light zone_central_square_tl0_W changed to green
+2025-05-22 02:32:39,357 - INFO - Traffic light zone_central_square_tl0_N changed to red
+2025-05-22 02:32:39,357 - INFO - Traffic light zone_central_square_tl0_S changed to red
+2025-05-22 02:32:41,057 - INFO - Vehicle veh_zone_central_square_90a8 spawned.
+2025-05-22 02:32:41,474 - INFO - Metrics saved to metrics_output\sim_metrics_final_20250522_023241.json
+2025-05-22 02:32:41,474 - INFO - TrafficMetrics closed. Final metrics saved.

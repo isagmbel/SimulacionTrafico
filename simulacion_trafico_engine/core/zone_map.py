@@ -72,61 +72,69 @@ class ZoneMap:
         self.intersections.clear()
         road_width = 60 
         
+        # Horizontal road in the middle
         h_road_y = self.height // 2 - road_width // 2
         self.roads.append({
             "rect": pygame.Rect(0, h_road_y, self.width, road_width), 
             "direction": "horizontal"
         })
 
+        # Vertical road in the middle
         v_road_x = self.width // 2 - road_width // 2
         self.roads.append({
             "rect": pygame.Rect(v_road_x, 0, road_width, self.height), 
             "direction": "vertical"
         })
 
+        # Identify the central intersection
         if len(self.roads) == 2:
             h_road_rect = self.roads[0]["rect"]
             v_road_rect = self.roads[1]["rect"]
             intersection = h_road_rect.clip(v_road_rect)
-            if intersection.width > 5 and intersection.height > 5: 
+            if intersection.width > 5 and intersection.height > 5: # Basic check
                 self.intersections.append(intersection)
         
-        # print(f"[ZoneMap {self.zone_id}] Generated {len(self.roads)} roads and {len(self.intersections)} intersections.")
+        print(f"[ZoneMap {self.zone_id}] Generated {len(self.roads)} roads and {len(self.intersections)} intersections.")
 
 
     def _generate_buildings(self):
         self.buildings.clear()
         num_buildings_per_zone = random.randint(8,15) 
         min_size, max_size = 40, 110
-        road_m, building_m, edge_m = 20, 10, 10 
+        road_m, building_m, edge_m = 20, 10, 10 # Margin around roads, between buildings, from edge
         
+        # Create a list of inflated road rects to avoid placing buildings on or too close to roads
         all_road_rects_inflated = [pygame.Rect(r['rect']).inflate(road_m*2, road_m*2) for r in self.roads]
         
         attempts, placed = 0, 0
-        while placed < num_buildings_per_zone and attempts < num_buildings_per_zone * 30:
+        while placed < num_buildings_per_zone and attempts < num_buildings_per_zone * 30: # Increased attempts
             attempts += 1
             b_w = random.randint(min_size,max_size)
             b_h = random.randint(min_size,max_size)
+            # Randomly make buildings more rectangular
             if random.random()<0.7: 
                 if random.random()<0.5:
                     b_h = int(b_w*random.uniform(0.5,0.8)) 
                 else:
                     b_w = int(b_h*random.uniform(0.5,0.8))
             
+            # Ensure building dimensions are positive after adjustments
             if b_w <=0 or b_h <=0: continue
-            if self.width-b_w-edge_m*2<=0 or self.height-b_h-edge_m*2<=0: continue
+
+            if self.width-b_w-edge_m*2<=0 or self.height-b_h-edge_m*2<=0: continue # Check if fits in zone
             b_x=random.randint(edge_m,self.width-b_w-edge_m)
             b_y=random.randint(edge_m,self.height-b_h-edge_m)
             b_rect=pygame.Rect(b_x,b_y,b_w,b_h)
 
             if b_rect.right > self.width-edge_m or b_rect.bottom > self.height-edge_m : continue
+            # Check for collision with roads and other buildings
             if any(b_rect.colliderect(inflated_road_r) for inflated_road_r in all_road_rects_inflated): continue
             if any(b_rect.colliderect(b.rect.inflate(building_m,building_m)) for b in self.buildings): continue
             
             bc,rc=Theme.get_building_colors()
             self.buildings.append(Building(b_rect,bc,rc,random.random()>0.4,random.random()))
             placed+=1
-        # print(f"[ZoneMap {self.zone_id}] Placed {placed} buildings.")
+        print(f"[ZoneMap {self.zone_id}] Placed {placed} buildings.")
 
     def initialize_map_elements(self, TrafficLightClass: type):
         self._generate_local_roads_and_intersections()
@@ -137,84 +145,73 @@ class ZoneMap:
             print(f"[ZoneMap {self.zone_id}] No intersections found, cannot place traffic lights.")
             return
 
-        intersection = self.intersections[0] # The central intersection rect
+        # Assuming one central intersection from self.intersections[0]
+        intersection = self.intersections[0]
         
-        # Road details for precise light placement
-        h_road_rect = self.roads[0]["rect"] # Assuming horizontal road is first
-        v_road_rect = self.roads[1]["rect"] # Assuming vertical road is second
-        road_w = h_road_rect.height # Effective width of a single road segment
-
-        ls_v = (12, 36) # width, height for vertical lights
-        ls_h = (36, 12) # width, height for horizontal lights
-        offset = 5      # Offset from intersection edge
+        # Traffic light dimensions and offset from intersection edge
+        light_size_vertical = (12, 36) # width, height for vertical lights
+        light_size_horizontal = (36, 12) # width, height for horizontal lights
+        offset_from_edge = 5 # How far the light housing is from the intersection edge
 
         common_params = {
             "rabbit_client": self.rabbit_client,
             "metrics_client": self.metrics_client,
-            "theme": Theme() 
+            "theme": Theme() # Pass a Theme instance
         }
-        base_cycle_time = random.randint(240, 360)
-        SECOND_PAIR_OFFSET_FACTOR = 0.55 
+        base_cycle_time = random.randint(140, 190)
 
-        # --- CORRECTED TRAFFIC LIGHT PLACEMENT ---
-        # Traffic lights are named by the direction *from which* traffic approaches.
-        # E.g., _tl0_N controls traffic approaching FROM the North.
-
-        # Pair 1: Control East-West approaches (lights are Vertical)
-        # These will start with offset 0.0 (Green initially for E-W traffic flow)
-
-        # Light for traffic approaching FROM EAST (vehicles moving LEFT, use top lane of H-road)
-        # Placed EAST of the intersection.
-        y_pos_for_E_approach_light = (h_road_rect.top + road_w * 0.25) - ls_v[1] / 2
+        # Place 4 traffic lights for the central intersection
+        # Traffic Light IDs are important for vehicle logic to identify them.
+        # Convention: {zone_id}_tl{intersection_index}_{cardinal_direction_of_approach}
+        
+        # Light for traffic approaching from EAST (vehicles moving LEFT)
+        # Positioned to the WEST of the intersection, on the Southbound lane.
+        # Orientation: Vertical
         self.traffic_lights.append(TrafficLightClass(
             id=f"{self.zone_id}_tl0_E", 
-            x=intersection.right + offset, # East of intersection
-            y=y_pos_for_E_approach_light,
-            width=ls_v[0], height=ls_v[1],
+            x=intersection.left - light_size_vertical[0] - offset_from_edge,
+            y=intersection.centery + offset_from_edge, # Adjusted to be on the correct side of horizontal road
+            width=light_size_vertical[0], height=light_size_vertical[1],
             orientation="vertical", cycle_time=base_cycle_time, initial_offset_factor=0.0,
             **common_params
         ))
         
-        # Light for traffic approaching FROM WEST (vehicles moving RIGHT, use bottom lane of H-road)
-        # Placed WEST of the intersection.
-        y_pos_for_W_approach_light = (h_road_rect.top + road_w * 0.75) - ls_v[1] / 2
+        # Light for traffic approaching from WEST (vehicles moving RIGHT)
+        # Positioned to the EAST of the intersection, on the Northbound lane.
+        # Orientation: Vertical
         self.traffic_lights.append(TrafficLightClass(
             id=f"{self.zone_id}_tl0_W", 
-            x=intersection.left - ls_v[0] - offset, # West of intersection
-            y=y_pos_for_W_approach_light,
-            width=ls_v[0], height=ls_v[1],
-            orientation="vertical", cycle_time=base_cycle_time, initial_offset_factor=0.0, 
+            x=intersection.right + offset_from_edge,
+            y=intersection.centery - light_size_vertical[1] - offset_from_edge, # Adjusted
+            width=light_size_vertical[0], height=light_size_vertical[1],
+            orientation="vertical", cycle_time=base_cycle_time, initial_offset_factor=0.0, # Synced with East light
             **common_params
         ))
 
-        # Pair 2: Control North-South approaches (lights are Horizontal)
-        # These will start with offset SECOND_PAIR_OFFSET_FACTOR (Red initially for N-S traffic flow)
-
-        # Light for traffic approaching FROM NORTH (vehicles moving DOWN, use right lane of V-road)
-        # Placed NORTH of the intersection.
-        x_pos_for_N_approach_light = (v_road_rect.left + road_w * 0.75) - ls_h[0] / 2
-        self.traffic_lights.append(TrafficLightClass(
-            id=f"{self.zone_id}_tl0_N", 
-            x=x_pos_for_N_approach_light,
-            y=intersection.top - ls_h[1] - offset, # North of intersection
-            width=ls_h[0], height=ls_h[1],
-            orientation="horizontal", cycle_time=base_cycle_time, initial_offset_factor=SECOND_PAIR_OFFSET_FACTOR, 
-            **common_params
-        ))
-
-        # Light for traffic approaching FROM SOUTH (vehicles moving UP, use left lane of V-road)
-        # Placed SOUTH of the intersection.
-        x_pos_for_S_approach_light = (v_road_rect.left + road_w * 0.25) - ls_h[0] / 2
+        # Light for traffic approaching from SOUTH (vehicles moving UP)
+        # Positioned to the NORTH of the intersection, on the Westbound lane.
+        # Orientation: Horizontal
         self.traffic_lights.append(TrafficLightClass(
             id=f"{self.zone_id}_tl0_S", 
-            x=x_pos_for_S_approach_light, 
-            y=intersection.bottom + offset, # South of intersection
-            width=ls_h[0], height=ls_h[1],
-            orientation="horizontal", cycle_time=base_cycle_time, initial_offset_factor=SECOND_PAIR_OFFSET_FACTOR, 
+            x=intersection.centerx - light_size_horizontal[0] - offset_from_edge, # Adjusted
+            y=intersection.top - light_size_horizontal[1] - offset_from_edge,
+            width=light_size_horizontal[0], height=light_size_horizontal[1],
+            orientation="horizontal", cycle_time=base_cycle_time, initial_offset_factor=0.5, # Offset from vertical lights
             **common_params
         ))
-        # --- END CORRECTED PLACEMENT ---
-        print(f"[ZoneMap {self.zone_id}] Placed {len(self.traffic_lights)} traffic lights with corrected positions and base_cycle_time: {base_cycle_time}.")
+
+        # Light for traffic approaching from NORTH (vehicles moving DOWN)
+        # Positioned to the SOUTH of the intersection, on the Eastbound lane.
+        # Orientation: Horizontal
+        self.traffic_lights.append(TrafficLightClass(
+            id=f"{self.zone_id}_tl0_N", 
+            x=intersection.centerx + offset_from_edge, # Adjusted
+            y=intersection.bottom + offset_from_edge,
+            width=light_size_horizontal[0], height=light_size_horizontal[1],
+            orientation="horizontal", cycle_time=base_cycle_time, initial_offset_factor=0.5, # Synced with South light
+            **common_params
+        ))
+        print(f"[ZoneMap {self.zone_id}] Placed {len(self.traffic_lights)} traffic lights.")
 
 
     async def update(self) -> None:
@@ -229,8 +226,9 @@ class ZoneMap:
             building.draw(zone_surface)
         
         for road_data in self.roads:
-            draw_rounded_rect(zone_surface, self.road_color, road_data["rect"], Theme.BORDER_RADIUS // 3)
+            draw_rounded_rect(zone_surface, self.road_color, road_data["rect"], Theme.BORDER_RADIUS // 3) # Smaller radius for roads
             
+            # Draw lane lines (dashed line in the middle of each road segment)
             road_rect = road_data["rect"]
             is_horizontal = road_data["direction"] == "horizontal"
             
@@ -243,7 +241,7 @@ class ZoneMap:
                     end_x = min(current_x + dash_len, road_rect.right)
                     pygame.draw.line(zone_surface, self.line_color, (current_x, center_y), (end_x, center_y), 2)
                     current_x += dash_len + gap_len
-            else: 
+            else: # Vertical
                 current_y = road_rect.top
                 while current_y < road_rect.bottom:
                     end_y = min(current_y + dash_len, road_rect.bottom)
@@ -259,60 +257,54 @@ class ZoneMap:
     def get_spawn_points_local(self) -> List[Dict[str, Any]]:
         spawn_points = []
         if not self.roads or len(self.roads) < 2: 
-            # print(f"[ZoneMap {self.zone_id}] WARNING: Not enough roads for spawn points.")
+            print(f"[ZoneMap {self.zone_id}] WARNING: Not enough roads for spawn points.")
             return spawn_points
             
-        vehicle_buffer = 20 
-        car_approx_length = 30 
-        car_half_width_for_vehicle_body = Theme.get_font(Theme.FONT_SIZE_NORMAL).size(" ")[0] / 4 # A bit arbitrary, adjust if needed
-                                                                                          # Or use a fixed value like 7-8
-        
-        # Use a more robust way to get road width, assuming all roads have same width from config
-        road_width = self.roads[0]["rect"].height # Assuming horizontal road's height is the road width
-        if self.roads[0]["direction"] == "vertical": # if for some reason order changed
-            road_width = self.roads[0]["rect"].width
+        vehicle_buffer = 20 # Distance from edge of map to spawn center
+        car_approx_length = 30 # Vehicle length, to ensure it's fully on map
+        car_half_width_for_lane = 7 # Approx half car width, to center in lane
 
-        h_road_rect = next(r["rect"] for r in self.roads if r["direction"] == "horizontal")
-        v_road_rect = next(r["rect"] for r in self.roads if r["direction"] == "vertical")
+        # Assuming roads[0] is horizontal and roads[1] is vertical for simplicity
+        h_road = self.roads[0]["rect"]
+        v_road = self.roads[1]["rect"]
+        road_width = h_road.height # Assuming all roads have same width/height
 
+        # Spawn points based on right-hand traffic (vehicles drive on the right side of their road)
+        # Lanes are typically at 1/4 and 3/4 of the road width.
 
-        # EAST entry (vehicle moves LEFT, uses top lane of horizontal road)
-        # Lane center Y = h_road_rect.top + road_width * 0.25
-        spawn_y_east_entry = h_road_rect.top + (road_width * 0.25) - car_half_width_for_vehicle_body
+        # EAST entry (vehicle moves LEFT on the h_road, uses top lane from its perspective)
+        spawn_y_east_entry = h_road.top + road_width * 0.25 - car_half_width_for_lane
         spawn_points.append({
             "x": self.width - vehicle_buffer, "y": spawn_y_east_entry, 
             "direction": "left", "entry_edge": "east"
         })
 
-        # WEST entry (vehicle moves RIGHT, uses bottom lane of horizontal road)
-        # Lane center Y = h_road_rect.top + road_width * 0.75
-        spawn_y_west_entry = h_road_rect.top + (road_width * 0.75) - car_half_width_for_vehicle_body
+        # WEST entry (vehicle moves RIGHT on the h_road, uses bottom lane from its perspective)
+        spawn_y_west_entry = h_road.top + road_width * 0.75 - car_half_width_for_lane
         spawn_points.append({
-            "x": vehicle_buffer - car_approx_length, "y": spawn_y_west_entry, 
+            "x": vehicle_buffer - car_approx_length, "y": spawn_y_west_entry, # Start off-screen slightly
             "direction": "right", "entry_edge": "west"
         })
 
-        # SOUTH entry (vehicle moves UP, uses left lane of vertical road - from map perspective)
-        # Lane center X = v_road_rect.left + road_width * 0.25
-        spawn_x_south_entry = v_road_rect.left + (road_width * 0.25) - car_half_width_for_vehicle_body
+        # SOUTH entry (vehicle moves UP on the v_road, uses left lane from its perspective)
+        spawn_x_south_entry = v_road.left + road_width * 0.25 - car_half_width_for_lane
         spawn_points.append({
             "x": spawn_x_south_entry, "y": self.height - vehicle_buffer,
             "direction": "up", "entry_edge": "south"
         })
         
-        # NORTH entry (vehicle moves DOWN, uses right lane of vertical road - from map perspective)
-        # Lane center X = v_road_rect.left + road_width * 0.75
-        spawn_x_north_entry = v_road_rect.left + (road_width * 0.75) - car_half_width_for_vehicle_body
+        # NORTH entry (vehicle moves DOWN on the v_road, uses right lane from its perspective)
+        spawn_x_north_entry = v_road.left + road_width * 0.75 - car_half_width_for_lane
         spawn_points.append({
-            "x": spawn_x_north_entry, "y": vehicle_buffer - car_approx_length, 
+            "x": spawn_x_north_entry, "y": vehicle_buffer - car_approx_length, # Start off-screen slightly
             "direction": "down", "entry_edge": "north"
         })
         
         if not spawn_points:
-            # print(f"[ZoneMap {self.zone_id}] WARNING: No spawn points generated for intersection layout!")
-            pass
+            print(f"[ZoneMap {self.zone_id}] WARNING: No spawn points generated for intersection layout!")
         else:
-            pass
+            print(f"[ZoneMap {self.zone_id}] Final {len(spawn_points)} spawn points generated.")
+            for sp in spawn_points: print(f"  {sp}")
         return spawn_points
 
     def get_traffic_lights_local(self) -> List['TrafficLight']: 
