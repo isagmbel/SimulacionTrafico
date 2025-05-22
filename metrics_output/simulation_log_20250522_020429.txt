@@ -1,0 +1,16 @@
+2025-05-22 02:04:29,414 - INFO - TrafficMetrics initialized.
+2025-05-22 02:04:30,952 - INFO - Simulation view started.
+2025-05-22 02:04:32,059 - INFO - Vehicle veh_zone_central_intersection_ef0b spawned.
+2025-05-22 02:04:32,808 - INFO - Vehicle veh_zone_central_intersection_af4c spawned.
+2025-05-22 02:04:33,067 - INFO - Vehicle veh_zone_central_intersection_e853 spawned.
+2025-05-22 02:04:33,290 - INFO - Vehicle veh_zone_central_intersection_7e56 spawned.
+2025-05-22 02:04:33,481 - INFO - Vehicle veh_zone_central_intersection_a65e spawned.
+2025-05-22 02:04:33,662 - INFO - Vehicle veh_zone_central_intersection_662f spawned.
+2025-05-22 02:04:33,846 - INFO - Vehicle veh_zone_central_intersection_579a spawned.
+2025-05-22 02:04:34,499 - INFO - Traffic light zone_central_intersection_tl0_E changed to yellow
+2025-05-22 02:04:34,499 - INFO - Traffic light zone_central_intersection_tl0_W changed to yellow
+2025-05-22 02:04:34,537 - INFO - Traffic light zone_central_intersection_tl0_N changed to green
+2025-05-22 02:04:34,537 - INFO - Traffic light zone_central_intersection_tl0_S changed to green
+2025-05-22 02:04:34,538 - INFO - Vehicle veh_zone_central_intersection_afa1 spawned.
+2025-05-22 02:04:34,872 - INFO - Metrics saved to metrics_output\sim_metrics_final_20250522_020434.json
+2025-05-22 02:04:34,873 - INFO - TrafficMetrics closed. Final metrics saved.

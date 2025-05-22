@@ -1,0 +1,3 @@
+2025-05-22 02:02:27,176 - INFO - TrafficMetrics initialized.
+2025-05-22 02:02:30,352 - INFO - Metrics saved to metrics_output\sim_metrics_final_20250522_020230.json
+2025-05-22 02:02:30,353 - INFO - TrafficMetrics closed. Final metrics saved.
