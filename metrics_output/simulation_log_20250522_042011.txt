@@ -1,0 +1,29 @@
+2025-05-22 04:20:11,870 - INFO - TrafficMetrics initialized.
+2025-05-22 04:20:12,842 - INFO - Simulation view started.
+2025-05-22 04:20:13,789 - INFO - Vehicle veh_zone_central_square_58843a spawned.
+2025-05-22 04:20:14,550 - INFO - Vehicle veh_zone_central_square_6452bb spawned.
+2025-05-22 04:20:15,044 - INFO - Vehicle veh_zone_central_square_1f5844 spawned.
+2025-05-22 04:20:16,405 - INFO - Traffic light zone_central_square_tl0_E changed to yellow
+2025-05-22 04:20:16,405 - INFO - Traffic light zone_central_square_tl0_W changed to yellow
+2025-05-22 04:20:16,441 - INFO - Traffic light zone_central_square_tl0_N changed to green
+2025-05-22 04:20:16,441 - INFO - Traffic light zone_central_square_tl0_S changed to green
+2025-05-22 04:20:17,332 - INFO - Traffic light zone_central_square_tl0_E changed to red
+2025-05-22 04:20:17,332 - INFO - Traffic light zone_central_square_tl0_W changed to red
+2025-05-22 04:20:17,890 - INFO - Vehicle veh_zone_central_square_00bd87 spawned.
+2025-05-22 04:20:20,633 - INFO - Vehicle veh_zone_central_square_b5fa98 spawned.
+2025-05-22 04:20:20,667 - INFO - Traffic light zone_central_square_tl0_N changed to yellow
+2025-05-22 04:20:20,667 - INFO - Traffic light zone_central_square_tl0_S changed to yellow
+2025-05-22 04:20:20,740 - INFO - Vehicle veh_zone_central_square_849625 spawned.
+2025-05-22 04:20:21,468 - INFO - Vehicle veh_zone_central_square_b564d9 spawned.
+2025-05-22 04:20:21,614 - INFO - Traffic light zone_central_square_tl0_E changed to green
+2025-05-22 04:20:21,614 - INFO - Traffic light zone_central_square_tl0_W changed to green
+2025-05-22 04:20:21,615 - INFO - Traffic light zone_central_square_tl0_N changed to red
+2025-05-22 04:20:21,615 - INFO - Traffic light zone_central_square_tl0_S changed to red
+2025-05-22 04:20:22,678 - INFO - Vehicle veh_zone_central_square_5cf7ea spawned.
+2025-05-22 04:20:23,656 - INFO - Vehicle veh_zone_central_square_5a2ff2 spawned.
+2025-05-22 04:20:25,885 - INFO - Traffic light zone_central_square_tl0_E changed to yellow
+2025-05-22 04:20:25,885 - INFO - Traffic light zone_central_square_tl0_W changed to yellow
+2025-05-22 04:20:25,920 - INFO - Traffic light zone_central_square_tl0_N changed to green
+2025-05-22 04:20:25,920 - INFO - Traffic light zone_central_square_tl0_S changed to green
+2025-05-22 04:20:26,434 - INFO - Metrics saved to metrics_output\sim_metrics_final_20250522_042026.json
+2025-05-22 04:20:26,435 - INFO - TrafficMetrics closed. Final metrics saved.

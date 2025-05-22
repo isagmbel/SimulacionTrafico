@@ -1,0 +1,11 @@
+{
+    "simulation_start_time_iso": "2025-05-22T04:48:12.443094",
+    "vehicle_spawn_count": 6,
+    "vehicle_despawn_count": 0,
+    "current_vehicle_count": 6,
+    "average_vehicle_speed_px_frame": 0.0,
+    "total_vehicle_wait_time_seconds": 7.5459999999984575,
+    "simulation_time_steps": 228,
+    "traffic_light_changes": 6,
+    "simulation_end_time_iso": "2025-05-22T04:48:22.130952"
+}

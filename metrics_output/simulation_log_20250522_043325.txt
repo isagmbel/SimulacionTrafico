@@ -1,0 +1,110 @@
+2025-05-22 04:33:25,242 - INFO - TrafficMetrics initialized.
+2025-05-22 04:33:26,587 - INFO - Vista de simulación iniciada.
+2025-05-22 04:33:27,693 - INFO - Vehicle veh_zone_central_square_3b2515 spawned.
+2025-05-22 04:33:28,043 - INFO - Vehicle veh_zone_central_square_ff4f78 spawned.
+2025-05-22 04:33:28,220 - INFO - Vehicle veh_zone_central_square_748208 spawned.
+2025-05-22 04:33:28,298 - INFO - Vehicle veh_zone_central_square_9a95b0 spawned.
+2025-05-22 04:33:30,827 - INFO - Traffic light zone_central_square_tl0_E changed to yellow
+2025-05-22 04:33:30,827 - INFO - Traffic light zone_central_square_tl0_W changed to yellow
+2025-05-22 04:33:30,862 - INFO - Traffic light zone_central_square_tl0_N changed to green
+2025-05-22 04:33:30,862 - INFO - Traffic light zone_central_square_tl0_S changed to green
+2025-05-22 04:33:30,900 - INFO - Vehicle veh_zone_central_square_28e3c0 spawned.
+2025-05-22 04:33:31,955 - INFO - Traffic light zone_central_square_tl0_E changed to red
+2025-05-22 04:33:31,955 - INFO - Traffic light zone_central_square_tl0_W changed to red
+2025-05-22 04:33:33,550 - INFO - Vehicle veh_zone_central_square_ae27a3 spawned.
+2025-05-22 04:33:34,436 - INFO - Vehicle veh_zone_central_square_ddacb6 spawned.
+2025-05-22 04:33:34,986 - INFO - Vehicle veh_zone_central_square_1737a1 spawned.
+2025-05-22 04:33:36,105 - INFO - Traffic light zone_central_square_tl0_N changed to yellow
+2025-05-22 04:33:36,105 - INFO - Traffic light zone_central_square_tl0_S changed to yellow
+2025-05-22 04:33:36,213 - INFO - Vehicle veh_zone_central_square_7a7643 spawned.
+2025-05-22 04:33:36,908 - INFO - Vehicle veh_zone_central_square_0ab6b6 spawned.
+2025-05-22 04:33:37,255 - INFO - Traffic light zone_central_square_tl0_E changed to green
+2025-05-22 04:33:37,255 - INFO - Traffic light zone_central_square_tl0_W changed to green
+2025-05-22 04:33:37,256 - INFO - Traffic light zone_central_square_tl0_N changed to red
+2025-05-22 04:33:37,256 - INFO - Traffic light zone_central_square_tl0_S changed to red
+2025-05-22 04:33:38,895 - INFO - Vehicle veh_zone_central_square_27a882 spawned.
+2025-05-22 04:33:39,495 - INFO - Vehicle veh_zone_central_square_ac2476 spawned.
+2025-05-22 04:33:41,568 - INFO - Vehicle veh_zone_central_square_a6c8f6 spawned.
+2025-05-22 04:33:42,521 - INFO - Traffic light zone_central_square_tl0_E changed to yellow
+2025-05-22 04:33:42,521 - INFO - Traffic light zone_central_square_tl0_W changed to yellow
+2025-05-22 04:33:42,557 - INFO - Traffic light zone_central_square_tl0_N changed to green
+2025-05-22 04:33:42,557 - INFO - Traffic light zone_central_square_tl0_S changed to green
+2025-05-22 04:33:42,812 - INFO - Vehicle veh_zone_central_square_d7540b spawned.
+2025-05-22 04:33:43,049 - INFO - Vehicle veh_zone_central_square_89d8e5 spawned.
+2025-05-22 04:33:43,423 - INFO - Vehicle veh_zone_central_square_f0bb01 spawned.
+2025-05-22 04:33:43,667 - INFO - Traffic light zone_central_square_tl0_E changed to red
+2025-05-22 04:33:43,667 - INFO - Traffic light zone_central_square_tl0_W changed to red
+2025-05-22 04:33:43,740 - INFO - Vehicle veh_zone_central_square_683cac spawned.
+2025-05-22 04:33:43,988 - INFO - Vehicle veh_zone_central_square_4341a5 spawned.
+2025-05-22 04:33:44,228 - INFO - Vehicle veh_zone_central_square_1a0f69 spawned.
+2025-05-22 04:33:44,232 - INFO - Vehicle veh_zone_central_square_199f57 spawned.
+2025-05-22 04:33:44,444 - INFO - Vehicle veh_zone_central_square_2b4c0b spawned.
+2025-05-22 04:33:44,708 - INFO - Vehicle veh_zone_central_square_c6de33 spawned.
+2025-05-22 04:33:46,870 - INFO - Vehicle veh_zone_central_square_e94e75 spawned.
+2025-05-22 04:33:47,790 - INFO - Traffic light zone_central_square_tl0_N changed to yellow
+2025-05-22 04:33:47,790 - INFO - Traffic light zone_central_square_tl0_S changed to yellow
+2025-05-22 04:33:48,383 - INFO - Vehicle veh_zone_central_square_5e81b6 spawned.
+2025-05-22 04:33:48,939 - INFO - Traffic light zone_central_square_tl0_E changed to green
+2025-05-22 04:33:48,939 - INFO - Traffic light zone_central_square_tl0_W changed to green
+2025-05-22 04:33:48,940 - INFO - Traffic light zone_central_square_tl0_N changed to red
+2025-05-22 04:33:48,940 - INFO - Traffic light zone_central_square_tl0_S changed to red
+2025-05-22 04:33:48,979 - INFO - Vehicle veh_zone_central_square_f3626c spawned.
+2025-05-22 04:33:49,295 - INFO - Vehicle veh_zone_central_square_706e22 spawned.
+2025-05-22 04:33:49,531 - INFO - Vehicle veh_zone_central_square_303383 spawned.
+2025-05-22 04:33:52,177 - INFO - Vehicle veh_zone_central_square_bc7fe4 spawned.
+2025-05-22 04:33:52,180 - INFO - Vehicle veh_zone_central_square_bd3be3 spawned.
+2025-05-22 04:33:52,462 - INFO - Vehicle veh_zone_central_square_961739 spawned.
+2025-05-22 04:33:52,779 - INFO - Vehicle veh_zone_central_square_e660c8 spawned.
+2025-05-22 04:33:53,015 - INFO - Vehicle veh_zone_central_square_1dd779 spawned.
+2025-05-22 04:33:54,187 - INFO - Traffic light zone_central_square_tl0_E changed to yellow
+2025-05-22 04:33:54,187 - INFO - Traffic light zone_central_square_tl0_W changed to yellow
+2025-05-22 04:33:54,222 - INFO - Traffic light zone_central_square_tl0_N changed to green
+2025-05-22 04:33:54,222 - INFO - Traffic light zone_central_square_tl0_S changed to green
+2025-05-22 04:33:54,834 - INFO - Vehicle veh_zone_central_square_b1c70b spawned.
+2025-05-22 04:33:55,311 - INFO - Traffic light zone_central_square_tl0_E changed to red
+2025-05-22 04:33:55,312 - INFO - Traffic light zone_central_square_tl0_W changed to red
+2025-05-22 04:33:57,509 - INFO - Vehicle veh_zone_central_square_307f8a spawned.
+2025-05-22 04:33:59,491 - INFO - Traffic light zone_central_square_tl0_N changed to yellow
+2025-05-22 04:33:59,491 - INFO - Traffic light zone_central_square_tl0_S changed to yellow
+2025-05-22 04:34:00,158 - INFO - Vehicle veh_zone_central_square_5f6a99 spawned.
+2025-05-22 04:34:00,611 - INFO - Traffic light zone_central_square_tl0_E changed to green
+2025-05-22 04:34:00,611 - INFO - Traffic light zone_central_square_tl0_W changed to green
+2025-05-22 04:34:00,612 - INFO - Traffic light zone_central_square_tl0_N changed to red
+2025-05-22 04:34:00,612 - INFO - Traffic light zone_central_square_tl0_S changed to red
+2025-05-22 04:34:02,790 - INFO - Vehicle veh_zone_central_square_735533 spawned.
+2025-05-22 04:34:02,860 - INFO - Vista de simulación pausada/detenida (menú).
+2025-05-22 04:34:05,597 - INFO - Vehicle veh_zone_central_square_72638b spawned.
+2025-05-22 04:34:05,983 - INFO - Traffic light zone_central_square_tl0_E changed to yellow
+2025-05-22 04:34:05,984 - INFO - Traffic light zone_central_square_tl0_W changed to yellow
+2025-05-22 04:34:06,022 - INFO - Traffic light zone_central_square_tl0_N changed to green
+2025-05-22 04:34:06,022 - INFO - Traffic light zone_central_square_tl0_S changed to green
+2025-05-22 04:34:07,186 - INFO - Traffic light zone_central_square_tl0_E changed to red
+2025-05-22 04:34:07,186 - INFO - Traffic light zone_central_square_tl0_W changed to red
+2025-05-22 04:34:07,264 - INFO - Vista de simulación iniciada.
+2025-05-22 04:34:08,345 - INFO - Vehicle veh_zone_central_square_ec6a68 spawned.
+2025-05-22 04:34:08,491 - INFO - Vista de simulación pausada/detenida (menú).
+2025-05-22 04:34:09,264 - INFO - Vista de simulación iniciada.
+2025-05-22 04:34:11,054 - INFO - Vehicle veh_zone_central_square_a1c875 spawned.
+2025-05-22 04:34:11,400 - INFO - Traffic light zone_central_square_tl0_N changed to yellow
+2025-05-22 04:34:11,400 - INFO - Traffic light zone_central_square_tl0_S changed to yellow
+2025-05-22 04:34:12,645 - INFO - Traffic light zone_central_square_tl0_E changed to green
+2025-05-22 04:34:12,645 - INFO - Traffic light zone_central_square_tl0_W changed to green
+2025-05-22 04:34:12,646 - INFO - Traffic light zone_central_square_tl0_N changed to red
+2025-05-22 04:34:12,646 - INFO - Traffic light zone_central_square_tl0_S changed to red
+2025-05-22 04:34:13,847 - INFO - Vehicle veh_zone_central_square_e9a793 spawned.
+2025-05-22 04:34:14,314 - INFO - Vista de simulación pausada/detenida (menú).
+2025-05-22 04:34:16,582 - INFO - Vehicle veh_zone_central_square_093e53 spawned.
+2025-05-22 04:34:16,652 - INFO - Vista de simulación iniciada.
+2025-05-22 04:34:17,372 - INFO - Vista de simulación pausada/detenida (menú).
+2025-05-22 04:34:17,856 - INFO - Vista de simulación iniciada.
+2025-05-22 04:34:18,022 - INFO - Traffic light zone_central_square_tl0_E changed to yellow
+2025-05-22 04:34:18,022 - INFO - Traffic light zone_central_square_tl0_W changed to yellow
+2025-05-22 04:34:18,057 - INFO - Traffic light zone_central_square_tl0_N changed to green
+2025-05-22 04:34:18,057 - INFO - Traffic light zone_central_square_tl0_S changed to green
+2025-05-22 04:34:18,255 - INFO - Vista de simulación pausada/detenida (menú).
+2025-05-22 04:34:18,565 - INFO - Vista de simulación iniciada.
+2025-05-22 04:34:19,162 - INFO - Traffic light zone_central_square_tl0_E changed to red
+2025-05-22 04:34:19,162 - INFO - Traffic light zone_central_square_tl0_W changed to red
+2025-05-22 04:34:19,273 - INFO - Vehicle veh_zone_central_square_f626d9 spawned.
+2025-05-22 04:34:19,821 - INFO - Metrics saved to metrics_output\sim_metrics_final_20250522_043419.json
+2025-05-22 04:34:19,821 - INFO - TrafficMetrics closed. Final metrics saved.
