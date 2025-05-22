@@ -13,23 +13,31 @@ MAIN_MENU_ASSETS_PATH = os.path.join(ASSETS_PATH, "mainmenu")
 
 
 class Theme:
-    # ... (COLORES y FUENTES se mantienen igual que en la última versión) ...
-    COLOR_BACKGROUND = pygame.Color("#2E3440") # Usado por MainMenu, y como fallback
-    COLOR_ROAD = pygame.Color("#4C566A")     # Ya no se usa para dibujar carreteras si el mapa es una imagen
-    COLOR_LINE = pygame.Color("#D8DEE9")     # Ya no se usa para dibujar líneas si el mapa es una imagen
-    COLOR_TEXT_ON_DARK = pygame.Color("#ECEFF4")
-    COLOR_INFO_PANEL_BG = pygame.Color("#434C5E") 
-    COLOR_INFO_PANEL_BORDER = pygame.Color("#5E81AC")
-    COLOR_TEXT_ON_INFO_PANEL = pygame.Color("#D8DEE9") 
-    COLOR_INFO_PANEL_BG_COLLAPSED = pygame.Color("#5E81AC") 
-    COLOR_INFO_PANEL_BORDER_COLLAPSED = pygame.Color("#4C566A")
-    COLOR_GRASS = pygame.Color("#9AB990") # Ya no se usa para el fondo del mapa si es una imagen
-    VEHICLE_COLORS = [ 
+    # --- COLORES GENERALES ---
+    COLOR_BACKGROUND = pygame.Color("#2E3440") 
+    COLOR_TEXT_ON_DARK = pygame.Color("#2E3440") # Texto oscuro para fondos claros como el rosa
+
+    INFO_PANEL_PINK_BG = pygame.Color("#FBCFE8") # Rosa pastel suave (ej. de Tailwind pink-200)
+    INFO_PANEL_PINK_BORDER = pygame.Color("#F472B6") # Un rosa más fuerte para el borde (ej. pink-500)
+    
+    COLOR_INFO_PANEL_BG = INFO_PANEL_PINK_BG
+    COLOR_INFO_PANEL_BORDER = INFO_PANEL_PINK_BORDER
+    COLOR_TEXT_ON_INFO_PANEL = COLOR_TEXT_ON_DARK # Texto oscuro sobre fondo rosa claro
+
+    COLOR_INFO_PANEL_BG_COLLAPSED = INFO_PANEL_PINK_BG # Mismo fondo para el tab
+    COLOR_INFO_PANEL_BORDER_COLLAPSED = INFO_PANEL_PINK_BORDER # Mismo borde para el tab
+
+    
+    VEHICLE_COLORS_FALLBACK = [ 
         pygame.Color("#BF616A"), pygame.Color("#A3BE8C"), pygame.Color("#EBCB8B"),
         pygame.Color("#B48EAD"), pygame.Color("#81A1C1"), pygame.Color("#D08770") ]
-    TL_RED = pygame.Color("#BF616A"); TL_YELLOW = pygame.Color("#EBCB8B")
-    TL_GREEN = pygame.Color("#A3BE8C"); TL_OFF = pygame.Color("#434C5E") 
-    TL_HOUSING = pygame.Color("#3B4252")
+
+    TL_RED = pygame.Color("#FF4136")      
+    TL_YELLOW = pygame.Color("#FFDC00")   
+    TL_GREEN = pygame.Color("#2ECC40")    
+    TL_OFF = pygame.Color("#606060")      
+    TL_HOUSING = pygame.Color("#777777")  
+
     BORDER_RADIUS = 8; BORDER_WIDTH = 2
     BORDER_RADIUS_SMALL = 4; BORDER_WIDTH_SMALL = 1
 
@@ -37,26 +45,21 @@ class Theme:
     FONT_SIZE_NORMAL = 18
     FONT_SIZE_LARGE = 22
     FONT_SIZE_SMALL = 14
-    # --- FIN COLORES y FUENTES ---
 
-    # --- RUTAS DE ASSETS ---
     MAIN_MENU_BG_PATH = os.path.join(MAIN_MENU_ASSETS_PATH, "RushHourBG.PNG")
     MAIN_MENU_TEXT_PATH = os.path.join(MAIN_MENU_ASSETS_PATH, "RushHourText.PNG")
-
-    GAME_MAP_BACKGROUND_PATH = os.path.join(ASSETS_PATH, "mapa.PNG") # Asumiendo que mapa.PNG está en /assets/
-
-
+    GAME_MAP_BACKGROUND_PATH = os.path.join(ASSETS_PATH, "mapa.PNG")
+    
     VEHICLE_IMAGE_PATHS = [
         os.path.join(COCHES_HORIZONTALES_PATH, "IMG_6805.PNG"),
         os.path.join(COCHES_HORIZONTALES_PATH, "IMG_6806.PNG"),
         os.path.join(COCHES_HORIZONTALES_PATH, "IMG_6807.PNG"),
         os.path.join(COCHES_HORIZONTALES_PATH, "IMG_6808.PNG"),
     ]
-    # --- FIN RUTAS DE ASSETS ---
     
     @staticmethod
     def get_vehicle_color() -> pygame.Color: 
-        return random.choice(Theme.VEHICLE_COLORS)
+        return random.choice(Theme.VEHICLE_COLORS_FALLBACK)
 
     @staticmethod
     def get_vehicle_image_path() -> str: 
@@ -72,7 +75,6 @@ class Theme:
         except pygame.error:
             return pygame.font.SysFont(None, size) 
 
-# ... (función draw_rounded_rect, si todavía la usas para algo como InfoPanel) ...
 def draw_rounded_rect(surface: pygame.Surface, color: pygame.Color, rect: Any, radius: int, border_width: int = 0, border_color: Optional[pygame.Color] = None):
     if not isinstance(rect, pygame.Rect):
         try: current_rect = pygame.Rect(rect)
